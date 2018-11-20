@@ -1,0 +1,82 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!78 &1
+TagManager:
+  serializedVersion: 2
+  tags:
+  - Site
+  - Wind
+  - Link
+  - Anchor
+  - Test
+  - Ray
+  - Trail
+  - Map_Interactable
+  - Hook
+  - Planet
+  - Point
+  - Button
+  layers:
+  - Default
+  - TransparentFX
+  - Ignore Raycast
+  - 
+  - Water
+  - UI
+  - 
+  - 
+  - Map
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  m_SortingLayers:
+  - name: Background
+    uniqueID: 4017430973
+    locked: 0
+  - name: Oceans
+    uniqueID: 2786881117
+    locked: 0
+  - name: Map
+    uniqueID: 4033062337
+    locked: 0
+  - name: MapFeatures
+    uniqueID: 2980830755
+    locked: 0
+  - name: Sites
+    uniqueID: 3542824759
+    locked: 0
+  - name: Default
+    uniqueID: 0
+    locked: 0
+  - name: Foreground
+    uniqueID: 2347967157
+    locked: 0
+  - name: Cloud
+    uniqueID: 2808138535
+    locked: 0
+  - name: UI
+    uniqueID: 2679457385
+    locked: 0
+  - name: Player
+    uniqueID: 1546811699
+    locked: 0

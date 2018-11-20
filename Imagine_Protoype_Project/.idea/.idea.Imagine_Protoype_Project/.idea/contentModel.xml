@@ -1,0 +1,139 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ContentModelStore">
+    <e p="C:\Users\ThefitzyG\.Rider2018.1\system\resharper-host\Local\Transient\ReSharperHost\v12\SolutionCaches\_Imagine_Protoype_Project.358735388.00" t="ExcludeRecursive" />
+    <e p="C:\Users\ThefitzyG\Documents\projects\Imagine_Prototype\Imagine_Protoype_Project" t="IncludeRecursive">
+      <e p="Assembly-CSharp-firstpass.csproj" t="IncludeRecursive" />
+      <e p="Assembly-CSharp.csproj" t="IncludeRecursive" />
+      <e p="Assets" t="Include">
+        <e p="Move_Clouds.cs" t="Include" />
+        <e p="player_move_flap_volume_speed.cs" t="Include" />
+        <e p="Plugins" t="Include">
+          <e p="EZ Camera Shake" t="Include">
+            <e p="Demo" t="Include">
+              <e p="Sample Scripts" t="Include">
+                <e p="ShakeByDistance.cs" t="Include" />
+                <e p="ShakeOnKeyPress.cs" t="Include" />
+                <e p="ShakeOnTrigger.cs" t="Include" />
+              </e>
+              <e p="ShakeDemo.cs" t="Include" />
+            </e>
+            <e p="Scripts" t="Include">
+              <e p="CameraShakeInstance.cs" t="Include" />
+              <e p="CameraShakePresets.cs" t="Include" />
+              <e p="CameraShaker.cs" t="Include" />
+              <e p="Utilities" t="Include">
+                <e p="CameraUtilities.cs" t="Include" />
+              </e>
+            </e>
+          </e>
+          <e p="TextMesh Pro" t="Include">
+            <e p="Resources" t="Include">
+              <e p="LineBreaking Following Characters.txt" t="Include" />
+              <e p="LineBreaking Leading Characters.txt" t="Include" />
+              <e p="Shaders" t="Include">
+                <e p="TMP_Bitmap-Custom-Atlas.shader" t="Include" />
+                <e p="TMP_Bitmap-Mobile.shader" t="Include" />
+                <e p="TMP_Bitmap.shader" t="Include" />
+                <e p="TMP_SDF Overlay.shader" t="Include" />
+                <e p="TMP_SDF-Mobile Masking.shader" t="Include" />
+                <e p="TMP_SDF-Mobile Overlay.shader" t="Include" />
+                <e p="TMP_SDF-Mobile.shader" t="Include" />
+                <e p="TMP_SDF-Surface-Mobile.shader" t="Include" />
+                <e p="TMP_SDF-Surface.shader" t="Include" />
+                <e p="TMP_SDF.shader" t="Include" />
+                <e p="TMP_Sprite.shader" t="Include" />
+                <e p="TMPro.cginc" t="Include" />
+                <e p="TMPro_Properties.cginc" t="Include" />
+                <e p="TMPro_Surface.cginc" t="Include" />
+              </e>
+            </e>
+            <e p="Sprites" t="Include">
+              <e p="EmojiOne Attribution.txt" t="Include" />
+            </e>
+          </e>
+        </e>
+        <e p="Scale_Size_Camera.cs" t="Include" />
+        <e p="Scripts" t="Include">
+          <e p="Audio_Scripts" t="Include">
+            <e p="Audio_Slider_Listener.cs" t="Include" />
+            <e p="AudioManager.cs" t="Include" />
+            <e p="Journey_Audio_Player.cs" t="Include" />
+            <e p="Sound.cs" t="Include" />
+          </e>
+          <e p="Cosmos_Scripts" t="Include">
+            <e p="Activate_Endgame.cs" t="Include" />
+            <e p="Activate_Journey.cs" t="Include" />
+            <e p="Adjust_Size.cs" t="Include" />
+            <e p="Beam_Detection.cs" t="Include" />
+            <e p="Change_Sprite.cs" t="Include" />
+            <e p="CreateTrail.cs" t="Include" />
+            <e p="Cut_Rope.cs" t="Include" />
+            <e p="Destroy_Self.cs" t="Include" />
+            <e p="DisperseCloud.cs" t="Include" />
+            <e p="DrawRay.cs" t="Include" />
+            <e p="DrawRope.cs" t="Include" />
+            <e p="Galaxy_Child.cs" t="Include" />
+            <e p="Galaxy_Start.cs" t="Include" />
+            <e p="Line_Info.cs" t="Include" />
+            <e p="Parallax.cs" t="Include" />
+            <e p="Player_Movement_Cosmos.cs" t="Include" />
+            <e p="PulseSize.cs" t="Include" />
+            <e p="Rope_Creator.cs" t="Include" />
+            <e p="Set_Cloud_Type.cs" t="Include" />
+            <e p="Set_Position.cs" t="Include" />
+            <e p="Spawn_Objects.cs" t="Include" />
+            <e p="Star_Collision.cs" t="Include" />
+            <e p="Start_Cutter.cs" t="Include" />
+            <e p="Stay_In_Position.cs" t="Include" />
+            <e p="Trail_Effect.cs" t="Include" />
+            <e p="Weight.cs" t="Include" />
+          </e>
+          <e p="Forest_Minigame_Scripts" t="Include">
+            <e p="Forest_Branch_Wobbler.cs" t="Include" />
+            <e p="Forest_Touch_Manager.cs" t="Include" />
+            <e p="Wind_Script.cs" t="Include" />
+            <e p="Wind_Tree_Controller.cs" t="Include" />
+          </e>
+          <e p="Game_Manager_Scripts" t="Include">
+            <e p="Game_Manager.cs" t="Include" />
+            <e p="Transitioner_Script.cs" t="Include" />
+          </e>
+          <e p="General_Scripts" t="Include">
+            <e p="Follow_Player_Camera.cs" t="Include" />
+            <e p="Pinch_Zoom_Camera.cs" t="Include" />
+          </e>
+          <e p="Management_Scripts" t="Include">
+            <e p="Audio_Settings_Manager.cs" t="Include" />
+            <e p="initialLoader.cs" t="Include" />
+            <e p="Map_Load_Manager.cs" t="Include" />
+            <e p="Vertical_Resolution_Scaler.cs" t="Include" />
+          </e>
+          <e p="Map_Scripts" t="Include">
+            <e p="Flag_Ground_Checker.cs" t="Include" />
+            <e p="layerSortOnY.cs" t="Include" />
+            <e p="Map_Layer_manager.cs" t="Include" />
+            <e p="Map_Raycast_Animation_Trigger.cs" t="Include" />
+            <e p="PCSlider_Map.cs" t="Include" />
+            <e p="Player_Movement_Map.cs" t="Include" />
+            <e p="Push_Player_Back.cs" t="Include" />
+            <e p="Site_Finder.cs" t="Include" />
+            <e p="Site_Info.cs" t="Include" />
+          </e>
+          <e p="Menu_Scripts" t="Include">
+            <e p="Scene_Change_Menu.cs" t="Include" />
+          </e>
+        </e>
+        <e p="Select_Site.cs" t="Include" />
+        <e p="Slider_Hider.cs" t="Include" />
+      </e>
+      <e p="Imagine_Protoype_Project.sln" t="IncludeFlat" />
+      <e p="Library" t="ExcludeRecursive" />
+      <e p="obj" t="ExcludeRecursive" />
+      <e p="packages" t="ExcludeRecursive" />
+      <e p="Temp" t="ExcludeRecursive">
+        <e p="bin" t="ExcludeRecursive" />
+      </e>
+    </e>
+  </component>
+</project>
