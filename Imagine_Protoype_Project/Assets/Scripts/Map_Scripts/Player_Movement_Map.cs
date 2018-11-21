@@ -19,7 +19,7 @@ public class Player_Movement_Map : MonoBehaviour {
     Rigidbody2D rb;
 
 
-  //  public bool PC;
+    public bool PC;
 
 
     float dirX, dirY;
@@ -38,6 +38,8 @@ public class Player_Movement_Map : MonoBehaviour {
     GameObject[] sites;
     GameObject activeSite;
 
+    public GameObject cam;
+
 
     public float movementSpeed;
 
@@ -45,6 +47,8 @@ public class Player_Movement_Map : MonoBehaviour {
     public float MinSpeed;
 
     public float MaxDistance;
+
+
 
 	void Awake () {
         rb = GetComponent<Rigidbody2D>();
@@ -70,6 +74,9 @@ public class Player_Movement_Map : MonoBehaviour {
 
                 if (twoFingers == false)
                 {
+                    cam.GetComponent<Pan_Camera>().enabled = false;
+                    cam.GetComponent<Follow_Player_Camera>().enabled = true;
+
                     if (Input.touchCount == 0 && waitingForTouch == false)
                     {
                         RaycastHit2D hit = Physics2D.Raycast(Camera.main.ScreenToWorldPoint(Input.mousePosition), Vector2.zero);
@@ -89,6 +96,9 @@ public class Player_Movement_Map : MonoBehaviour {
                             TurnOffSites();
                         }
                     }
+                }else{
+                    cam.GetComponent<Pan_Camera>().enabled = true;
+                    cam.GetComponent<Follow_Player_Camera>().enabled = false;
                 }
 
 
@@ -99,7 +109,6 @@ public class Player_Movement_Map : MonoBehaviour {
                     twoFingers = true;
                     touch = new Touch();
                     waitingForTouch = false;
-
                 }
                 else if (Input.touchCount == 1 && twoFingers == false)
                 {
@@ -117,7 +126,7 @@ public class Player_Movement_Map : MonoBehaviour {
 
                 //For PC input
 
-                if (Game_Manager.isPC) {
+                if (Game_Manager.isPC && PC) {
                     if (Input.GetMouseButtonUp(0))
                     {
                         RaycastHit2D hit = Physics2D.Raycast(Camera.main.ScreenToWorldPoint(Input.mousePosition), Vector2.zero);
