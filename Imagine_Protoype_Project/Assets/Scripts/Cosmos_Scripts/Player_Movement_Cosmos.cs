@@ -53,7 +53,6 @@ public class Player_Movement_Cosmos : MonoBehaviour
 
         playerStartHeight = transform.position.y;
         planetHeight = PlanetDistanceCalculation(minutes, seconds, risingSpeed);
-        print(planetHeight);
 
         SetZoomSpeed(planetHeight, minutes, seconds);
 
@@ -153,19 +152,10 @@ public class Player_Movement_Cosmos : MonoBehaviour
 
 
         cameraZoomStart = planetY * (cameraZoomPercentage / 100);
-        print(cameraZoomStart);
 
 
         float timeToShift = totalSeconds - (totalSeconds * (cameraZoomPercentage / 100));
 
-
-
-
-
-        print("Time to Shift =: " + timeToShift);
-        print("ortho size = " + cam.orthographicSize);
         cameraZoomInc = (maxCameraSize - cam.orthographicSize) / (timeToShift / 0.02f);
-
-        print(cameraZoomInc);
     }
 }

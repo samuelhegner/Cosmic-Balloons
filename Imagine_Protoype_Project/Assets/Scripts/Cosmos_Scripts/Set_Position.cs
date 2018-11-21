@@ -23,7 +23,7 @@ public class Set_Position : MonoBehaviour {
 	// Update is called once per frame
 	void Update () {
 		if(activated == false){
-			Vector3 newPos = cam.ScreenToWorldPoint(new Vector3(cam.pixelWidth, cam.pixelHeight, 0));
+			Vector3 newPos = cam.ScreenToWorldPoint(new Vector3(cam.pixelWidth /2, cam.pixelHeight, 0));
 			newPos.z = 1;
 			newPos.x -= xBuffer;
 			newPos.y += yBuffer;

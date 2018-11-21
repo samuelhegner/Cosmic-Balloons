@@ -18,12 +18,14 @@ public class Line_Info : MonoBehaviour {
         //Material whiteDiffuseMat = new Material(Shader.Find("Unlit/Texture"));
         //rend.material = whiteDiffuseMat;
 
+        rend.startWidth = width;
+        rend.endWidth = width;
+
     }
 	
 	// Update is called once per frame
 	void Update () {
-        rend.startWidth = width;
-        rend.endWidth = width;
+
 
         if (PreviousPoint == null)
         {
