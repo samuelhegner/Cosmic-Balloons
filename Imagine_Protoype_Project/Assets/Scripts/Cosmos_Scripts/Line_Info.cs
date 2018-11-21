@@ -6,7 +6,7 @@ public class Line_Info : MonoBehaviour {
 
     LineRenderer rend;
 
-    float width = 0.1f;
+    public float width = 0.5f;
 
 
     public GameObject PreviousPoint;
@@ -17,13 +17,13 @@ public class Line_Info : MonoBehaviour {
         rend = GetComponent<LineRenderer>();
         //Material whiteDiffuseMat = new Material(Shader.Find("Unlit/Texture"));
         //rend.material = whiteDiffuseMat;
-        rend.startWidth = width;
-        rend.endWidth = width;
+
     }
 	
 	// Update is called once per frame
 	void Update () {
-
+        rend.startWidth = width;
+        rend.endWidth = width;
 
         if (PreviousPoint == null)
         {

@@ -27,35 +27,24 @@ public class Cut_Rope : MonoBehaviour {
 
     // Update is called once per frame
     void FixedUpdate () {
-        if (Input.GetMouseButton(0)) {
-            RaycastHit2D hit = Physics2D.Raycast(Camera.main.ScreenToWorldPoint(Input.mousePosition), Vector2.zero);
-            if (hit.collider != null) {
-                if (hit.collider.tag == "Link") {
 
-                    if (hit.transform.parent.name == "Anchor Left" && cutLeft == false){
-                        cutLeft = true;
-                        numberRopesCut++;
-                        
-                        GetComponent<AudioManager>().Play("Cut");
-                        
-                    }
+        if(Game_Manager.isPC){
+            if(Input.GetMouseButton(0)){
+                Vector3 placeToBe = Camera.main.ScreenToWorldPoint(Input.mousePosition);
 
-                    if (hit.transform.parent.name == "Anchor Right" && cutRight == false)
-                    {
-                        cutRight = true;
-                    
-                        numberRopesCut++;
+                Vector3 placeToMove = new Vector3(placeToBe.x, placeToBe.y, 0);
+                transform.position = placeToMove;
+            }
+        }else{
+            if(Input.touchCount == 1){
+                Touch finger = Input.GetTouch(0);
 
-                        GetComponent<AudioManager>().Play("Cut");
-                    
-                    }
+                Vector3 placeToBe = Camera.main.ScreenToWorldPoint(finger.position);
 
-                    Destroy(hit.collider.gameObject);
-                }
-            } 
+                Vector3 placeToMove = new Vector3(placeToBe.x, placeToBe.y, 0);
+                transform.position = placeToMove;
+            }
         }
-
-        
 
         BaloonRise();
 	}
@@ -75,7 +64,8 @@ public class Cut_Rope : MonoBehaviour {
                 }
             }
 
-            Destroy(gameObject);
+            Destroy(GetComponent<TrailRenderer>());
+            Destroy(this);
         }
     }
 
@@ -93,5 +83,31 @@ public class Cut_Rope : MonoBehaviour {
         Vector3 goTo = new Vector3(xPos + xOffset, yPos + dist, player.transform.position.z);
 
         player.transform.position = Vector3.Lerp(player.transform.position, goTo, Time.fixedDeltaTime * 2f);
+    }
+
+    void OnTriggerEnter2D(Collider2D collision)
+    {
+        if(collision.tag == "Link"){
+            if (collision.transform.parent.name == "Anchor Left" && cutLeft == false)
+            {
+                cutLeft = true;
+                numberRopesCut++;
+
+                GetComponent<AudioManager>().Play("Cut");
+
+            }
+
+            if (collision.transform.parent.name == "Anchor Right" && cutRight == false)
+            {
+                cutRight = true;
+
+                numberRopesCut++;
+
+                GetComponent<AudioManager>().Play("Cut");
+
+            }
+
+            Destroy(collision.gameObject);
+        }
     }
 }
