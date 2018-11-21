@@ -3987,7 +3987,7 @@ TrailRenderer:
   m_RenderingLayerMask: 4294967295
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 2100000, guid: 8ae465651f9d79543a2596fc246c9cb4, type: 2}
+  - {fileID: 10306, guid: 0000000000000000f000000000000000, type: 0}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -18138,7 +18138,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 1096985651243180, guid: 055e67e82db651848a4ac46bf7dd1afc, type: 3}
       propertyPath: m_IsActive
-      value: 1
+      value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 055e67e82db651848a4ac46bf7dd1afc, type: 3}
@@ -19043,7 +19043,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 837636dfabdb93b4ab9a741ac7d35148, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  distanceFromChainEnd: 2
+  distanceFromChainEnd: 0.1
 --- !u!114 &1429681287
 MonoBehaviour:
   m_ObjectHideFlags: 0
