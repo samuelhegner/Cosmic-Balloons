@@ -6,7 +6,6 @@
   <component name="ChangeListManager">
     <list default="true" id="a499c3a3-9b9a-46ad-aa41-f3239773162f" name="Default" comment="" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
-    <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -95,175 +94,100 @@
         </counts>
       </usages-collector>
     </session>
+    <session id="365064007">
+      <usages-collector id="statistics.lifecycle.project">
+        <counts>
+          <entry key="project.open.time.7" value="1" />
+          <entry key="project.opened" value="1" />
+        </counts>
+      </usages-collector>
+    </session>
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="Game_Manager.cs" pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Assets/Scripts/Game_Manager_Scripts/Game_Manager.cs">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="867">
+            <state relative-caret-position="765">
               <caret line="51" selection-start-line="51" selection-end-line="51" />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Activate_Endgame.cs" pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Assets/Scripts/Cosmos_Scripts/Activate_Endgame.cs">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="340">
+            <state relative-caret-position="555">
               <caret line="37" column="9" selection-start-line="37" selection-start-column="9" selection-end-line="37" selection-end-column="9" />
-              <folding>
-                <marker date="1542727176056" expanded="false" signature="6:78" ph="..." />
-                <marker date="1542727176056" expanded="true" signature="125:2002" ph="{...}" />
-                <marker date="1542727176056" expanded="true" signature="283:942" ph="{...}" />
-                <marker date="1542727176056" expanded="true" signature="409:513" ph="{...}" />
-                <marker date="1542727176056" expanded="true" signature="463:503" ph="{...}" />
-                <marker date="1542727176056" expanded="true" signature="635:795" ph="{...}" />
-                <marker date="1542727176056" expanded="true" signature="698:785" ph="{...}" />
-                <marker date="1542727176056" expanded="true" signature="1000:2000" ph="{...}" />
-                <marker date="1542727176056" expanded="true" signature="1027:1911" ph="{...}" />
-                <marker date="1542727176056" expanded="true" signature="1502:1585" ph="{...}" />
-                <marker date="1542727176056" expanded="true" signature="1607:1696" ph="{...}" />
-                <marker date="1542727176056" expanded="true" signature="1830:1901" ph="{...}" />
-                <marker date="1542727176056" expanded="true" signature="1970:1994" ph="{...}" />
-              </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Beam_Detection.cs" pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Assets/Scripts/Cosmos_Scripts/Beam_Detection.cs">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="632">
+            <state relative-caret-position="795">
               <caret line="53" column="18" selection-start-line="53" selection-start-column="18" selection-end-line="53" selection-end-column="18" />
-              <folding>
-                <marker date="1542727523879" expanded="false" signature="6:78" ph="..." />
-                <marker date="1542727523879" expanded="true" signature="124:1147" ph="{...}" />
-                <marker date="1542727523879" expanded="true" signature="310:530" ph="{...}" />
-                <marker date="1542727523879" expanded="true" signature="549:1145" ph="{...}" />
-                <marker date="1542727523879" expanded="true" signature="770:947" ph="{...}" />
-                <marker date="1542727523879" expanded="true" signature="819:859" ph="{...}" />
-                <marker date="1542727523879" expanded="true" signature="970:1046" ph="{...}" />
-              </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Player_Movement_Cosmos.cs" pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Assets/Scripts/Cosmos_Scripts/Player_Movement_Cosmos.cs">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1122">
+            <state relative-caret-position="990">
               <caret line="66" selection-start-line="66" selection-end-line="66" />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Activate_Journey.cs" pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Assets/Scripts/Cosmos_Scripts/Activate_Journey.cs">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="357">
+            <state relative-caret-position="345">
               <caret line="23" column="70" selection-start-line="23" selection-start-column="70" selection-end-line="23" selection-end-column="70" />
-              <folding>
-                <marker date="1542728520587" expanded="false" signature="6:78" ph="..." />
-                <marker date="1542728520587" expanded="true" signature="126:1004" ph="{...}" />
-                <marker date="1542728520587" expanded="true" signature="266:403" ph="{...}" />
-                <marker date="1542728520587" expanded="true" signature="427:714" ph="{...}" />
-                <marker date="1542728520587" expanded="true" signature="748:1002" ph="{...}" />
-              </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Rope_Creator.cs" pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Assets/Scripts/Cosmos_Scripts/Rope_Creator.cs">
-          <provider selected="true" editor-type-id="text-editor">
-            <state>
-              <folding>
-                <marker date="1542672555433" expanded="false" signature="6:78" ph="..." />
-                <marker date="1542672555433" expanded="true" signature="122:995" ph="{...}" />
-                <marker date="1542672555433" expanded="true" signature="259:295" ph="{...}" />
-                <marker date="1542672555433" expanded="true" signature="322:993" ph="{...}" />
-                <marker date="1542672555433" expanded="true" signature="461:987" ph="{...}" />
-                <marker date="1542672555433" expanded="true" signature="736:870" ph="{...}" />
-                <marker date="1542672555433" expanded="true" signature="870:976" ph="{...}" />
-              </folding>
-            </state>
-          </provider>
+          <provider selected="true" editor-type-id="text-editor" />
         </entry>
       </file>
-      <file leaf-file-name="Cut_Rope.cs" pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Assets/Scripts/Cosmos_Scripts/Cut_Rope.cs">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="326">
-              <caret line="48" column="65" selection-start-line="48" selection-start-column="65" selection-end-line="48" selection-end-column="65" />
-              <folding>
-                <marker date="1542737999974" expanded="false" signature="6:78" ph="..." />
-                <marker date="1542737999974" expanded="true" signature="118:2800" ph="{...}" />
-                <marker date="1542737999974" expanded="true" signature="312:471" ph="{...}" />
-                <marker date="1542737999974" expanded="true" signature="536:1554" ph="{...}" />
-                <marker date="1542737999974" expanded="true" signature="575:1518" ph="{...}" />
-                <marker date="1542737999974" expanded="true" signature="732:1507" ph="{...}" />
-                <marker date="1542737999974" expanded="true" signature="782:1493" ph="{...}" />
-                <marker date="1542737999974" expanded="true" signature="872:1093" ph="{...}" />
-                <marker date="1542737999974" expanded="true" signature="1184:1420" ph="{...}" />
-                <marker date="1542737999974" expanded="true" signature="1577:2318" ph="{...}" />
-                <marker date="1542737999974" expanded="true" signature="1612:2312" ph="{...}" />
-                <marker date="1542737999974" expanded="true" signature="1991:2268" ph="{...}" />
-                <marker date="1542737999974" expanded="true" signature="2137:2254" ph="{...}" />
-                <marker date="1542737999974" expanded="true" signature="2341:2798" ph="{...}" />
-                <marker date="1542737999974" expanded="true" signature="2393:2457" ph="{...}" />
-                <marker date="1542737999974" expanded="true" signature="2482:2547" ph="{...}" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Weight.cs" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Assets/Scripts/Cosmos_Scripts/Weight.cs">
-          <provider selected="true" editor-type-id="text-editor">
             <state>
-              <folding>
-                <marker date="1542672555448" expanded="false" signature="6:78" ph="..." />
-                <marker date="1542672555448" expanded="true" signature="116:497" ph="{...}" />
-                <marker date="1542672555448" expanded="true" signature="219:495" ph="{...}" />
-              </folding>
+              <caret line="48" column="21" selection-start-line="48" selection-start-column="21" selection-end-line="48" selection-end-column="21" />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Change_Sprite.cs" pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Assets/Scripts/Cosmos_Scripts/Weight.cs">
+          <provider selected="true" editor-type-id="text-editor" />
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/Assets/Scripts/Cosmos_Scripts/Change_Sprite.cs">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="289">
-              <caret line="19" column="2" selection-start-line="19" selection-start-column="2" selection-end-line="19" selection-end-column="2" />
+            <state relative-caret-position="240">
+              <caret line="18" selection-start-line="18" selection-end-line="18" />
               <folding>
-                <marker date="1542729244269" expanded="false" signature="6:78" ph="..." />
-                <marker date="1542729244269" expanded="true" signature="123:562" ph="{...}" />
-                <marker date="1542729244269" expanded="true" signature="246:560" ph="{...}" />
-                <marker date="1542729244269" expanded="true" signature="455:557" ph="/* Disabled due to repeated error ... */" />
+                <marker date="1542910190068" expanded="false" signature="6:78" ph="..." />
+                <marker date="1542910190068" expanded="true" signature="123:559" ph="{...}" />
+                <marker date="1542910190068" expanded="true" signature="246:557" ph="{...}" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="DisperseCloud.cs" pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Assets/Scripts/Cosmos_Scripts/DisperseCloud.cs">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="527">
+            <state relative-caret-position="765">
               <caret line="51" column="50" selection-start-line="51" selection-start-column="50" selection-end-line="51" selection-end-column="50" />
-              <folding>
-                <marker date="1542730391622" expanded="false" signature="6:78" ph="..." />
-                <marker date="1542730391622" expanded="true" signature="123:1457" ph="{...}" />
-                <marker date="1542730391622" expanded="true" signature="431:563" ph="{...}" />
-                <marker date="1542730391622" expanded="true" signature="590:800" ph="{...}" />
-                <marker date="1542730391622" expanded="true" signature="620:794" ph="{...}" />
-                <marker date="1542730391622" expanded="true" signature="685:784" ph="{...}" />
-                <marker date="1542730391622" expanded="true" signature="846:977" ph="{...}" />
-                <marker date="1542730391622" expanded="true" signature="912:971" ph="{...}" />
-                <marker date="1542730391622" expanded="true" signature="995:1220" ph="{...}" />
-                <marker date="1542730391622" expanded="true" signature="1244:1390" ph="{...}" />
-                <marker date="1542730391622" expanded="true" signature="1413:1454" ph="{...}" />
-              </folding>
             </state>
           </provider>
         </entry>
@@ -274,33 +198,33 @@
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
   </component>
   <component name="HighlightingSettingsPerFile">
-    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Cosmos_Scripts/CreateTrail.cs" root0="SKIP_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Cosmos_Scripts/Cut_Rope.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Cosmos_Scripts/Trail_Effect.cs" root0="SKIP_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Cosmos_Scripts/DisperseCloud.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Map_Scripts/PCSlider_Map.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Cosmos_Scripts/Activate_Journey.cs" root0="SKIP_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Map_Scripts/Flag_Ground_Checker.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Map_Scripts/Site_Info.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Cosmos_Scripts/DrawRay.cs" root0="SKIP_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Map_Scripts/Map_Raycast_Animation_Trigger.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Cosmos_Scripts/Player_Movement_Cosmos.cs" root0="SKIP_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Cosmos_Scripts/Change_Sprite.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Map_Scripts/Player_Movement_Map.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/Scripts/General_Scripts/Pinch_Zoom_Camera.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Menu_Scripts/Scene_Change_Menu.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/Slider_Hider.cs" root0="SKIP_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Audio_Scripts/AudioManager.cs" root0="SKIP_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/player_move_flap_volume_speed.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Game_Manager_Scripts/Game_Manager.cs" root0="SKIP_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Management_Scripts/Map_Load_Manager.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Cosmos_Scripts/Activate_Endgame.cs" root0="SKIP_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Forest_Minigame_Scripts/Wind_Tree_Controller.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Forest_Minigame_Scripts/Forest_Branch_Wobbler.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Cosmos_Scripts/Beam_Detection.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Cosmos_Scripts/Rope_Creator.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Forest_Minigame_Scripts/Forest_Touch_Manager.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Forest_Minigame_Scripts/Forest_Branch_Wobbler.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Cosmos_Scripts/Beam_Detection.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Forest_Minigame_Scripts/Wind_Tree_Controller.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Cosmos_Scripts/Activate_Endgame.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Game_Manager_Scripts/Game_Manager.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Management_Scripts/Map_Load_Manager.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Audio_Scripts/AudioManager.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Menu_Scripts/Scene_Change_Menu.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Map_Scripts/Player_Movement_Map.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/General_Scripts/Pinch_Zoom_Camera.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Map_Scripts/Map_Raycast_Animation_Trigger.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Cosmos_Scripts/Player_Movement_Cosmos.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Cosmos_Scripts/Change_Sprite.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Cosmos_Scripts/DrawRay.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Map_Scripts/Flag_Ground_Checker.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Map_Scripts/Site_Info.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Cosmos_Scripts/Activate_Journey.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Cosmos_Scripts/DisperseCloud.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Map_Scripts/PCSlider_Map.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Cosmos_Scripts/Trail_Effect.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/player_move_flap_volume_speed.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Cosmos_Scripts/Cut_Rope.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Cosmos_Scripts/CreateTrail.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Cosmos_Scripts/Weight.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Slider_Hider.cs" root0="SKIP_HIGHLIGHTING" />
   </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
@@ -346,9 +270,9 @@
         <option value="$PROJECT_DIR$/Assets/Scripts/Cosmos_Scripts/Activate_Endgame.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Cosmos_Scripts/Beam_Detection.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Cosmos_Scripts/Activate_Journey.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/Cosmos_Scripts/Change_Sprite.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Cosmos_Scripts/DisperseCloud.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Cosmos_Scripts/Cut_Rope.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Cosmos_Scripts/Change_Sprite.cs" />
       </list>
     </option>
   </component>
@@ -361,7 +285,7 @@
   <component name="NodePackageJsonFileManager">
     <packageJsonPaths />
   </component>
-  <component name="ProjectFrameBounds" extendedState="6">
+  <component name="ProjectFrameBounds" extendedState="7">
     <option name="x" value="91" />
     <option name="y" value="-23" />
     <option name="width" value="1485" />
@@ -373,7 +297,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scratches" />
       <pane id="UnityExplorer">
         <subPane>
           <expand>
@@ -397,8 +320,10 @@
         </subPane>
         <option name="show-hidden-items" value="false" />
       </pane>
-      <pane id="SolutionExplorer" />
       <pane id="FileSystemExplorer" />
+      <pane id="SolutionExplorer">
+        <option name="show-all-files" value="false" />
+      </pane>
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -419,7 +344,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Attach Unity.Attach to Unity Editor">
+  <component name="RunManager" selected="Attach to Unity Editor.Attach to Unity Editor">
     <configuration name="Attach to Unity Editor &amp; Play" type="UNITY_DEBUG_RUN_CONFIGURATION" factoryName="UNITY_ATTACH_AND_PLAY" show_console_on_std_err="false" show_console_on_std_out="false" port="50000" address="localhost">
       <option name="listenPortForConnections" value="false" />
       <option name="pid" />
@@ -428,9 +353,11 @@
     <configuration name="Attach to Unity Editor" type="UNITY_DEBUG_RUN_CONFIGURATION" factoryName="Unity Debug" show_console_on_std_err="false" show_console_on_std_out="false" port="50000" address="localhost">
       <option name="listenPortForConnections" value="false" />
       <option name="pid" />
+      <method v="2" />
     </configuration>
     <list>
-      <item itemvalue="Attach Unity.Attach to Unity Editor" />
+      <item itemvalue="Attach to Unity Editor.Attach to Unity Editor" />
+      <item itemvalue="Attach to Unity Editor.Attach to Unity Editor &amp; Play" />
     </list>
   </component>
   <component name="SvnConfiguration">
@@ -477,11 +404,12 @@
       <workItem from="1542569597288" duration="3932000" />
       <workItem from="1542668374936" duration="540000" />
       <workItem from="1542726913146" duration="3411000" />
+      <workItem from="1542909415881" duration="622000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="78688000" />
+    <option name="totallyTimeSpent" value="79310000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -493,73 +421,59 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1691" height="917" extended-state="6" />
+    <frame x="-8" y="-8" width="1456" height="876" extended-state="7" />
+    <editor active="true" />
     <layout>
-      <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info anchor="right" id="Errors In Solution" order="3" />
-      <window_info anchor="bottom" id="Event Log" order="13" side_tool="true" />
-      <window_info anchor="bottom" id="Unit Tests" order="11" />
-      <window_info anchor="bottom" id="Database Changes" order="10" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Version Control" order="14" />
-      <window_info anchor="bottom" id="Run" order="2" />
-      <window_info anchor="bottom" id="Terminal" order="12" />
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.12238806" />
-      <window_info anchor="bottom" id="Docker" order="8" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Unity" order="9" />
-      <window_info anchor="right" id="Database" order="5" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.1239255" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" />
+      <window_info anchor="bottom" id="Run" order="2" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
-      <window_info anchor="bottom" id="NuGet" order="7" />
-      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
-      <window_info anchor="bottom" id="Docker" order="8" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="bottom" id="NuGet" order="7" />
+      <window_info anchor="bottom" id="Docker" order="8" show_stripe_button="false" />
       <window_info anchor="bottom" id="Unity" order="9" />
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.12238806" />
-      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info anchor="bottom" id="Database Changes" order="10" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Unit Tests" order="11" />
+      <window_info anchor="bottom" id="Terminal" order="12" />
+      <window_info anchor="bottom" id="Event Log" order="13" side_tool="true" />
+      <window_info anchor="bottom" id="Version Control" order="14" />
       <window_info anchor="right" id="Commander" order="0" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
-      <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info anchor="bottom" id="Version Control" order="14" />
-      <window_info anchor="bottom" id="Run" order="2" />
-      <window_info anchor="bottom" id="Unit Tests" order="11" />
-      <window_info anchor="bottom" id="Database Changes" order="10" show_stripe_button="false" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
       <window_info anchor="right" id="Errors In Solution" order="3" />
-      <window_info anchor="right" id="Database" order="5" />
-      <window_info anchor="bottom" id="Message" order="0" />
-      <window_info anchor="bottom" id="Event Log" order="13" side_tool="true" />
-      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
-      <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Terminal" order="12" />
       <window_info anchor="right" id="Unit Tests Coverage" order="4" />
-      <window_info id="Favorites" order="2" side_tool="true" />
+      <window_info anchor="right" id="Database" order="5" />
     </layout>
     <layout-to-restore>
-      <window_info anchor="bottom" id="NuGet" order="7" />
-      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
-      <window_info anchor="bottom" id="Docker" order="8" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
-      <window_info anchor="bottom" id="Unity" order="9" />
-      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.122492835" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
-      <window_info anchor="right" id="Commander" order="0" weight="0.4" />
-      <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info anchor="bottom" id="Database Changes" order="10" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Run" order="2" />
-      <window_info anchor="bottom" id="Unit Tests" order="11" />
+      <window_info id="Favorites" order="2" side_tool="true" />
+      <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="right" id="Errors In Solution" order="3" />
+      <window_info anchor="bottom" id="Run" order="2" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="bottom" id="NuGet" order="7" />
+      <window_info anchor="bottom" id="Docker" order="8" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Unity" order="9" />
+      <window_info anchor="bottom" id="Database Changes" order="10" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Unit Tests" order="11" />
       <window_info anchor="bottom" id="Terminal" order="12" />
       <window_info anchor="bottom" id="Event Log" order="13" side_tool="true" />
       <window_info anchor="bottom" id="Version Control" order="14" />
-      <window_info id="Favorites" order="2" side_tool="true" />
-      <window_info anchor="bottom" id="Message" order="0" />
-      <window_info anchor="right" id="Database" order="5" />
-      <window_info anchor="right" id="Unit Tests Coverage" order="4" />
+      <window_info anchor="right" id="Commander" order="0" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" id="Errors In Solution" order="3" />
+      <window_info anchor="right" id="Unit Tests Coverage" order="4" />
+      <window_info anchor="right" id="Database" order="5" />
     </layout-to-restore>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -708,152 +622,69 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Assets/Scripts/Cosmos_Scripts/Player_Movement_Cosmos.cs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1122">
-          <caret line="66" selection-start-line="66" selection-end-line="66" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Assets/Scripts/Game_Manager_Scripts/Game_Manager.cs">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="867">
+        <state relative-caret-position="765">
           <caret line="51" selection-start-line="51" selection-end-line="51" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/Assets/Scripts/Cosmos_Scripts/Activate_Endgame.cs">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="340">
+        <state relative-caret-position="555">
           <caret line="37" column="9" selection-start-line="37" selection-start-column="9" selection-end-line="37" selection-end-column="9" />
-          <folding>
-            <marker date="1542727176056" expanded="false" signature="6:78" ph="..." />
-            <marker date="1542727176056" expanded="true" signature="125:2002" ph="{...}" />
-            <marker date="1542727176056" expanded="true" signature="283:942" ph="{...}" />
-            <marker date="1542727176056" expanded="true" signature="409:513" ph="{...}" />
-            <marker date="1542727176056" expanded="true" signature="463:503" ph="{...}" />
-            <marker date="1542727176056" expanded="true" signature="635:795" ph="{...}" />
-            <marker date="1542727176056" expanded="true" signature="698:785" ph="{...}" />
-            <marker date="1542727176056" expanded="true" signature="1000:2000" ph="{...}" />
-            <marker date="1542727176056" expanded="true" signature="1027:1911" ph="{...}" />
-            <marker date="1542727176056" expanded="true" signature="1502:1585" ph="{...}" />
-            <marker date="1542727176056" expanded="true" signature="1607:1696" ph="{...}" />
-            <marker date="1542727176056" expanded="true" signature="1830:1901" ph="{...}" />
-            <marker date="1542727176056" expanded="true" signature="1970:1994" ph="{...}" />
-          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/Assets/Scripts/Cosmos_Scripts/Beam_Detection.cs">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="632">
+        <state relative-caret-position="795">
           <caret line="53" column="18" selection-start-line="53" selection-start-column="18" selection-end-line="53" selection-end-column="18" />
-          <folding>
-            <marker date="1542727523879" expanded="false" signature="6:78" ph="..." />
-            <marker date="1542727523879" expanded="true" signature="124:1147" ph="{...}" />
-            <marker date="1542727523879" expanded="true" signature="310:530" ph="{...}" />
-            <marker date="1542727523879" expanded="true" signature="549:1145" ph="{...}" />
-            <marker date="1542727523879" expanded="true" signature="770:947" ph="{...}" />
-            <marker date="1542727523879" expanded="true" signature="819:859" ph="{...}" />
-            <marker date="1542727523879" expanded="true" signature="970:1046" ph="{...}" />
-          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Assets/Scripts/Cosmos_Scripts/Change_Sprite.cs">
+    <entry file="file://$PROJECT_DIR$/Assets/Scripts/Cosmos_Scripts/Player_Movement_Cosmos.cs">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="289">
-          <caret line="19" column="2" selection-start-line="19" selection-start-column="2" selection-end-line="19" selection-end-column="2" />
-          <folding>
-            <marker date="1542729244269" expanded="false" signature="6:78" ph="..." />
-            <marker date="1542729244269" expanded="true" signature="123:562" ph="{...}" />
-            <marker date="1542729244269" expanded="true" signature="246:560" ph="{...}" />
-            <marker date="1542729244269" expanded="true" signature="455:557" ph="/* Disabled due to repeated error ... */" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Assets/Scripts/Cosmos_Scripts/DisperseCloud.cs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="527">
-          <caret line="51" column="50" selection-start-line="51" selection-start-column="50" selection-end-line="51" selection-end-column="50" />
-          <folding>
-            <marker date="1542730391622" expanded="false" signature="6:78" ph="..." />
-            <marker date="1542730391622" expanded="true" signature="123:1457" ph="{...}" />
-            <marker date="1542730391622" expanded="true" signature="431:563" ph="{...}" />
-            <marker date="1542730391622" expanded="true" signature="590:800" ph="{...}" />
-            <marker date="1542730391622" expanded="true" signature="620:794" ph="{...}" />
-            <marker date="1542730391622" expanded="true" signature="685:784" ph="{...}" />
-            <marker date="1542730391622" expanded="true" signature="846:977" ph="{...}" />
-            <marker date="1542730391622" expanded="true" signature="912:971" ph="{...}" />
-            <marker date="1542730391622" expanded="true" signature="995:1220" ph="{...}" />
-            <marker date="1542730391622" expanded="true" signature="1244:1390" ph="{...}" />
-            <marker date="1542730391622" expanded="true" signature="1413:1454" ph="{...}" />
-          </folding>
+        <state relative-caret-position="990">
+          <caret line="66" selection-start-line="66" selection-end-line="66" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/Assets/Scripts/Cosmos_Scripts/Activate_Journey.cs">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="357">
+        <state relative-caret-position="345">
           <caret line="23" column="70" selection-start-line="23" selection-start-column="70" selection-end-line="23" selection-end-column="70" />
-          <folding>
-            <marker date="1542728520587" expanded="false" signature="6:78" ph="..." />
-            <marker date="1542728520587" expanded="true" signature="126:1004" ph="{...}" />
-            <marker date="1542728520587" expanded="true" signature="266:403" ph="{...}" />
-            <marker date="1542728520587" expanded="true" signature="427:714" ph="{...}" />
-            <marker date="1542728520587" expanded="true" signature="748:1002" ph="{...}" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Assets/Scripts/Cosmos_Scripts/Weight.cs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <folding>
-            <marker date="1542672555448" expanded="false" signature="6:78" ph="..." />
-            <marker date="1542672555448" expanded="true" signature="116:497" ph="{...}" />
-            <marker date="1542672555448" expanded="true" signature="219:495" ph="{...}" />
-          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/Assets/Scripts/Cosmos_Scripts/Rope_Creator.cs">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/Scripts/Cosmos_Scripts/Weight.cs">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/Scripts/Cosmos_Scripts/DisperseCloud.cs">
       <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <folding>
-            <marker date="1542672555433" expanded="false" signature="6:78" ph="..." />
-            <marker date="1542672555433" expanded="true" signature="122:995" ph="{...}" />
-            <marker date="1542672555433" expanded="true" signature="259:295" ph="{...}" />
-            <marker date="1542672555433" expanded="true" signature="322:993" ph="{...}" />
-            <marker date="1542672555433" expanded="true" signature="461:987" ph="{...}" />
-            <marker date="1542672555433" expanded="true" signature="736:870" ph="{...}" />
-            <marker date="1542672555433" expanded="true" signature="870:976" ph="{...}" />
-          </folding>
+        <state relative-caret-position="765">
+          <caret line="51" column="50" selection-start-line="51" selection-start-column="50" selection-end-line="51" selection-end-column="50" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/Assets/Scripts/Cosmos_Scripts/Cut_Rope.cs">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="326">
-          <caret line="48" column="65" selection-start-line="48" selection-start-column="65" selection-end-line="48" selection-end-column="65" />
+        <state>
+          <caret line="48" column="21" selection-start-line="48" selection-start-column="21" selection-end-line="48" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/Scripts/Cosmos_Scripts/Change_Sprite.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="240">
+          <caret line="18" selection-start-line="18" selection-end-line="18" />
           <folding>
-            <marker date="1542737999974" expanded="false" signature="6:78" ph="..." />
-            <marker date="1542737999974" expanded="true" signature="118:2800" ph="{...}" />
-            <marker date="1542737999974" expanded="true" signature="312:471" ph="{...}" />
-            <marker date="1542737999974" expanded="true" signature="536:1554" ph="{...}" />
-            <marker date="1542737999974" expanded="true" signature="575:1518" ph="{...}" />
-            <marker date="1542737999974" expanded="true" signature="732:1507" ph="{...}" />
-            <marker date="1542737999974" expanded="true" signature="782:1493" ph="{...}" />
-            <marker date="1542737999974" expanded="true" signature="872:1093" ph="{...}" />
-            <marker date="1542737999974" expanded="true" signature="1184:1420" ph="{...}" />
-            <marker date="1542737999974" expanded="true" signature="1577:2318" ph="{...}" />
-            <marker date="1542737999974" expanded="true" signature="1612:2312" ph="{...}" />
-            <marker date="1542737999974" expanded="true" signature="1991:2268" ph="{...}" />
-            <marker date="1542737999974" expanded="true" signature="2137:2254" ph="{...}" />
-            <marker date="1542737999974" expanded="true" signature="2341:2798" ph="{...}" />
-            <marker date="1542737999974" expanded="true" signature="2393:2457" ph="{...}" />
-            <marker date="1542737999974" expanded="true" signature="2482:2547" ph="{...}" />
+            <marker date="1542910190068" expanded="false" signature="6:78" ph="..." />
+            <marker date="1542910190068" expanded="true" signature="123:559" ph="{...}" />
+            <marker date="1542910190068" expanded="true" signature="246:557" ph="{...}" />
           </folding>
         </state>
       </provider>

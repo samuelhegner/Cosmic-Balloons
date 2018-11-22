@@ -16,6 +16,6 @@ public class Change_Sprite : MonoBehaviour {
 
 		
 		//Disabled due to repeated error
-//		Instantiate(prefab[ran], transform.position, transform.rotation);
+	Instantiate(prefab[ran], transform.position, transform.rotation);
 	}
 }
