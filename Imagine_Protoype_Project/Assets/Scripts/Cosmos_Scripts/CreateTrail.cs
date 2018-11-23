@@ -9,6 +9,8 @@ public class CreateTrail : MonoBehaviour
     public float distanceBetweenPoints = 10f;
     public float rangeX;
     public int smoothness;
+    public float MatXScale = 1;
+    public float MatYScale = 1;
 
     float lineWidth;
 
@@ -72,6 +74,7 @@ public class CreateTrail : MonoBehaviour
 
         lineWidth = rend.startWidth;
         
-       
+       //Attempt at scaling
+        rend.material.mainTextureScale = new Vector2(MatXScale,MatYScale);
     }
 }

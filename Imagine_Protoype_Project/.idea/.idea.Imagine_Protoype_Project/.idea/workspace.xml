@@ -97,18 +97,19 @@
     <session id="365064007">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
+          <entry key="project.closed" value="1" />
           <entry key="project.open.time.7" value="2" />
           <entry key="project.opened" value="2" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="cs" value="187" />
+          <entry key="cs" value="376" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="C#" value="187" />
+          <entry key="C#" value="376" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
@@ -166,21 +167,21 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/Assets/Scripts/Cosmos_Scripts/CreateTrail.cs">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="207">
-              <caret line="48" column="12" selection-start-line="48" selection-start-column="12" selection-end-line="48" selection-end-column="12" />
+            <state relative-caret-position="150">
+              <caret line="12" column="31" selection-start-line="12" selection-start-column="31" selection-end-line="12" selection-end-column="31" />
               <folding>
-                <marker date="1543009472004" expanded="false" signature="6:78" ph="..." />
-                <marker date="1543009472004" expanded="true" signature="120:2115" ph="{...}" />
-                <marker date="1543009472004" expanded="true" signature="393:2113" ph="{...}" />
-                <marker date="1543009472004" expanded="true" signature="550:1012" ph="{...}" />
-                <marker date="1543009472004" expanded="true" signature="674:754" ph="{...}" />
-                <marker date="1543009472004" expanded="true" signature="754:1002" ph="{...}" />
-                <marker date="1543009472004" expanded="true" signature="1143:1312" ph="{...}" />
-                <marker date="1543009472004" expanded="true" signature="1372:1769" ph="{...}" />
-                <marker date="1543009472004" expanded="true" signature="1449:1759" ph="{...}" />
+                <marker date="1543011399822" expanded="false" signature="6:78" ph="..." />
+                <marker date="1543011399822" expanded="true" signature="120:2274" ph="{...}" />
+                <marker date="1543011399822" expanded="true" signature="457:2272" ph="{...}" />
+                <marker date="1543011399822" expanded="true" signature="614:1076" ph="{...}" />
+                <marker date="1543011399822" expanded="true" signature="738:818" ph="{...}" />
+                <marker date="1543011399822" expanded="true" signature="818:1066" ph="{...}" />
+                <marker date="1543011399822" expanded="true" signature="1207:1376" ph="{...}" />
+                <marker date="1543011399822" expanded="true" signature="1436:1833" ph="{...}" />
+                <marker date="1543011399822" expanded="true" signature="1513:1823" ph="{...}" />
               </folding>
             </state>
           </provider>
@@ -207,7 +208,7 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Assets/Scripts/Cosmos_Scripts/Change_Sprite.cs">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="180">
@@ -306,8 +307,8 @@
         <option value="$PROJECT_DIR$/Assets/Scripts/Cosmos_Scripts/DisperseCloud.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Cosmos_Scripts/Cut_Rope.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Cosmos_Scripts/Trail_Material_Scale.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/Cosmos_Scripts/CreateTrail.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Cosmos_Scripts/Change_Sprite.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Cosmos_Scripts/CreateTrail.cs" />
       </list>
     </option>
   </component>
@@ -320,7 +321,7 @@
   <component name="NodePackageJsonFileManager">
     <packageJsonPaths />
   </component>
-  <component name="ProjectFrameBounds" extendedState="7">
+  <component name="ProjectFrameBounds" extendedState="6">
     <option name="x" value="91" />
     <option name="y" value="-23" />
     <option name="width" value="1485" />
@@ -440,12 +441,12 @@
       <workItem from="1542668374936" duration="540000" />
       <workItem from="1542726913146" duration="3411000" />
       <workItem from="1542909415881" duration="622000" />
-      <workItem from="1543007143263" duration="2801000" />
+      <workItem from="1543007143263" duration="4685000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="82111000" />
+    <option name="totallyTimeSpent" value="83995000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -457,8 +458,7 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1456" height="876" extended-state="7" />
-    <editor active="true" />
+    <frame x="-8" y="-8" width="1456" height="876" extended-state="6" />
     <layout>
       <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.12535816" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
@@ -725,37 +725,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Assets/Scripts/Cosmos_Scripts/Trail_Material_Scale.cs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="225">
-          <caret line="17" column="10" selection-start-line="17" selection-start-column="10" selection-end-line="17" selection-end-column="10" />
-          <folding>
-            <marker date="1543007533820" expanded="false" signature="6:78" ph="..." />
-            <marker date="1543007533820" expanded="true" signature="129:434" ph="{...}" />
-            <marker date="1543007533820" expanded="true" signature="239:298" ph="{...}" />
-            <marker date="1543007533820" expanded="true" signature="356:432" ph="{...}" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Assets/Scripts/Cosmos_Scripts/CreateTrail.cs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="207">
-          <caret line="48" column="12" selection-start-line="48" selection-start-column="12" selection-end-line="48" selection-end-column="12" />
-          <folding>
-            <marker date="1543009472004" expanded="false" signature="6:78" ph="..." />
-            <marker date="1543009472004" expanded="true" signature="120:2115" ph="{...}" />
-            <marker date="1543009472004" expanded="true" signature="393:2113" ph="{...}" />
-            <marker date="1543009472004" expanded="true" signature="550:1012" ph="{...}" />
-            <marker date="1543009472004" expanded="true" signature="674:754" ph="{...}" />
-            <marker date="1543009472004" expanded="true" signature="754:1002" ph="{...}" />
-            <marker date="1543009472004" expanded="true" signature="1143:1312" ph="{...}" />
-            <marker date="1543009472004" expanded="true" signature="1372:1769" ph="{...}" />
-            <marker date="1543009472004" expanded="true" signature="1449:1759" ph="{...}" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Assets/Scripts/Cosmos_Scripts/Star_Collision.cs">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="285">
@@ -784,6 +753,37 @@
             <marker date="1543009943561" expanded="true" signature="123:565" ph="{...}" />
             <marker date="1543009943561" expanded="true" signature="246:563" ph="{...}" />
             <marker date="1543009943561" expanded="true" signature="357:454" ph="/* PolygonCollider2D col = gameObject.AddComponent&lt;PolygonCollider2D&gt;(); ... */" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/Scripts/Cosmos_Scripts/Trail_Material_Scale.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="225">
+          <caret line="17" column="10" selection-start-line="17" selection-start-column="10" selection-end-line="17" selection-end-column="10" />
+          <folding>
+            <marker date="1543007533820" expanded="false" signature="6:78" ph="..." />
+            <marker date="1543007533820" expanded="true" signature="129:434" ph="{...}" />
+            <marker date="1543007533820" expanded="true" signature="239:298" ph="{...}" />
+            <marker date="1543007533820" expanded="true" signature="356:432" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/Scripts/Cosmos_Scripts/CreateTrail.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="150">
+          <caret line="12" column="31" selection-start-line="12" selection-start-column="31" selection-end-line="12" selection-end-column="31" />
+          <folding>
+            <marker date="1543011399822" expanded="false" signature="6:78" ph="..." />
+            <marker date="1543011399822" expanded="true" signature="120:2274" ph="{...}" />
+            <marker date="1543011399822" expanded="true" signature="457:2272" ph="{...}" />
+            <marker date="1543011399822" expanded="true" signature="614:1076" ph="{...}" />
+            <marker date="1543011399822" expanded="true" signature="738:818" ph="{...}" />
+            <marker date="1543011399822" expanded="true" signature="818:1066" ph="{...}" />
+            <marker date="1543011399822" expanded="true" signature="1207:1376" ph="{...}" />
+            <marker date="1543011399822" expanded="true" signature="1436:1833" ph="{...}" />
+            <marker date="1543011399822" expanded="true" signature="1513:1823" ph="{...}" />
           </folding>
         </state>
       </provider>
