@@ -8,11 +8,11 @@ public class Change_Sprite : MonoBehaviour {
 	public GameObject[] prefab;
 	// Use this for initialization
 	void Awake () {
-		int ran = Random.Range(0, prefab.Length);
+		int ran = Random.Range(0, prefab.Length  );
 
 		/*GetComponent<SpriteRenderer>().sprite = sprites[ran];*/
-		PolygonCollider2D col = gameObject.AddComponent<PolygonCollider2D>();
-		col.isTrigger = true;
+		/*PolygonCollider2D col = gameObject.AddComponent<PolygonCollider2D>();
+		col.isTrigger = true;*/
 
 		
 		//Disabled due to repeated error

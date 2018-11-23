@@ -89,6 +89,7 @@
             <e p="Start_Cutter.cs" t="Include" />
             <e p="Stay_In_Position.cs" t="Include" />
             <e p="Trail_Effect.cs" t="Include" />
+            <e p="Trail_Material_Scale.cs" t="Include" />
             <e p="Weight.cs" t="Include" />
           </e>
           <e p="Forest_Minigame_Scripts" t="Include">

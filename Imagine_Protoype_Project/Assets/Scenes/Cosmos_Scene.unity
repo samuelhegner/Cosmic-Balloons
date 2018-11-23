@@ -14821,6 +14821,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: Speed Trail (1)
       objectReference: {fileID: 0}
+    - target: {fileID: 120659929071809760, guid: 568e6f599cc42483b83e24613422957a,
+        type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 89a22cfb860ae6848951a5f89f5c9924, type: 2}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 568e6f599cc42483b83e24613422957a, type: 3}
 --- !u!1 &1103987854
@@ -16626,6 +16631,16 @@ PrefabInstance:
     - target: {fileID: 4391836043445328, guid: 568e6f599cc42483b83e24613422957a, type: 3}
       propertyPath: m_RootOrder
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 114796505399252936, guid: 568e6f599cc42483b83e24613422957a,
+        type: 3}
+      propertyPath: length
+      value: 10
+      objectReference: {fileID: 0}
+    - target: {fileID: 114796505399252936, guid: 568e6f599cc42483b83e24613422957a,
+        type: 3}
+      propertyPath: smoothness
+      value: 20
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 568e6f599cc42483b83e24613422957a, type: 3}

@@ -45,6 +45,8 @@ public class CreateTrail : MonoBehaviour
         for (int i = 0; i < Points.Length -1; i++){
             GameObject boxTemp = Instantiate(box, Points[i], transform.rotation);
             boxTemp.transform.parent = transform;
+            
+            
         }
 
         for (int i = 0; i < transform.childCount -1 ; i++)
@@ -69,5 +71,7 @@ public class CreateTrail : MonoBehaviour
         rend.endWidth = 5f;
 
         lineWidth = rend.startWidth;
+        
+       
     }
 }
