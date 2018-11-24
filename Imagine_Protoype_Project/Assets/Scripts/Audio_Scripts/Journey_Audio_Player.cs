@@ -118,11 +118,17 @@ yield return new WaitForSeconds(0.5f);
           _animator.SetBool("Hidden", hidden);
 
           if (!hidden) {
+               
+               GetComponent<AudioManager>().Play("Open");
 
                StartCoroutine(AutoHide(4f));
 
+          } else {
+
+               GetComponent<AudioManager>().Play("Close");
+
           }
-          
+
           GetComponent<Audio_Settings_Manager>().WriteSettings();
 
 
