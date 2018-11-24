@@ -39,6 +39,7 @@ public class Select_Site : MonoBehaviour {
 
     public void MoveToSite(){
         player.GetComponent<Player_Movement_Map>().location = transform.position;
+        player.GetComponent<Player_Movement_Map>().SetMoveSpeed(6, player.GetComponent<Player_Movement_Map>().MaxSpeed, transform.position, player.transform.position);
         player.GetComponent<Player_Movement_Map>().DropFlag();
         if(GetComponent<Site_Info>().sceneName != null){
             loadScene = true;

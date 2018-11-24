@@ -62,7 +62,7 @@ public class Player_Movement_Map : MonoBehaviour {
 	}
 	
 	void Update () {
-
+        Debug.Log(movementSpeed);
         AdjustTrail();
 
         if (tilt == false)
@@ -214,17 +214,17 @@ public class Player_Movement_Map : MonoBehaviour {
         
     }
 
-    void SetMoveSpeed(float min, float max, Vector2 traget, Vector2 current){
+    public void SetMoveSpeed(float min, float max, Vector2 traget, Vector2 current){
         float dist = Vector2.Distance(traget, current);
         if(dist < MaxDistance){
             float speedPercent = dist/MaxDistance;
             movementSpeed = MaxSpeed * speedPercent;
         }else{
-            movementSpeed = MaxSpeed;
+            movementSpeed = max;
         }
 
-        if(movementSpeed < MinSpeed){
-            movementSpeed = MinSpeed;
+        if(movementSpeed < min){
+            movementSpeed = min;
         }
 
     }
