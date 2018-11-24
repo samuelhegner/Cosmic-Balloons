@@ -62,6 +62,9 @@ public class Galaxy_Start : MonoBehaviour {
 		}
 
         start = true;
+	     
+	 GetComponent<AudioManager>().Play("Galaxy");
+		
     }
             
         
