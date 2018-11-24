@@ -5,6 +5,12 @@ using UnityEngine;
 public class Galaxy_Start : MonoBehaviour {
 
     Vector3[] setPos;
+	public float x_left = -20f;
+	public float x_right = 20f;
+	public float y_down = 10f;
+	public float y_up = 50f;
+
+
 
     bool start;
 
@@ -53,8 +59,8 @@ public class Galaxy_Start : MonoBehaviour {
 
             
 
-            ranX = transform.position.x + Random.Range(-20f, 20f);
-            ranY = transform.position.y + Random.Range(10f, 50f);
+            ranX = transform.position.x + Random.Range(x_left, x_right);
+            ranY = transform.position.y + Random.Range(y_down, y_up);
 
             setPos[i] = new Vector3(ranX, ranY, 0);
             transform.GetChild(i).GetComponent<Galaxy_Child>().index = i;
