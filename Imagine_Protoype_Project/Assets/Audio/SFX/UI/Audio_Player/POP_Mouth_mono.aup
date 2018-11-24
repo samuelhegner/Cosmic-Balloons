@@ -1,0 +1,19 @@
+<?xml version="1.0" standalone="no" ?>
+<!DOCTYPE project PUBLIC "-//audacityproject-1.3.0//DTD//EN" "http://audacity.sourceforge.net/xml/audacityproject-1.3.0.dtd" >
+<project xmlns="http://audacity.sourceforge.net/xml/" projname="POP_Mouth_mono_data" version="1.3.0" audacityversion="2.1.2" sel0="0.0151959744" sel1="0.0151959744" vpos="0" h="0.0066818625" zoom="128257.6524263791" rate="44100.0" snapto="off" selectionformat="hh:mm:ss + milliseconds" frequencyformat="Hz" bandwidthformat="octaves">
+	<tags>
+		<tag name="ARTIST" value="Imphenzia"/>
+		<tag name="COMMENTS" value="www.universalsoundfx.com"/>
+		<tag name="Copyright" value="Imphenzia AB"/>
+	</tags>
+	<wavetrack name="POP_Mouth_mono" channel="2" linked="0" mute="0" solo="0" height="150" minimized="0" isSelected="0" rate="44100" gain="1.0" pan="0.0">
+		<waveclip offset="0.00000000">
+			<sequence maxsamples="262144" sampleformat="262159" numsamples="670">
+				<waveblock start="0">
+					<simpleblockfile filename="e0000bc6.au" len="670" min="-0.97287" max="0.910187" rms="0.036993"/>
+				</waveblock>
+			</sequence>
+			<envelope numpoints="0"/>
+		</waveclip>
+	</wavetrack>
+</project>
