@@ -62,7 +62,6 @@ public class Player_Movement_Map : MonoBehaviour {
 	}
 	
 	void Update () {
-        Debug.Log(movementSpeed);
         AdjustTrail();
 
         if (tilt == false)

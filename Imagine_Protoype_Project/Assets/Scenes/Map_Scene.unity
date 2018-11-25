@@ -89,7 +89,7 @@ LightmapSettings:
     m_PVRFilteringAtrousPositionSigmaAO: 1
     m_ShowResolutionOverlay: 1
   m_LightingDataAsset: {fileID: 0}
-  m_UseShadowmask: 1
+  m_UseShadowmask: 0
 --- !u!196 &4
 NavMeshSettings:
   serializedVersion: 2
@@ -7285,9 +7285,7 @@ GameObject:
   - component: {fileID: 1323654836}
   - component: {fileID: 31182049}
   - component: {fileID: 1323654834}
-  - component: {fileID: 1323654833}
   - component: {fileID: 1323654831}
-  - component: {fileID: 1323654837}
   - component: {fileID: 1323654838}
   - component: {fileID: 1323654835}
   m_Layer: 0
@@ -7343,36 +7341,6 @@ RectTransform:
   m_AnchoredPosition: {x: -21.9, y: -6.4}
   m_SizeDelta: {x: 100, y: 100}
   m_Pivot: {x: 0.5, y: 0.5}
---- !u!114 &1323654833
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 114438900565660568, guid: 6683b5d85ad476141a7f6c477fcf1219,
-    type: 3}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1323654830}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 6668fa9c07509b641b9ed197e8d325e8, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  sounds:
-  - name: Wind_Flap
-    audioMixerGroup: {fileID: 243862759904171356, guid: f53abdbdf703fff48a03ac380608cf1c,
-      type: 2}
-    clips:
-    - {fileID: 8300000, guid: af675590a06bd3b44acc1feebbb6f86a, type: 3}
-    volume: 0.27
-    pitch: 1
-    spatialBlend: 0
-    loop: 0
-    mute: 0
-    playOnAwake: 0
-    source: {fileID: 0}
-    FadingIn: 0
-    FadingOut: 0
-  master: 0
-  DontDestroyOnLoad: 0
 --- !u!61 &1323654834
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -7435,27 +7403,6 @@ Rigidbody2D:
   m_SleepingMode: 1
   m_CollisionDetection: 0
   m_Constraints: 0
---- !u!223 &1323654837
-Canvas:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1323654830}
-  m_Enabled: 1
-  serializedVersion: 3
-  m_RenderMode: 2
-  m_Camera: {fileID: 0}
-  m_PlaneDistance: 100
-  m_PixelPerfect: 0
-  m_ReceivesEvents: 1
-  m_OverrideSorting: 0
-  m_OverridePixelPerfect: 0
-  m_SortingBucketNormalizedSize: 0
-  m_AdditionalShaderChannelsFlag: 0
-  m_SortingLayerID: 0
-  m_SortingOrder: 0
-  m_TargetDisplay: 0
 --- !u!82 &1323654838
 AudioSource:
   m_ObjectHideFlags: 0
