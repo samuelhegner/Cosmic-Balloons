@@ -14,6 +14,12 @@ public class AudioManager : MonoBehaviour {
 	[HideInInspector]
 	public static AudioManager Master;
 
+	void Start() {
+
+		
+		
+	}
+
 	void Awake() {
 
 
