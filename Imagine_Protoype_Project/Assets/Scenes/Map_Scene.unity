@@ -89,7 +89,7 @@ LightmapSettings:
     m_PVRFilteringAtrousPositionSigmaAO: 1
     m_ShowResolutionOverlay: 1
   m_LightingDataAsset: {fileID: 0}
-  m_UseShadowmask: 0
+  m_UseShadowmask: 1
 --- !u!196 &4
 NavMeshSettings:
   serializedVersion: 2
@@ -382,7 +382,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   tilt: 0
   selected: 0
-  PC: 0
+  PC: 1
   location: {x: 0, y: 0}
   Flag: {fileID: 1465649668}
   Basket: {fileID: 1048341598}
@@ -678,6 +678,21 @@ PrefabInstance:
         type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[1].m_Arguments.m_StringArgument
       value: Click
+      objectReference: {fileID: 0}
+    - target: {fileID: 114150419451280458, guid: 29cabb6a9893047e4be2517ac91a4426,
+        type: 3}
+      propertyPath: pin
+      value: 
+      objectReference: {fileID: 561818806}
+    - target: {fileID: 114150419451280458, guid: 29cabb6a9893047e4be2517ac91a4426,
+        type: 3}
+      propertyPath: popupSpeed
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 114150419451280458, guid: 29cabb6a9893047e4be2517ac91a4426,
+        type: 3}
+      propertyPath: offset
+      value: 43
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 29cabb6a9893047e4be2517ac91a4426, type: 3}
@@ -1215,6 +1230,21 @@ PrefabInstance:
       propertyPath: m_SizeDelta.y
       value: 5
       objectReference: {fileID: 0}
+    - target: {fileID: 114150419451280458, guid: 29cabb6a9893047e4be2517ac91a4426,
+        type: 3}
+      propertyPath: pin
+      value: 
+      objectReference: {fileID: 1986956553}
+    - target: {fileID: 114150419451280458, guid: 29cabb6a9893047e4be2517ac91a4426,
+        type: 3}
+      propertyPath: popupSpeed
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 114150419451280458, guid: 29cabb6a9893047e4be2517ac91a4426,
+        type: 3}
+      propertyPath: offset
+      value: 43
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 29cabb6a9893047e4be2517ac91a4426, type: 3}
 --- !u!4 &182661441 stripped
@@ -1694,6 +1724,21 @@ PrefabInstance:
       propertyPath: m_SizeDelta.y
       value: 5
       objectReference: {fileID: 0}
+    - target: {fileID: 114150419451280458, guid: 29cabb6a9893047e4be2517ac91a4426,
+        type: 3}
+      propertyPath: pin
+      value: 
+      objectReference: {fileID: 1664098973}
+    - target: {fileID: 114150419451280458, guid: 29cabb6a9893047e4be2517ac91a4426,
+        type: 3}
+      propertyPath: popupSpeed
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 114150419451280458, guid: 29cabb6a9893047e4be2517ac91a4426,
+        type: 3}
+      propertyPath: offset
+      value: 43
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 29cabb6a9893047e4be2517ac91a4426, type: 3}
 --- !u!4 &238728811 stripped
@@ -1743,7 +1788,7 @@ Canvas:
   m_OverridePixelPerfect: 0
   m_SortingBucketNormalizedSize: 0
   m_AdditionalShaderChannelsFlag: 0
-  m_SortingLayerID: 0
+  m_SortingLayerID: -1615509911
   m_SortingOrder: 2
   m_TargetDisplay: 0
 --- !u!1 &260338679
@@ -2635,6 +2680,21 @@ PrefabInstance:
         type: 3}
       propertyPath: m_SizeDelta.y
       value: 5
+      objectReference: {fileID: 0}
+    - target: {fileID: 114150419451280458, guid: 29cabb6a9893047e4be2517ac91a4426,
+        type: 3}
+      propertyPath: pin
+      value: 
+      objectReference: {fileID: 553935921}
+    - target: {fileID: 114150419451280458, guid: 29cabb6a9893047e4be2517ac91a4426,
+        type: 3}
+      propertyPath: popupSpeed
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 114150419451280458, guid: 29cabb6a9893047e4be2517ac91a4426,
+        type: 3}
+      propertyPath: offset
+      value: 43
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 29cabb6a9893047e4be2517ac91a4426, type: 3}
@@ -3647,6 +3707,21 @@ PrefabInstance:
       propertyPath: m_SizeDelta.y
       value: 5
       objectReference: {fileID: 0}
+    - target: {fileID: 114150419451280458, guid: 29cabb6a9893047e4be2517ac91a4426,
+        type: 3}
+      propertyPath: pin
+      value: 
+      objectReference: {fileID: 535655271}
+    - target: {fileID: 114150419451280458, guid: 29cabb6a9893047e4be2517ac91a4426,
+        type: 3}
+      propertyPath: popupSpeed
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 114150419451280458, guid: 29cabb6a9893047e4be2517ac91a4426,
+        type: 3}
+      propertyPath: offset
+      value: 43
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 29cabb6a9893047e4be2517ac91a4426, type: 3}
 --- !u!4 &546177985 stripped
@@ -4039,6 +4114,21 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Enabled
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 114150419451280458, guid: 29cabb6a9893047e4be2517ac91a4426,
+        type: 3}
+      propertyPath: pin
+      value: 
+      objectReference: {fileID: 305937286}
+    - target: {fileID: 114150419451280458, guid: 29cabb6a9893047e4be2517ac91a4426,
+        type: 3}
+      propertyPath: popupSpeed
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 114150419451280458, guid: 29cabb6a9893047e4be2517ac91a4426,
+        type: 3}
+      propertyPath: offset
+      value: 43
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 29cabb6a9893047e4be2517ac91a4426, type: 3}
@@ -4766,7 +4856,7 @@ Canvas:
   m_OverridePixelPerfect: 0
   m_SortingBucketNormalizedSize: 0
   m_AdditionalShaderChannelsFlag: 0
-  m_SortingLayerID: 0
+  m_SortingLayerID: -1615509911
   m_SortingOrder: 3
   m_TargetDisplay: 0
 --- !u!1 &799631895
@@ -5260,7 +5350,7 @@ Canvas:
   m_OverridePixelPerfect: 0
   m_SortingBucketNormalizedSize: 0
   m_AdditionalShaderChannelsFlag: 0
-  m_SortingLayerID: 0
+  m_SortingLayerID: -1615509911
   m_SortingOrder: 1
   m_TargetDisplay: 0
 --- !u!1 &868474767
@@ -6633,6 +6723,21 @@ PrefabInstance:
       propertyPath: m_SizeDelta.y
       value: 5
       objectReference: {fileID: 0}
+    - target: {fileID: 114150419451280458, guid: 29cabb6a9893047e4be2517ac91a4426,
+        type: 3}
+      propertyPath: pin
+      value: 
+      objectReference: {fileID: 693653861}
+    - target: {fileID: 114150419451280458, guid: 29cabb6a9893047e4be2517ac91a4426,
+        type: 3}
+      propertyPath: popupSpeed
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 114150419451280458, guid: 29cabb6a9893047e4be2517ac91a4426,
+        type: 3}
+      propertyPath: offset
+      value: 43
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 29cabb6a9893047e4be2517ac91a4426, type: 3}
 --- !u!4 &1159389613 stripped
@@ -7003,7 +7108,7 @@ Canvas:
   m_OverridePixelPerfect: 0
   m_SortingBucketNormalizedSize: 0
   m_AdditionalShaderChannelsFlag: 0
-  m_SortingLayerID: 0
+  m_SortingLayerID: -1615509911
   m_SortingOrder: 4
   m_TargetDisplay: 0
 --- !u!1 &1231985002 stripped
@@ -7796,6 +7901,21 @@ PrefabInstance:
         type: 3}
       propertyPath: m_SizeDelta.y
       value: 5
+      objectReference: {fileID: 0}
+    - target: {fileID: 114150419451280458, guid: 29cabb6a9893047e4be2517ac91a4426,
+        type: 3}
+      propertyPath: pin
+      value: 
+      objectReference: {fileID: 1589054983}
+    - target: {fileID: 114150419451280458, guid: 29cabb6a9893047e4be2517ac91a4426,
+        type: 3}
+      propertyPath: popupSpeed
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 114150419451280458, guid: 29cabb6a9893047e4be2517ac91a4426,
+        type: 3}
+      propertyPath: offset
+      value: 43
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 29cabb6a9893047e4be2517ac91a4426, type: 3}
@@ -8810,6 +8930,21 @@ PrefabInstance:
       propertyPath: m_SizeDelta.y
       value: 5
       objectReference: {fileID: 0}
+    - target: {fileID: 114150419451280458, guid: 29cabb6a9893047e4be2517ac91a4426,
+        type: 3}
+      propertyPath: pin
+      value: 
+      objectReference: {fileID: 1967507801}
+    - target: {fileID: 114150419451280458, guid: 29cabb6a9893047e4be2517ac91a4426,
+        type: 3}
+      propertyPath: popupSpeed
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 114150419451280458, guid: 29cabb6a9893047e4be2517ac91a4426,
+        type: 3}
+      propertyPath: offset
+      value: 43
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 29cabb6a9893047e4be2517ac91a4426, type: 3}
 --- !u!4 &1550649331 stripped
@@ -9559,7 +9694,7 @@ Canvas:
   m_OverridePixelPerfect: 0
   m_SortingBucketNormalizedSize: 0
   m_AdditionalShaderChannelsFlag: 0
-  m_SortingLayerID: 0
+  m_SortingLayerID: -1615509911
   m_SortingOrder: 2
   m_TargetDisplay: 0
 --- !u!1 &1785443275 stripped
@@ -9864,6 +9999,26 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Color.a
       value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 224700221820395956, guid: 29cabb6a9893047e4be2517ac91a4426,
+        type: 3}
+      propertyPath: m_AnchoredPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 114150419451280458, guid: 29cabb6a9893047e4be2517ac91a4426,
+        type: 3}
+      propertyPath: pin
+      value: 
+      objectReference: {fileID: 1631924821}
+    - target: {fileID: 114150419451280458, guid: 29cabb6a9893047e4be2517ac91a4426,
+        type: 3}
+      propertyPath: popupSpeed
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 114150419451280458, guid: 29cabb6a9893047e4be2517ac91a4426,
+        type: 3}
+      propertyPath: offset
+      value: 43
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 29cabb6a9893047e4be2517ac91a4426, type: 3}
@@ -10212,6 +10367,21 @@ PrefabInstance:
       propertyPath: m_SizeDelta.y
       value: 5
       objectReference: {fileID: 0}
+    - target: {fileID: 114150419451280458, guid: 29cabb6a9893047e4be2517ac91a4426,
+        type: 3}
+      propertyPath: pin
+      value: 
+      objectReference: {fileID: 114029454}
+    - target: {fileID: 114150419451280458, guid: 29cabb6a9893047e4be2517ac91a4426,
+        type: 3}
+      propertyPath: popupSpeed
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 114150419451280458, guid: 29cabb6a9893047e4be2517ac91a4426,
+        type: 3}
+      propertyPath: offset
+      value: 43
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 29cabb6a9893047e4be2517ac91a4426, type: 3}
 --- !u!4 &1850982660 stripped
@@ -10484,6 +10654,21 @@ PrefabInstance:
         type: 3}
       propertyPath: m_SizeDelta.y
       value: 5
+      objectReference: {fileID: 0}
+    - target: {fileID: 114150419451280458, guid: 29cabb6a9893047e4be2517ac91a4426,
+        type: 3}
+      propertyPath: pin
+      value: 
+      objectReference: {fileID: 1490219012}
+    - target: {fileID: 114150419451280458, guid: 29cabb6a9893047e4be2517ac91a4426,
+        type: 3}
+      propertyPath: popupSpeed
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 114150419451280458, guid: 29cabb6a9893047e4be2517ac91a4426,
+        type: 3}
+      propertyPath: offset
+      value: 43
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 29cabb6a9893047e4be2517ac91a4426, type: 3}
@@ -11427,6 +11612,21 @@ PrefabInstance:
         type: 3}
       propertyPath: m_SizeDelta.y
       value: 5
+      objectReference: {fileID: 0}
+    - target: {fileID: 114150419451280458, guid: 29cabb6a9893047e4be2517ac91a4426,
+        type: 3}
+      propertyPath: pin
+      value: 
+      objectReference: {fileID: 499849955}
+    - target: {fileID: 114150419451280458, guid: 29cabb6a9893047e4be2517ac91a4426,
+        type: 3}
+      propertyPath: popupSpeed
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 114150419451280458, guid: 29cabb6a9893047e4be2517ac91a4426,
+        type: 3}
+      propertyPath: offset
+      value: 43
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 29cabb6a9893047e4be2517ac91a4426, type: 3}
