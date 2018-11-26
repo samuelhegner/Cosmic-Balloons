@@ -19,7 +19,9 @@ public class Select_Site : MonoBehaviour
 
     public Camera cam;
 
-    Vector3 startPopUp;
+    Vector3 abovePopUp;
+    Vector3 belowPopUp;
+
 
 
 
@@ -31,7 +33,8 @@ public class Select_Site : MonoBehaviour
         player = GameObject.FindGameObjectWithTag("Player");
         loadScene = false;
         topStartY = top.transform.position.y;
-        startPopUp = popUp.transform.position;
+        abovePopUp = popUp.transform.position;
+        belowPopUp = new Vector3(abovePopUp.x, abovePopUp.y - offset, 0);
     }
 
     void Update()
@@ -51,21 +54,13 @@ public class Select_Site : MonoBehaviour
             float topScreenY = topScreen.y;
 
 
-            if (top.transform.position.y >= topScreenY)
+            if(topStartY>= topScreenY)
             {
-                Vector3 newPos = new Vector3(popUp.transform.position.x, popUp.transform.position.y - 5f, 0);
-                    
-                popUp.transform.position = Vector3.Lerp(popUp.transform.position, newPos, Time.deltaTime * popupSpeed);
-                
+                popUp.transform.position = belowPopUp;
+            }else{
+                popUp.transform.position = abovePopUp;
             }
-            else if(top.transform.position.y < topScreenY -2f)
-            {
-                while(top.transform.position.y < topStartY){
-                    Vector3 newPos = popUp.transform.position;
-                    newPos.y++;
-                    popUp.transform.position = newPos;
-                }
-            }
+
 
 
 
@@ -85,7 +80,7 @@ public class Select_Site : MonoBehaviour
     {
         showing = false;
         popUp.SetActive(showing);
-        popUp.transform.position = startPopUp;
+        popUp.transform.position = abovePopUp;
     }
 
     public void MoveToSite()
