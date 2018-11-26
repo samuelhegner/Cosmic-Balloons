@@ -5,6 +5,8 @@ using UnityEngine;
 public class Galaxy_Start : MonoBehaviour {
 
     Vector3[] setPos;
+
+    public float speed = 20f;
 	public float x_left = -20f;
 	public float x_right = 20f;
 	public float y_down = 10f;
@@ -27,10 +29,12 @@ public class Galaxy_Start : MonoBehaviour {
             for (int i = 0; i < transform.childCount; i++)
             {
                 GameObject current = transform.GetChild(i).gameObject;
-                current.transform.position = Vector3.MoveTowards(current.transform.position, setPos[current.GetComponent<Galaxy_Child>().index], Time.deltaTime * 20f);
+                current.transform.position = Vector3.MoveTowards(current.transform.position, setPos[current.GetComponent<Galaxy_Child>().index], Time.deltaTime * speed);
 
-                if (Vector3.Distance(current.transform.position, setPos[i]) < 0.1f)
+                if (Vector3.Distance(current.transform.position, setPos[current.GetComponent<Galaxy_Child>().index]) < 0.1f)
                 {
+                    current.GetComponent<Galaxy_Child>().SetFree();
+
                     current.transform.parent = null;
                 }
             }
@@ -64,6 +68,9 @@ public class Galaxy_Start : MonoBehaviour {
 
             setPos[i] = new Vector3(ranX, ranY, 0);
             transform.GetChild(i).GetComponent<Galaxy_Child>().index = i;
+
+            transform.GetChild(i).GetComponent<Galaxy_Child>().moveDir = setPos[i] - transform.GetChild(i).transform.position;
+            transform.GetChild(i).GetComponent<Galaxy_Child>().moveDir.Normalize();
             GameObject.Find("Galaxy Background").GetComponent<Set_Position>().activated = true;
 		}
 

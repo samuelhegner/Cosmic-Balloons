@@ -7,6 +7,8 @@ public class Cut_Rope : MonoBehaviour {
     bool cutRight;
     bool cutRopes;
 
+    bool off;
+
     float a;
 
     int numberRopesCut;
@@ -23,6 +25,8 @@ public class Cut_Rope : MonoBehaviour {
         player = GameObject.Find("Player");
         yPos = player.transform.position.y;
         xPos = player.transform.position.x;
+        GetComponent<TrailRenderer>().enabled = false;
+        off = true;
     }
 
     // Update is called once per frame
@@ -30,6 +34,10 @@ public class Cut_Rope : MonoBehaviour {
 
         if(Game_Manager.isPC){
             if(Input.GetMouseButton(0)){
+                if(off){
+                    GetComponent<TrailRenderer>().enabled = true;
+                    off = false;
+                }
                 Vector3 placeToBe = Camera.main.ScreenToWorldPoint(Input.mousePosition);
 
                 Vector3 placeToMove = new Vector3(placeToBe.x, placeToBe.y, 0);
@@ -37,6 +45,11 @@ public class Cut_Rope : MonoBehaviour {
             }
         }else{
             if(Input.touchCount == 1){
+                if(off){
+                    GetComponent<TrailRenderer>().enabled = true;
+                    off = false;
+                }
+
                 Touch finger = Input.GetTouch(0);
 
                 Vector3 placeToBe = Camera.main.ScreenToWorldPoint(finger.position);
