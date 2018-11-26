@@ -35,7 +35,7 @@ public class Game_Manager : MonoBehaviour
 
         if (Application.isEditor) {
 
-            isPC = false;
+            isPC = true;
             
             Debug.Log("Is Editor");
             
