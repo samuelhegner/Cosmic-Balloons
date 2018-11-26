@@ -13,22 +13,25 @@ public class Select_Site : MonoBehaviour
     public float offset;
 
     public GameObject popUp;
-    public GameObject pin;
+    public GameObject top;
+
+    float topStartY;
+
+    public Camera cam;
+
+    Vector3 startPopUp;
 
 
 
     GameObject player;
 
-    public Vector3 above;
-    public Vector3 below;
 
     private void Awake()
     {
         player = GameObject.FindGameObjectWithTag("Player");
         loadScene = false;
-        above = new Vector3(pin.transform.position.x, popUp.transform.position.y, 0);
-        below = new Vector3(pin.transform.position.x, popUp.transform.position.y - offset, 0);
-
+        topStartY = top.transform.position.y;
+        startPopUp = popUp.transform.position;
     }
 
     void Update()
@@ -43,15 +46,33 @@ public class Select_Site : MonoBehaviour
 
         if (showing)
         {
-            if (player.transform.position.y > pin.transform.position.y)
+            Vector3 topScreen = cam.ScreenToWorldPoint(new Vector3(cam.pixelWidth / 2, cam.pixelHeight, 0));
+
+            float topScreenY = topScreen.y;
+
+
+            if (top.transform.position.y >= topScreenY)
             {
-                //player is above the pin
-                popUp.GetComponent<RectTransform>().position = Vector3.Lerp(popUp.GetComponent<RectTransform>().position, above, Time.deltaTime * popupSpeed);
+                while (top.transform.position.y > topScreenY)
+                {
+                    Vector3 newPos = popUp.transform.position;
+                    newPos.y--;
+                    popUp.transform.position = newPos;
+                }
             }
-            else
+            else if(top.transform.position.y < topScreenY -2f)
             {
-                popUp.GetComponent<RectTransform>().position = Vector3.Lerp(popUp.GetComponent<RectTransform>().position, below, Time.deltaTime * popupSpeed);
+                while(top.transform.position.y < topStartY){
+                    Vector3 newPos = popUp.transform.position;
+                    newPos.y++;
+                    popUp.transform.position = newPos;
+                }
             }
+
+
+
+
+
         }
     }
 
@@ -60,22 +81,13 @@ public class Select_Site : MonoBehaviour
         showing = true;
         popUp.SetActive(showing);
         player.GetComponent<Player_Movement_Map>().SetActiveSite(transform.parent.gameObject.name);
-
-        if (player.transform.position.y > pin.transform.position.y)
-        {
-            //player is above the pin
-            popUp.GetComponent<RectTransform>().position = above;
-        }
-        else
-        {
-            popUp.GetComponent<RectTransform>().position = below;
-        }
     }
 
     public void TurnOffPopUp()
     {
         showing = false;
         popUp.SetActive(showing);
+        popUp.transform.position = startPopUp;
     }
 
     public void MoveToSite()
