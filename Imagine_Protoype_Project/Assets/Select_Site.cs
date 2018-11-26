@@ -53,12 +53,10 @@ public class Select_Site : MonoBehaviour
 
             if (top.transform.position.y >= topScreenY)
             {
-                while (top.transform.position.y > topScreenY)
-                {
-                    Vector3 newPos = popUp.transform.position;
-                    newPos.y--;
-                    popUp.transform.position = newPos;
-                }
+                Vector3 newPos = new Vector3(popUp.transform.position.x, popUp.transform.position.y - 5f, 0);
+                    
+                popUp.transform.position = Vector3.Lerp(popUp.transform.position, newPos, Time.deltaTime * popupSpeed);
+                
             }
             else if(top.transform.position.y < topScreenY -2f)
             {
