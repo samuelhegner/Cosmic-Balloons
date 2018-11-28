@@ -45,7 +45,7 @@ public class Move_Clouds : MonoBehaviour {
 			a += Time.deltaTime;
 		}else{
 			if(a > 0)
-			a -= Time.deltaTime;
+			a -= Time.deltaTime/3f;
 		}
 
 		if(x){
