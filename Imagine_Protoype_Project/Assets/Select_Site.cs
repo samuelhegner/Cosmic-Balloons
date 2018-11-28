@@ -46,7 +46,8 @@ public class Select_Site : MonoBehaviour
         if (loadScene)
         {
             if (Vector2.Distance(transform.position, player.transform.position) < 1f)
-            {
+            {   
+                Game_Manager.SavePlayerPos(transform.position);
                 transform.GetComponent<Site_Info>().LoadCorrespondingScene();
             }
         }

@@ -13,9 +13,10 @@ public class Clamp_Camera : MonoBehaviour
     public Camera cam;
 
 
+
     void Start()
     {
-
+        transform.position = GameObject.FindGameObjectWithTag("Player").transform.position;
     }
 
     // Update is called once per frame

@@ -59,6 +59,9 @@ public class Player_Movement_Map : MonoBehaviour {
         trail = Basket.GetComponent<TrailRenderer>();
         sites = GameObject.FindGameObjectsWithTag("Site");
         activeSite = new GameObject();
+
+        if(Game_Manager.playerPos != null)
+        transform.position = Game_Manager.playerPos;
 	}
 	
 	void Update () {
@@ -86,12 +89,12 @@ public class Player_Movement_Map : MonoBehaviour {
                                 waitingForTouch = true;
                                 DropFlag();
                                 TurnOffSites();
-                                location -= new Vector2(Basket.transform.localPosition.x, Basket.transform.localPosition.y - 2f);
+                                //location -= new Vector2(Basket.transform.localPosition.x, Basket.transform.localPosition.y - 2f);
                             }
                         }else{
                             location = SetPointToMove(Input.mousePosition);
                             DropFlag();
-                            location -= new Vector2(Basket.transform.localPosition.x, Basket.transform.localPosition.y - 2f);
+                            //location -= new Vector2(Basket.transform.localPosition.x, Basket.transform.localPosition.y - 2f);
                             TurnOffSites();
                         }
                     }
@@ -134,14 +137,14 @@ public class Player_Movement_Map : MonoBehaviour {
                             if(hit.collider.gameObject.tag != "Site" && hit.collider.gameObject.tag != "Button"){
                                 location = SetPointToMove(Input.mousePosition);
                                 DropFlag();
-                                location -= new Vector2(Basket.transform.localPosition.x, Basket.transform.localPosition.y - 2f);
+                                //location -= new Vector2(Basket.transform.localPosition.x, Basket.transform.localPosition.y - 2f);
                                 TurnOffSites();
                                 print("test");
                             }
                         }else{
                             location = SetPointToMove(Input.mousePosition);
                             DropFlag();
-                            location -= new Vector2(Basket.transform.localPosition.x, Basket.transform.localPosition.y - 2f);
+                            //location -= new Vector2(Basket.transform.localPosition.x, Basket.transform.localPosition.y - 2f);
                             TurnOffSites();
                         }
 
