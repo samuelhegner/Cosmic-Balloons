@@ -250,7 +250,6 @@ public class Player_Movement_Map : MonoBehaviour {
     }
 
     void TurnOffSites(){
-        //GameObject[] sites = GameObject.FindGameObjectsWithTag("Site");
 
         for (int i = 0; i < sites.Length; i ++){
             Select_Site ss = sites[i].GetComponent<Select_Site>();
