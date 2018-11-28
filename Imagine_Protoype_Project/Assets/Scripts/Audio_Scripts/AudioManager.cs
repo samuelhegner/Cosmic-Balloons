@@ -110,8 +110,9 @@ public class AudioManager : MonoBehaviour {
 			
 		}
 
-		while (s.FadingOut) {
-			yield return null;
+		if (s.FadingOut) {
+
+			s.FadingOut = false;
 
 		}
 
@@ -181,13 +182,13 @@ public class AudioManager : MonoBehaviour {
 
 		s.FadingOut = true;
 
-		while (s.FadingIn) {
+		if (s.FadingIn) {
 
-			yield return null;
+			s.FadingIn = false;
 
 		}
-		
-		
+
+
 
 		//	float defaultVolume = source.volume;
 

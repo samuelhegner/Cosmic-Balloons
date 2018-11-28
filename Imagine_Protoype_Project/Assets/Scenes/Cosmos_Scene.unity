@@ -56491,6 +56491,27 @@ PrefabInstance:
       propertyPath: m_RootOrder
       value: 2
       objectReference: {fileID: 0}
+    - target: {fileID: 4919870952301032, guid: 0c1c8341248f73142a5587bf79bd5b39, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4919870952301032, guid: 0c1c8341248f73142a5587bf79bd5b39, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4919870952301032, guid: 0c1c8341248f73142a5587bf79bd5b39, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1879780520408064, guid: 0c1c8341248f73142a5587bf79bd5b39, type: 3}
+      propertyPath: m_Name
+      value: Gem
+      objectReference: {fileID: 0}
+    - target: {fileID: 114324161269880634, guid: 0c1c8341248f73142a5587bf79bd5b39,
+        type: 3}
+      propertyPath: Player
+      value: 
+      objectReference: {fileID: 1429681281}
     - target: {fileID: 114880394949223010, guid: 0c1c8341248f73142a5587bf79bd5b39,
         type: 3}
       propertyPath: BalloonPoint
@@ -56501,11 +56522,11 @@ PrefabInstance:
       propertyPath: Prism
       value: 
       objectReference: {fileID: 1738462406}
-    - target: {fileID: 114324161269880634, guid: 0c1c8341248f73142a5587bf79bd5b39,
+    - target: {fileID: 114856225700743590, guid: 0c1c8341248f73142a5587bf79bd5b39,
         type: 3}
-      propertyPath: Player
-      value: 
-      objectReference: {fileID: 1429681281}
+      propertyPath: sounds.Array.data[3].volume
+      value: 0.1
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 0c1c8341248f73142a5587bf79bd5b39, type: 3}
 --- !u!1001 &1773383045

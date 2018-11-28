@@ -55,6 +55,11 @@ public class DrawRay : MonoBehaviour {
                     midPoint = Prism.transform.position;
                     endPoint = Prism.transform.position;
                     mid = true;
+                    
+                    //TODO: Play chime here
+                    
+                    transform.parent.GetComponent<AudioManager>().Play("Chime");
+                    
                 }
             }
             else if (mid == true)

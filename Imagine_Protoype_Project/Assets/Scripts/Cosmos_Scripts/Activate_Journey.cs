@@ -8,6 +8,8 @@ public class Activate_Journey : MonoBehaviour {
     GameObject player;
     Animator anim;
 
+    private AudioManager AM;
+    
     public GameObject Player;
 
 	// Use this for initialization
@@ -15,6 +17,8 @@ public class Activate_Journey : MonoBehaviour {
         cam = Camera.main;
         player = GameObject.FindGameObjectWithTag("Player");
         anim = cam.GetComponent<Animator>();
+	     AM = GetComponent<AudioManager>();
+
 	}
 
     void OnMouseDown()
@@ -22,7 +26,9 @@ public class Activate_Journey : MonoBehaviour {
         anim.SetTrigger("Start");
         StartCoroutine("StopAnimation");
         transform.GetChild(0).GetComponent<DrawRay>().drawLine = true;
-        GetComponent<AudioManager>().Play("Activate_Journey");
+        AM.Play("Activate_Journey");
+        AM.Play("Beam", true, 0.5f, 0.15f);
+        AM.Stop("Wobble", true, 1f, 0.5f);
         Debug.Log("Begining Journey");
         
         
@@ -35,6 +41,9 @@ public class Activate_Journey : MonoBehaviour {
         cam.GetComponent<Follow_Player_Camera>().enabled = true;
         
         Player.GetComponent<AudioManager>().Play("Flame_Mid");
+       AM.Stop("Beam", true, 0.5f, 0.15f);
+        
+        
         
     }
 }
