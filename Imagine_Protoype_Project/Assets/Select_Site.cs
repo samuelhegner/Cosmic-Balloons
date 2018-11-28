@@ -60,12 +60,6 @@ public class Select_Site : MonoBehaviour
             }else{
                 popUp.transform.position = abovePopUp;
             }
-
-
-
-
-
-
         }
     }
 
@@ -73,7 +67,7 @@ public class Select_Site : MonoBehaviour
     {
         showing = true;
         popUp.SetActive(showing);
-        player.GetComponent<Player_Movement_Map>().SetActiveSite(transform.parent.gameObject.name);
+        player.GetComponent<Player_Movement_Map>().SetActiveSite(transform.gameObject.name);
     }
 
     public void TurnOffPopUp()

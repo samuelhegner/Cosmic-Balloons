@@ -11,6 +11,9 @@ public class Scale_Size_Camera : MonoBehaviour {
 	public float minScale = 1;
 	public float maxScale = 10;
 
+	public GameObject pin;
+	public GameObject popUp;
+
 	Vector3 newScale;
 
 	// Use this for initialization
@@ -27,6 +30,7 @@ public class Scale_Size_Camera : MonoBehaviour {
 
 		newScale = new Vector3( scale, scale, 0);
 
-		transform.localScale = newScale;
+		popUp.transform.localScale = newScale;
+		pin.transform.localScale = newScale;
 	}
 }

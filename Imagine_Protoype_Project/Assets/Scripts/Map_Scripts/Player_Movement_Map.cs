@@ -250,7 +250,7 @@ public class Player_Movement_Map : MonoBehaviour {
     }
 
     void TurnOffSites(){
-        GameObject[] sites = GameObject.FindGameObjectsWithTag("Site");
+        //GameObject[] sites = GameObject.FindGameObjectsWithTag("Site");
 
         for (int i = 0; i < sites.Length; i ++){
             Select_Site ss = sites[i].GetComponent<Select_Site>();
@@ -265,9 +265,7 @@ public class Player_Movement_Map : MonoBehaviour {
 
     public void SetActiveSite(string siteName){
         for(int i = 0; i < sites.Length; i++){
-            if(sites[i].transform.parent.gameObject.name == siteName){
-                activeSite = sites[i];
-            }else{
+            if(sites[i].transform.gameObject.name != siteName){
                 sites[i].GetComponent<Select_Site>().TurnOffPopUp();
             }
         }
