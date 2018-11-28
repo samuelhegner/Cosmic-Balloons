@@ -22,6 +22,8 @@ public class Select_Site : MonoBehaviour
     Vector3 abovePopUp;
     Vector3 belowPopUp;
 
+    Animator anim;
+
 
 
 
@@ -35,6 +37,7 @@ public class Select_Site : MonoBehaviour
         topStartY = top.transform.position.y;
         abovePopUp = popUp.transform.position;
         belowPopUp = new Vector3(abovePopUp.x, abovePopUp.y - offset, 0);
+        anim = GetComponent<Animator>();
     }
 
     void Update()
@@ -75,6 +78,9 @@ public class Select_Site : MonoBehaviour
         showing = false;
         popUp.SetActive(showing);
         popUp.transform.position = abovePopUp;
+
+        if(anim != null)
+        anim.SetBool("Picked", false);
     }
 
     public void MoveToSite()
@@ -83,6 +89,9 @@ public class Select_Site : MonoBehaviour
         player.GetComponent<Player_Movement_Map>().SetMoveSpeed(6, player.GetComponent<Player_Movement_Map>().MaxSpeed, transform.position, player.transform.position);
         player.GetComponent<Player_Movement_Map>().DropFlag();
 
+        if(anim != null)
+        anim.SetBool("Picked", true);
+        
 
         if (GetComponent<Site_Info>().sceneName != null)
         {
