@@ -34,14 +34,15 @@ public class Select_Site : MonoBehaviour
     {
         player = GameObject.FindGameObjectWithTag("Player");
         loadScene = false;
-        topStartY = top.transform.position.y;
-        abovePopUp = popUp.transform.position;
-        belowPopUp = new Vector3(abovePopUp.x, abovePopUp.y - offset, 0);
         anim = GetComponent<Animator>();
+        abovePopUp = popUp.transform.position;
+        belowPopUp = new Vector3(abovePopUp.x, abovePopUp.y - offset, abovePopUp.z);
     }
 
     void Update()
     {
+        topStartY = top.transform.position.y;
+        
         if (loadScene)
         {
             if (Vector2.Distance(transform.position, player.transform.position) < 1f)
@@ -52,12 +53,13 @@ public class Select_Site : MonoBehaviour
 
         if (showing)
         {
+            
             Vector3 topScreen = cam.ScreenToWorldPoint(new Vector3(cam.pixelWidth / 2, cam.pixelHeight, 0));
 
             float topScreenY = topScreen.y;
 
 
-            if(topStartY>= topScreenY)
+            if(topStartY > topScreenY)
             {
                 popUp.transform.position = belowPopUp;
             }else{
