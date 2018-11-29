@@ -18,7 +18,7 @@ public class Forest_Branch_Wobbler : MonoBehaviour {
 	void Start () {
 	//	yield return null;
 
-		Wind = FindObjectOfType<Wind_Script>().gameObject;
+		Wind = FindObjectOfType<Forest_Touch_Manager>().Wind.gameObject;
 
 		if (Wind == null) {
 

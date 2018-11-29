@@ -28,7 +28,7 @@ public class Activate_Journey : MonoBehaviour {
         transform.GetChild(0).GetComponent<DrawRay>().drawLine = true;
         AM.Play("Activate_Journey");
         AM.Play("Beam", true, 0.5f, 0.15f);
-        AM.Stop("Wobble", true, 1f, 0.5f);
+        AM.Stop("Wobble", true, 1f);
         Debug.Log("Begining Journey");
         
         
@@ -41,7 +41,7 @@ public class Activate_Journey : MonoBehaviour {
         cam.GetComponent<Follow_Player_Camera>().enabled = true;
         
         Player.GetComponent<AudioManager>().Play("Flame_Mid");
-       AM.Stop("Beam", true, 0.5f, 0.15f);
+       AM.Stop("Beam", true, 0.5f);
         
         
         
