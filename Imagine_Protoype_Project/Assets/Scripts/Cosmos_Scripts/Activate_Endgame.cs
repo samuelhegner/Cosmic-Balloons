@@ -15,6 +15,8 @@ public class Activate_Endgame : MonoBehaviour
     float startTime;
 
     public Image fadeImage;
+
+	private bool _tutorialTriggered = false; 
     
 
 	GameObject player;
@@ -87,6 +89,21 @@ public class Activate_Endgame : MonoBehaviour
             if(fadeImage.color.a < 1f){
                 float t = (Time.time - startTime) / fadeTime;
                 fadeImage.color = new Color(fadeImage.color.r, fadeImage.color.g, fadeImage.color.b, Mathf.SmoothStep(0, 1, t));
+            } else {
+
+	            if (!_tutorialTriggered) {
+
+		            _tutorialTriggered = true;
+
+
+		            Tutorial_Manager TM = FindObjectOfType<Tutorial_Manager>();
+		            TM.TiltPhone = false;
+		            TM.CloseEyes = true; 
+		            TM.StartPlayingTutorials();
+
+	            }
+
+
             }
         }
     }
