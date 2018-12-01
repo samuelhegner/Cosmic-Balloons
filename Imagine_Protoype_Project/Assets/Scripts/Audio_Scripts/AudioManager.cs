@@ -75,9 +75,13 @@ public class AudioManager : MonoBehaviour {
 		}
 
 		s.source.clip = s.GetClip();
-		
-		
-		s.source.Play();
+
+		if (s.source.isPlaying) {
+
+		} else {
+
+			s.source.Play();
+		}
 
 		if (Fade) {
 
@@ -104,36 +108,27 @@ public class AudioManager : MonoBehaviour {
 
 	IEnumerator FadeIn(Sound s, float fadeTime, float defaultVolume) {
 
-		if (s.FadingIn) {
+		
 
-			yield break;
-			
-		}
-
-		while (s.FadingOut) {
-			yield return null;
-
-		}
-
+		s.FadingOut = false;
 		s.FadingIn = true;
 
 		s.source.volume = 0f;
 
-		while (s.source.volume < defaultVolume) {
+		while (s.source.volume < defaultVolume && s.FadingIn) {
 			s.source.volume += ((1 / fadeTime) * Time.fixedDeltaTime);
 			yield return null;
-
 		}
 
-		s.source.volume = defaultVolume;
-		s.FadingIn = false;
+	//	s.source.volume = defaultVolume;
+//		s.FadingIn = false;
 
 
 
 	}
 
 
-	public void Stop(string name, bool Fade = false, float fadeTime = 1f, float defaultVolume = 1f) {
+	public void Stop(string name, bool Fade = false, float fadeTime = 1f) {
 
 		Sound s = Array.Find(sounds, sound => sound.name == name);
 
@@ -153,7 +148,7 @@ public class AudioManager : MonoBehaviour {
 
 					//TODO fade audio Scriping (IENumerator)
 
-					StartCoroutine(FadeOut(s, fadeTime, defaultVolume));
+					StartCoroutine(FadeOut(s, fadeTime));
 
 				}
 
@@ -171,41 +166,31 @@ public class AudioManager : MonoBehaviour {
 	}
 
 
-	IEnumerator FadeOut(Sound s, float fadeTime, float defaultVolume) {
-
-		if (s.FadingOut) {
-
-			yield break;
-			
-		}
+	IEnumerator FadeOut(Sound s, float fadeTime) {
 
 		s.FadingOut = true;
-
-		while (s.FadingIn) {
-
-			yield return null;
-
-		}
-		
-		
+			s.FadingIn = false;
 
 		//	float defaultVolume = source.volume;
 
-		while (s.source.volume > 0) {
+		while (s.source.volume > 0 && s.FadingOut) {
 			s.source.volume -= ((1 / fadeTime) * Time.fixedDeltaTime);
 			yield return null;
 
 		}
 
-
-		s.source.volume = defaultVolume;
-		s.source.Stop();
-		s.FadingOut = false;
-
-
+//		s.source.volume = defaultVolume;
+	//	s.source.Stop();
+		//s.FadingOut = false;
 
 	}
 
+	
+	
+	
+	
+	
+	
 	public void Pause(string name) {
 
 		Sound s = Array.Find(sounds, sound => sound.name == name);

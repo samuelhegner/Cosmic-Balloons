@@ -11,6 +11,7 @@ public class Audio_Settings_Manager : MonoBehaviour {
 	public Slider SfxVolumeSlider;
 	public Slider MusicVolumeSlider;
 
+
 	private const string SettingsSaveFile = "Cosmic_Balloons_Settings.txt";
 
 	public static Settings CurrrentSettings;
@@ -42,7 +43,6 @@ public class Audio_Settings_Manager : MonoBehaviour {
 		JourneyVolumeSlider.value = CurrrentSettings.JourneyVolume;
 		SfxVolumeSlider.value = CurrrentSettings.SfxVolume;
 		MusicVolumeSlider.value = CurrrentSettings.MusicVolume;
-
 
 
 	}
@@ -100,7 +100,6 @@ public class Settings {
 
 	
 	public float MusicVolume = new float();
-
 
 
 }

@@ -172,7 +172,7 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1879780520408064}
-  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: -24.78, y: -1.5200005, z: -2}
   m_LocalScale: {x: 0.061771397, y: 0.090533406, z: 0.04941712}
   m_Children:
@@ -300,10 +300,38 @@ MonoBehaviour:
     clips:
     - {fileID: 8300000, guid: d379f58610504a145adbc63dc95da3df, type: 3}
     - {fileID: 8300000, guid: 211a05c6c9a06b7418a2611305f45661, type: 3}
-    volume: 1
+    volume: 0.5
     pitch: 1
     spatialBlend: 0
     loop: 0
+    mute: 0
+    playOnAwake: 0
+    source: {fileID: 0}
+    FadingIn: 0
+    FadingOut: 0
+  - name: Wobble
+    audioMixerGroup: {fileID: 243862759904171356, guid: f53abdbdf703fff48a03ac380608cf1c,
+      type: 2}
+    clips:
+    - {fileID: 8300000, guid: eb440ffda13d72d43bc14a25b25120ec, type: 3}
+    volume: 0.5
+    pitch: 1
+    spatialBlend: 0
+    loop: 1
+    mute: 0
+    playOnAwake: 1
+    source: {fileID: 0}
+    FadingIn: 0
+    FadingOut: 0
+  - name: Beam
+    audioMixerGroup: {fileID: 243862759904171356, guid: f53abdbdf703fff48a03ac380608cf1c,
+      type: 2}
+    clips:
+    - {fileID: 8300000, guid: d9de23d54cfd47c4cb9859b930cbd580, type: 3}
+    volume: 0.5
+    pitch: 1
+    spatialBlend: 0
+    loop: 1
     mute: 0
     playOnAwake: 0
     source: {fileID: 0}

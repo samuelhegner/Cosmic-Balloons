@@ -77,8 +77,19 @@ public class Cut_Rope : MonoBehaviour {
                 }
             }
 
+
+            Tutorial_Manager TM = FindObjectOfType<Tutorial_Manager>(); 
+                TM.TiltPhone = true; 
+            TM.StartPlayingTutorials();
+            
+            
+            
+            
             Destroy(GetComponent<TrailRenderer>());
             Destroy(this);
+            
+            
+            
         }
     }
 

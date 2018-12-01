@@ -95,7 +95,7 @@ public class Forest_Touch_Manager : MonoBehaviour {
 
                          //Destroy(_thisTrail, );
 
-                         _thisTrail.GetComponent<TrailRenderer>().time = 1f;
+                         _thisTrail.GetComponent<TrailRenderer>().time = 0.8f;
                          Destroy(_thisTrail, 1f);
 
                          EZCameraShake.CameraShaker.Instance.ShakeInstances[0].StartFadeOut(0.4f);
@@ -140,7 +140,7 @@ public class Forest_Touch_Manager : MonoBehaviour {
 
                } else if (Input.GetMouseButtonUp(0)) {
 
-                    _thisTrail.GetComponent<TrailRenderer>().time = 1f;
+                    _thisTrail.GetComponent<TrailRenderer>().time = 0.8f;
                     Destroy(_thisTrail, 1f);
 
                     EZCameraShake.CameraShaker.Instance.ShakeInstances[0].StartFadeOut(0.4f); //Shake(EZCameraShake.CameraShakePresets.Earthquake);

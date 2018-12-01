@@ -10,7 +10,10 @@ public class Select_Site : MonoBehaviour
     public bool loadScene;
 
     public float popupSpeed;
-    public float offset;
+    float offset;
+
+    public float minOff;
+    public float maxOff;
 
     public GameObject popUp;
     public GameObject top;
@@ -22,6 +25,10 @@ public class Select_Site : MonoBehaviour
     Vector3 abovePopUp;
     Vector3 belowPopUp;
 
+    Animator anim;
+
+    Pinch_Zoom_Camera pinch;
+
 
 
 
@@ -32,40 +39,41 @@ public class Select_Site : MonoBehaviour
     {
         player = GameObject.FindGameObjectWithTag("Player");
         loadScene = false;
-        topStartY = top.transform.position.y;
+        anim = GetComponent<Animator>();
         abovePopUp = popUp.transform.position;
-        belowPopUp = new Vector3(abovePopUp.x, abovePopUp.y - offset, 0);
+        pinch = cam.GetComponent<Pinch_Zoom_Camera>();
     }
 
     void Update()
     {
+        offset = Game_Manager.Map(cam.orthographicSize, pinch.minZoom, pinch.maxZoom, minOff, maxOff);
+        topStartY = top.transform.position.y;
+
+        belowPopUp = new Vector3(abovePopUp.x, abovePopUp.y - offset, abovePopUp.z);
+        
         if (loadScene)
         {
             if (Vector2.Distance(transform.position, player.transform.position) < 1f)
-            {
+            {   
+                Game_Manager.SavePlayerPos(transform.position);
                 transform.GetComponent<Site_Info>().LoadCorrespondingScene();
             }
         }
 
         if (showing)
         {
+            
             Vector3 topScreen = cam.ScreenToWorldPoint(new Vector3(cam.pixelWidth / 2, cam.pixelHeight, 0));
 
             float topScreenY = topScreen.y;
 
 
-            if(topStartY>= topScreenY)
+            if(topStartY > topScreenY)
             {
                 popUp.transform.position = belowPopUp;
             }else{
                 popUp.transform.position = abovePopUp;
             }
-
-
-
-
-
-
         }
     }
 
@@ -73,7 +81,7 @@ public class Select_Site : MonoBehaviour
     {
         showing = true;
         popUp.SetActive(showing);
-        player.GetComponent<Player_Movement_Map>().SetActiveSite(transform.parent.gameObject.name);
+        player.GetComponent<Player_Movement_Map>().SetActiveSite(transform.gameObject.name);
     }
 
     public void TurnOffPopUp()
@@ -81,6 +89,9 @@ public class Select_Site : MonoBehaviour
         showing = false;
         popUp.SetActive(showing);
         popUp.transform.position = abovePopUp;
+
+        if(anim != null)
+        anim.SetBool("Picked", false);
     }
 
     public void MoveToSite()
@@ -89,6 +100,9 @@ public class Select_Site : MonoBehaviour
         player.GetComponent<Player_Movement_Map>().SetMoveSpeed(6, player.GetComponent<Player_Movement_Map>().MaxSpeed, transform.position, player.transform.position);
         player.GetComponent<Player_Movement_Map>().DropFlag();
 
+        if(anim != null)
+        anim.SetBool("Picked", true);
+        
 
         if (GetComponent<Site_Info>().sceneName != null)
         {

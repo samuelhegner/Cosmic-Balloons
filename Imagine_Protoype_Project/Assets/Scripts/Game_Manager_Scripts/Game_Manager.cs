@@ -14,6 +14,8 @@ public class Game_Manager : MonoBehaviour
 
 
     public GameObject TransitionTemplate;
+
+    public static Vector3 playerPos;
  
     void Awake()
     {
@@ -130,10 +132,10 @@ public class Game_Manager : MonoBehaviour
         float cb = c - b;
         float de = e - d;
         float howFar = (a - b) / cb;
-        return d + howFar * de;
-        
-        
-        //wut?
-        
+        return d + howFar * de;        
+    }
+
+    public static void SavePlayerPos(Vector3 lastPos){
+        playerPos = lastPos;
     }
 }
