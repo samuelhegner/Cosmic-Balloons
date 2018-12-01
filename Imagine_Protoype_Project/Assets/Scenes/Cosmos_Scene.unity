@@ -89,7 +89,7 @@ LightmapSettings:
     m_PVRFilteringAtrousPositionSigmaAO: 1
     m_ShowResolutionOverlay: 1
   m_LightingDataAsset: {fileID: 0}
-  m_UseShadowmask: 0
+  m_UseShadowmask: 1
 --- !u!196 &4
 NavMeshSettings:
   serializedVersion: 2
@@ -22355,6 +22355,36 @@ PrefabInstance:
       propertyPath: m_Name
       value: Speed Trail (2)
       objectReference: {fileID: 0}
+    - target: {fileID: 120659929071809760, guid: 568e6f599cc42483b83e24613422957a,
+        type: 3}
+      propertyPath: m_Parameters.colorGradient.key0.a
+      value: 0.627451
+      objectReference: {fileID: 0}
+    - target: {fileID: 120659929071809760, guid: 568e6f599cc42483b83e24613422957a,
+        type: 3}
+      propertyPath: m_Parameters.colorGradient.key1.a
+      value: 0.627451
+      objectReference: {fileID: 0}
+    - target: {fileID: 120659929071809760, guid: 568e6f599cc42483b83e24613422957a,
+        type: 3}
+      propertyPath: m_Parameters.colorGradient.key2.a
+      value: 0.78431374
+      objectReference: {fileID: 0}
+    - target: {fileID: 120659929071809760, guid: 568e6f599cc42483b83e24613422957a,
+        type: 3}
+      propertyPath: m_Parameters.colorGradient.atime1
+      value: 65535
+      objectReference: {fileID: 0}
+    - target: {fileID: 120659929071809760, guid: 568e6f599cc42483b83e24613422957a,
+        type: 3}
+      propertyPath: m_Parameters.colorGradient.atime2
+      value: 65535
+      objectReference: {fileID: 0}
+    - target: {fileID: 120659929071809760, guid: 568e6f599cc42483b83e24613422957a,
+        type: 3}
+      propertyPath: m_Parameters.colorGradient.m_NumAlphaKeys
+      value: 2
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 568e6f599cc42483b83e24613422957a, type: 3}
 --- !u!1001 &734299205
@@ -30052,6 +30082,24 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!1 &1041395710 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 1625340430827088, guid: 568e6f599cc42483b83e24613422957a,
+    type: 3}
+  m_PrefabInstance: {fileID: 1260849866}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &1041395711
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1041395710}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 92f141ad286c5aa4d96fea7ea10b0362, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!4 &1050344598 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 4455275033364042, guid: 4422e14414324e241abdfa2e3932b859,
@@ -31317,6 +31365,36 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Parameters.textureMode
       value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 120659929071809760, guid: 568e6f599cc42483b83e24613422957a,
+        type: 3}
+      propertyPath: m_Parameters.colorGradient.key0.a
+      value: 0.627451
+      objectReference: {fileID: 0}
+    - target: {fileID: 120659929071809760, guid: 568e6f599cc42483b83e24613422957a,
+        type: 3}
+      propertyPath: m_Parameters.colorGradient.key1.a
+      value: 0.627451
+      objectReference: {fileID: 0}
+    - target: {fileID: 120659929071809760, guid: 568e6f599cc42483b83e24613422957a,
+        type: 3}
+      propertyPath: m_Parameters.colorGradient.key2.a
+      value: 0.78431374
+      objectReference: {fileID: 0}
+    - target: {fileID: 120659929071809760, guid: 568e6f599cc42483b83e24613422957a,
+        type: 3}
+      propertyPath: m_Parameters.colorGradient.atime1
+      value: 65535
+      objectReference: {fileID: 0}
+    - target: {fileID: 120659929071809760, guid: 568e6f599cc42483b83e24613422957a,
+        type: 3}
+      propertyPath: m_Parameters.colorGradient.atime2
+      value: 65535
+      objectReference: {fileID: 0}
+    - target: {fileID: 120659929071809760, guid: 568e6f599cc42483b83e24613422957a,
+        type: 3}
+      propertyPath: m_Parameters.colorGradient.m_NumAlphaKeys
+      value: 2
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 568e6f599cc42483b83e24613422957a, type: 3}
@@ -34397,6 +34475,36 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Parameters.textureMode
       value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 120659929071809760, guid: 568e6f599cc42483b83e24613422957a,
+        type: 3}
+      propertyPath: m_Parameters.colorGradient.key0.a
+      value: 0.627451
+      objectReference: {fileID: 0}
+    - target: {fileID: 120659929071809760, guid: 568e6f599cc42483b83e24613422957a,
+        type: 3}
+      propertyPath: m_Parameters.colorGradient.key1.a
+      value: 0.627451
+      objectReference: {fileID: 0}
+    - target: {fileID: 120659929071809760, guid: 568e6f599cc42483b83e24613422957a,
+        type: 3}
+      propertyPath: m_Parameters.colorGradient.key2.a
+      value: 0.78431374
+      objectReference: {fileID: 0}
+    - target: {fileID: 120659929071809760, guid: 568e6f599cc42483b83e24613422957a,
+        type: 3}
+      propertyPath: m_Parameters.colorGradient.atime1
+      value: 65535
+      objectReference: {fileID: 0}
+    - target: {fileID: 120659929071809760, guid: 568e6f599cc42483b83e24613422957a,
+        type: 3}
+      propertyPath: m_Parameters.colorGradient.atime2
+      value: 65535
+      objectReference: {fileID: 0}
+    - target: {fileID: 120659929071809760, guid: 568e6f599cc42483b83e24613422957a,
+        type: 3}
+      propertyPath: m_Parameters.colorGradient.m_NumAlphaKeys
+      value: 2
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 568e6f599cc42483b83e24613422957a, type: 3}
