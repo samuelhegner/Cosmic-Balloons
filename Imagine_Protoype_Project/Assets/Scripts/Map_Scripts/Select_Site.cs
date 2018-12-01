@@ -10,7 +10,10 @@ public class Select_Site : MonoBehaviour
     public bool loadScene;
 
     public float popupSpeed;
-    public float offset;
+    float offset;
+
+    public float minOff;
+    public float maxOff;
 
     public GameObject popUp;
     public GameObject top;
@@ -24,6 +27,8 @@ public class Select_Site : MonoBehaviour
 
     Animator anim;
 
+    Pinch_Zoom_Camera pinch;
+
 
 
 
@@ -36,12 +41,15 @@ public class Select_Site : MonoBehaviour
         loadScene = false;
         anim = GetComponent<Animator>();
         abovePopUp = popUp.transform.position;
-        belowPopUp = new Vector3(abovePopUp.x, abovePopUp.y - offset, abovePopUp.z);
+        pinch = cam.GetComponent<Pinch_Zoom_Camera>();
     }
 
     void Update()
     {
+        offset = Game_Manager.Map(cam.orthographicSize, pinch.minZoom, pinch.maxZoom, minOff, maxOff);
         topStartY = top.transform.position.y;
+
+        belowPopUp = new Vector3(abovePopUp.x, abovePopUp.y - offset, abovePopUp.z);
         
         if (loadScene)
         {

@@ -234,6 +234,16 @@ PrefabInstance:
       propertyPath: Swipe
       value: 1
       objectReference: {fileID: 0}
+    - target: {fileID: 8719564558978064511, guid: a647fec017225684ca79f0c898f1ea68,
+        type: 3}
+      propertyPath: TwoFingersToMove
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8719564558978064511, guid: a647fec017225684ca79f0c898f1ea68,
+        type: 3}
+      propertyPath: PinchToZoom
+      value: 0
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: a647fec017225684ca79f0c898f1ea68, type: 3}
 --- !u!1 &96531687
