@@ -277,7 +277,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   maxCountdown: 5
   speed: 2
-  maxDist: 45
+  maxDist: 65
   x: 0
 --- !u!1 &6725649240419538382
 GameObject:
@@ -398,7 +398,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   maxCountdown: 5
   speed: 2
-  maxDist: 45
+  maxDist: 65
   x: 1
 --- !u!1 &6725649241069565325
 GameObject:
@@ -525,7 +525,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   maxCountdown: 5
   speed: 2
-  maxDist: 45
+  maxDist: 65
   x: 1
 --- !u!1 &6725649241249986952
 GameObject:
@@ -607,7 +607,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   maxCountdown: 5
   speed: 2
-  maxDist: 45
+  maxDist: 65
   x: 0
 --- !u!1 &6725649241328361067
 GameObject:
