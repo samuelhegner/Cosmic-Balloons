@@ -139,7 +139,7 @@ public class Player_Movement_Map : MonoBehaviour {
                                 DropFlag();
                                 //location -= new Vector2(Basket.transform.localPosition.x, Basket.transform.localPosition.y - 2f);
                                 TurnOffSites();
-                                print("test");
+                            //    print("test");
                             }
                         }else{
                             location = SetPointToMove(Input.mousePosition);

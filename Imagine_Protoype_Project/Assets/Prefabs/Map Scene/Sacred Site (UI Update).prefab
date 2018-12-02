@@ -484,13 +484,13 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   m_Material: {fileID: 0}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
-  m_RaycastTarget: 1
+  m_RaycastTarget: 0
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
     m_TypeName: UnityEngine.UI.MaskableGraphic+CullStateChangedEvent, UnityEngine.UI,
       Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
-  m_Sprite: {fileID: 21300000, guid: 776a90e82dfe51244bd4ac332edce8af, type: 3}
+  m_Sprite: {fileID: 21300000, guid: b81ec8abcfdb57b4088668e9db0abe30, type: 3}
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
@@ -557,8 +557,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_Material: {fileID: 0}
-  m_Color: {r: 0.6792453, g: 0.6792453, b: 0.6792453, a: 1}
-  m_RaycastTarget: 1
+  m_Color: {r: 1, g: 1, b: 1, a: 0.6509804}
+  m_RaycastTarget: 0
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
@@ -883,7 +883,7 @@ MonoBehaviour:
       Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
   m_text: Button
   m_isRightToLeft: 0
-  m_fontAsset: {fileID: 11400000, guid: dc265340b08831149a1c1a27cdf2ce59, type: 2}
+  m_fontAsset: {fileID: 0}
   m_sharedMaterial: {fileID: 21747498869509120, guid: dc265340b08831149a1c1a27cdf2ce59,
     type: 2}
   m_fontSharedMaterials: []
@@ -1160,7 +1160,7 @@ MonoBehaviour:
       Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
   m_text: New Text
   m_isRightToLeft: 0
-  m_fontAsset: {fileID: 11400000, guid: dc265340b08831149a1c1a27cdf2ce59, type: 2}
+  m_fontAsset: {fileID: 0}
   m_sharedMaterial: {fileID: 21747498869509120, guid: dc265340b08831149a1c1a27cdf2ce59,
     type: 2}
   m_fontSharedMaterials: []

@@ -47,6 +47,8 @@ public class Game_Manager : MonoBehaviour
 
             isPC = false;
 
+            Application.targetFrameRate = 60;
+            
             Debug.Log("Is Mobile");
             
 
@@ -87,6 +89,16 @@ public class Game_Manager : MonoBehaviour
             yield return null;
 
         }
+
+
+        AsyncOperation Unloading = Resources.UnloadUnusedAssets();
+
+        while (!Unloading.isDone) {
+
+            yield return null;
+
+        }
+
 
 
     }

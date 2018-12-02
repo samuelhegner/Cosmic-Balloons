@@ -89,7 +89,7 @@ LightmapSettings:
     m_PVRFilteringAtrousPositionSigmaAO: 1
     m_ShowResolutionOverlay: 1
   m_LightingDataAsset: {fileID: 0}
-  m_UseShadowmask: 1
+  m_UseShadowmask: 0
 --- !u!196 &4
 NavMeshSettings:
   serializedVersion: 2
@@ -2195,6 +2195,21 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 224330475079286036, guid: c323cde4866faf24caca5edbc7d6b36d,
         type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 224330475079286036, guid: c323cde4866faf24caca5edbc7d6b36d,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 224330475079286036, guid: c323cde4866faf24caca5edbc7d6b36d,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 224330475079286036, guid: c323cde4866faf24caca5edbc7d6b36d,
+        type: 3}
       propertyPath: m_AnchoredPosition.x
       value: 0
       objectReference: {fileID: 0}
@@ -2243,6 +2258,10 @@ PrefabInstance:
       propertyPath: m_Pivot.y
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 1363880561007298, guid: c323cde4866faf24caca5edbc7d6b36d, type: 3}
+      propertyPath: m_Name
+      value: Map_Settings_Menu
+      objectReference: {fileID: 0}
     - target: {fileID: 224011887345016230, guid: c323cde4866faf24caca5edbc7d6b36d,
         type: 3}
       propertyPath: m_AnchorMax.x
@@ -2347,16 +2366,6 @@ PrefabInstance:
         type: 3}
       propertyPath: m_isInputParsingRequired
       value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 224255894365246228, guid: c323cde4866faf24caca5edbc7d6b36d,
-        type: 3}
-      propertyPath: m_AnchoredPosition.y
-      value: 29.400146
-      objectReference: {fileID: 0}
-    - target: {fileID: 114090530038817326, guid: c323cde4866faf24caca5edbc7d6b36d,
-        type: 3}
-      propertyPath: m_sendNavigationEvents
-      value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: c323cde4866faf24caca5edbc7d6b36d, type: 3}
@@ -12888,12 +12897,6 @@ PrefabInstance:
       propertyPath: m_Text
       value: Avebury Henge
       objectReference: {fileID: 0}
-    - target: {fileID: 114662097989759266, guid: 29cabb6a9893047e4be2517ac91a4426,
-        type: 3}
-      propertyPath: m_Sprite
-      value: 
-      objectReference: {fileID: 21300000, guid: b81ec8abcfdb57b4088668e9db0abe30,
-        type: 3}
     - target: {fileID: 114665985878649460, guid: 29cabb6a9893047e4be2517ac91a4426,
         type: 3}
       propertyPath: m_Interactable
@@ -12970,11 +12973,6 @@ PrefabInstance:
         type: 3}
       propertyPath: m_SizeDelta.y
       value: 5
-      objectReference: {fileID: 0}
-    - target: {fileID: 114120669083272236, guid: 29cabb6a9893047e4be2517ac91a4426,
-        type: 3}
-      propertyPath: m_Color.a
-      value: 0.6509804
       objectReference: {fileID: 0}
     - target: {fileID: 224700221820395956, guid: 29cabb6a9893047e4be2517ac91a4426,
         type: 3}
@@ -13085,21 +13083,6 @@ PrefabInstance:
         type: 3}
       propertyPath: m_fontSize
       value: 2.25
-      objectReference: {fileID: 0}
-    - target: {fileID: 114120669083272236, guid: 29cabb6a9893047e4be2517ac91a4426,
-        type: 3}
-      propertyPath: m_Color.r
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 114120669083272236, guid: 29cabb6a9893047e4be2517ac91a4426,
-        type: 3}
-      propertyPath: m_Color.g
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 114120669083272236, guid: 29cabb6a9893047e4be2517ac91a4426,
-        type: 3}
-      propertyPath: m_Color.b
-      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 6561246903849721521, guid: 29cabb6a9893047e4be2517ac91a4426,
         type: 3}
