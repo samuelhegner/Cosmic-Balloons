@@ -71,7 +71,7 @@ public class Galaxy_Start : MonoBehaviour {
 
             transform.GetChild(i).GetComponent<Galaxy_Child>().moveDir = setPos[i] - transform.GetChild(i).transform.position;
             transform.GetChild(i).GetComponent<Galaxy_Child>().moveDir.Normalize();
-            GameObject.Find("Galaxy Background").GetComponent<Set_Position>().activated = true;
+            //GameObject.Find("Galaxy Background").GetComponent<Set_Position>().activated = true;
 		}
 
         start = true;

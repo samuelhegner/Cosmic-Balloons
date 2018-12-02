@@ -1,11 +1,47 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ContentModelStore">
-    <e p="C:\Users\ThefitzyG\.Rider2018.1\system\resharper-host\Local\Transient\ReSharperHost\v12\SolutionCaches\_Imagine_Protoype_Project.80234429.00" t="ExcludeRecursive" />
-    <e p="C:\Users\ThefitzyG\Documents\projects\Imagine_Prototype_Beta\Imagine_Prototype_BetaBuild\Imagine_Protoype_Project" t="IncludeRecursive">
+    <e p="C:\Users\Gary\.Rider2018.2\system\extResources" t="IncludeRecursive" />
+    <e p="C:\Users\Gary\.Rider2018.2\system\resharper-host\Local\Transient\ReSharperHost\v182\SolutionCaches\_Imagine_Protoype_Project.-368663162.00" t="ExcludeRecursive" />
+    <e p="E:\Github Projects\Imagine_Prototype_BetaBuild\Imagine_Protoype_Project" t="IncludeRecursive">
+      <e p="Assembly-CSharp-Editor.csproj" t="IncludeRecursive" />
       <e p="Assembly-CSharp-firstpass.csproj" t="IncludeRecursive" />
       <e p="Assembly-CSharp.csproj" t="IncludeRecursive" />
       <e p="Assets" t="Include">
+        <e p="Animate_Trail.cs" t="Include" />
+        <e p="Editor" t="Include">
+          <e p="ArrayTools.cs" t="Include" />
+          <e p="BytesAndOffset.cs" t="Include" />
+          <e p="CrawledDataUnpacker.cs" t="Include" />
+          <e p="Crawler.cs" t="Include" />
+          <e p="HighLevelAPI.cs" t="Include" />
+          <e p="Inspector.cs" t="Include" />
+          <e p="JsonDotNet20" t="Include">
+            <e p="license.txt" t="Include" />
+            <e p="Newtonsoft.Json.xml" t="Include" />
+            <e p="readme.txt" t="Include" />
+          </e>
+          <e p="LowLevelAPI.cs" t="Include" />
+          <e p="ManagedHeapExtensions.cs" t="Include" />
+          <e p="MemoryProfilerWindow.cs" t="Include" />
+          <e p="PackedManagedObject.cs" t="Include" />
+          <e p="PackedMemorySnapshotUtility.cs" t="Include" />
+          <e p="PrimitiveValueReader.cs" t="Include" />
+          <e p="ShortestPathToRootFinder.cs" t="Include" />
+          <e p="StringTools.cs" t="Include" />
+          <e p="Treemap" t="Include">
+            <e p="Group.cs" t="Include" />
+            <e p="Item.cs" t="Include" />
+            <e p="ITreemapRenderable.cs" t="Include" />
+            <e p="Tests" t="Include">
+              <e p="TreemapTests.cs" t="Include" />
+            </e>
+            <e p="Utility.cs" t="Include" />
+          </e>
+          <e p="TreeMapView.cs" t="Include" />
+          <e p="TypeTools.cs" t="Include" />
+          <e p="ZoomArea.cs" t="Include" />
+        </e>
         <e p="Plugins" t="Include">
           <e p="EZ Camera Shake" t="Include">
             <e p="Demo" t="Include">
