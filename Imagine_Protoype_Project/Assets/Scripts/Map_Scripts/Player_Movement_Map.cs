@@ -48,7 +48,7 @@ public class Player_Movement_Map : MonoBehaviour {
 
     public float MaxDistance;
 
-
+    bool setLocation;
 
 	void Awake () {
         rb = GetComponent<Rigidbody2D>();
@@ -85,17 +85,23 @@ public class Player_Movement_Map : MonoBehaviour {
 
                         if(hit.collider != null){
                             if(hit.collider.gameObject.tag != "Site" && hit.collider.gameObject.tag != "Button"){
-                                location = SetPointToMove(touch.position);
-                                waitingForTouch = true;
-                                DropFlag();
-                                TurnOffSites();
+                                //location = SetPointToMove(touch.position);
+                                //waitingForTouch = true;
+                                //DropFlag();
+                                //TurnOffSites();
                                 //location -= new Vector2(Basket.transform.localPosition.x, Basket.transform.localPosition.y - 2f);
+                                if(!EventSystem.current.IsPointerOverGameObject(Input.GetTouch(0).fingerId)){
+                                    setLocation = true;
+                                }
                             }
                         }else{
-                            location = SetPointToMove(Input.mousePosition);
-                            DropFlag();
+                            //location = SetPointToMove(touch.position);
+                            //DropFlag();
                             //location -= new Vector2(Basket.transform.localPosition.x, Basket.transform.localPosition.y - 2f);
-                            TurnOffSites();
+                            //TurnOffSites();
+                            if(!EventSystem.current.IsPointerOverGameObject(Input.GetTouch(0).fingerId)){
+                                setLocation = true;
+                            }
                         }
                     }
                 }else{
@@ -133,19 +139,26 @@ public class Player_Movement_Map : MonoBehaviour {
                     {
                         RaycastHit2D hit = Physics2D.Raycast(Camera.main.ScreenToWorldPoint(Input.mousePosition), Vector2.zero);
                         
+
                         if(hit.collider != null){
                             if(hit.collider.gameObject.tag != "Site" && hit.collider.gameObject.tag != "Button"){
-                                location = SetPointToMove(Input.mousePosition);
-                                DropFlag();
+                                //location = SetPointToMove(Input.mousePosition);
+                                //DropFlag();
                                 //location -= new Vector2(Basket.transform.localPosition.x, Basket.transform.localPosition.y - 2f);
-                                TurnOffSites();
-                            //    print("test");
+                                //TurnOffSites();
+                                //print("test");
+                                if(!EventSystem.current.IsPointerOverGameObject()){
+                                    setLocation = true;
+                                }
                             }
                         }else{
-                            location = SetPointToMove(Input.mousePosition);
-                            DropFlag();
+                            //location = SetPointToMove(Input.mousePosition);
+                            //DropFlag();
                             //location -= new Vector2(Basket.transform.localPosition.x, Basket.transform.localPosition.y - 2f);
-                            TurnOffSites();
+                            //TurnOffSites();
+                            if(!EventSystem.current.IsPointerOverGameObject()){
+                                setLocation = true;
+                            }
                         }
 
 
@@ -186,6 +199,25 @@ public class Player_Movement_Map : MonoBehaviour {
             if (selected == false) {
                 rb.velocity = new Vector2(dirX, dirY);
             }
+        }
+    }
+
+    void LateUpdate(){
+        if(setLocation){
+
+            if(Game_Manager.isPC){
+                location = SetPointToMove(Input.mousePosition);
+                DropFlag();
+                TurnOffSites();
+            }else{
+                location = SetPointToMove(touch.position);
+                DropFlag();
+                TurnOffSites();
+            }
+            
+
+            setLocation = false;
+
         }
     }
 
@@ -271,6 +303,10 @@ public class Player_Movement_Map : MonoBehaviour {
                 sites[i].GetComponent<Select_Site>().TurnOffPopUp();
             }
         }
+    }
+
+    public void CancelMove(){
+        setLocation = false;
     }
 
 }
