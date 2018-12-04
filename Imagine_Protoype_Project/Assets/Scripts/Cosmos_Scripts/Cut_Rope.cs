@@ -21,6 +21,11 @@ public class Cut_Rope : MonoBehaviour {
 
     public bool rise;
 
+    float timer;
+    public float timeTillAnimation;
+
+    public GameObject scissors;
+    
     void Start()
     {
         a = 1;
@@ -30,6 +35,7 @@ public class Cut_Rope : MonoBehaviour {
         GetComponent<TrailRenderer>().enabled = false;
         off = true;
         rise = false;
+        timer = 0;
     }
 
     // Update is called once per frame
@@ -66,6 +72,18 @@ public class Cut_Rope : MonoBehaviour {
         }
         
 	}
+
+    void Update(){
+        timer+= Time.deltaTime;
+        
+        if(timer > timeTillAnimation && numberRopesCut < 1){
+            scissors.SetActive(true);
+        }
+
+        if(numberRopesCut > 0){
+            scissors.SetActive(false);
+        }
+    }
 
     void LateUpdate(){
         if (numberRopesCut == 2) {
