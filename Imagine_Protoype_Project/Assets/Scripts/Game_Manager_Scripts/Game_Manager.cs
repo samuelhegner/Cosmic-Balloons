@@ -44,7 +44,7 @@ public class Game_Manager : MonoBehaviour
 
         if (Application.isEditor) {
             
-            isPC = false;
+            isPC = true;
 
         } else if (Application.isMobilePlatform) {
 

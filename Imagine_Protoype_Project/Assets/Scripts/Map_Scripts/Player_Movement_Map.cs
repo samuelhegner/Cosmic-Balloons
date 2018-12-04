@@ -77,6 +77,8 @@ public class Player_Movement_Map : MonoBehaviour
     {
         AdjustTrail();
         PC = !UnityEditor.EditorApplication.isRemoteConnected;
+        print(PC);
+        print(Game_Manager.isPC);
         if (tilt == false)
         {
 
@@ -96,18 +98,23 @@ public class Player_Movement_Map : MonoBehaviour
                         {
                             if (hit.collider.gameObject.tag != "Site" && hit.collider.gameObject.tag != "Button")
                             {
-                                location = SetPointToMove(Input.mousePosition);
-                                DropFlag();
-                                location -= new Vector2(Basket.transform.localPosition.x, Basket.transform.localPosition.y - 2f);
-                                TurnOffSites();
+                                if(!IsPointerOverUIObject(Input.mousePosition)){
+                                    location = SetPointToMove(Input.mousePosition);
+                                    DropFlag();
+                                    //location -= new Vector2(Basket.transform.localPosition.x, Basket.transform.localPosition.y - 2f);
+                                    TurnOffSites();
+                                }
+                                
                             }
                         }
                         else
                         {
-                            location = SetPointToMove(Input.mousePosition);
-                            DropFlag();
-                            location -= new Vector2(Basket.transform.localPosition.x, Basket.transform.localPosition.y - 2f);
-                            TurnOffSites();
+                            if(!IsPointerOverUIObject(Input.mousePosition)){
+                                    location = SetPointToMove(Input.mousePosition);
+                                    DropFlag();
+                                    //location -= new Vector2(Basket.transform.localPosition.x, Basket.transform.localPosition.y - 2f);
+                                    TurnOffSites();
+                                }
                             
                         }
                     }
