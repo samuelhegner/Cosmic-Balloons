@@ -20,6 +20,8 @@ public class DrawRay : MonoBehaviour {
 
     public bool drawLine;
 
+    public Animator anim;
+
 	// Use this for initialization
 	void Start () {
         rend = GetComponent<LineRenderer>();
@@ -65,6 +67,10 @@ public class DrawRay : MonoBehaviour {
             else if (mid == true)
             {
                 endPoint = Vector3.MoveTowards(endPoint, BalloonPoint.transform.position, Time.deltaTime * lightSpeed);
+                if(endPoint == BalloonPoint.transform.position){
+                    anim.SetTrigger("Start");
+                    lightSpeed = 100f;
+                }
             }
         }
 

@@ -2,7 +2,14 @@
 using System.Collections.Generic;
 using System.Runtime.CompilerServices;
 using UnityEngine;
+using UnityEngine.Experimental.UIElements;
 using UnityEngine.SceneManagement;
+using UnityEngine.UI;
+using Slider = UnityEngine.UI.Slider;
+
+
+//using UnityEngine.UI.Slider;
+
 
 public class Game_Manager : MonoBehaviour
 {
@@ -36,12 +43,8 @@ public class Game_Manager : MonoBehaviour
         DontDestroyOnLoad(gameObject);
 
         if (Application.isEditor) {
-
+            
             isPC = true;
-            
-            Debug.Log("Is Editor");
-            
-            
 
         } else if (Application.isMobilePlatform) {
 
@@ -76,16 +79,23 @@ public class Game_Manager : MonoBehaviour
 
        // GameObject temp = (GameObject) Resources.Load(_transitionPath);
 
-        Instantiate(TransitionTemplate);
+        GameObject TT = Instantiate(TransitionTemplate);
+
+        Slider BAR = TT.GetComponentInChildren<Slider>();
+        BAR.value = 0;
 
          yield return new WaitForSeconds(2f);
         //yield return new WaitForSeconds(time);
         AsyncOperation loading = SceneManager.LoadSceneAsync(name);
 
        
+       
         
         while (!loading.isDone) {
 
+            BAR.value = Mathf.Clamp01(loading.progress / 0.9f); 
+            
+            
             yield return null;
 
         }

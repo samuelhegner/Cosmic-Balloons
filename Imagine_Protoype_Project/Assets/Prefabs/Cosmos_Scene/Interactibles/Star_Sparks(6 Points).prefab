@@ -4714,7 +4714,7 @@ GameObject:
   - component: {fileID: 7139918199279615890}
   m_Layer: 0
   m_Name: Star_Sparks(6 Points)
-  m_TagString: Untagged
+  m_TagString: Parent
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0

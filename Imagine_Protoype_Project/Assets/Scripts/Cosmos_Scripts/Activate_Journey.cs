@@ -43,8 +43,5 @@ public class Activate_Journey : MonoBehaviour {
         Player.GetComponent<AudioManager>().Play("Flame_Mid");
        AM.Stop("Beam", true, 0.5f);
          AM.Stop("Wobble", true, 1f);
-        
-        
-        
     }
 }

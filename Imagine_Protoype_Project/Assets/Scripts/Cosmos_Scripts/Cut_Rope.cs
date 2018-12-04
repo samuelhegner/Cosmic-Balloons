@@ -19,6 +19,13 @@ public class Cut_Rope : MonoBehaviour {
 
     public float dist;
 
+    public bool rise;
+
+    float timer;
+    public float timeTillAnimation;
+
+    public GameObject scissors;
+    
     void Start()
     {
         a = 1;
@@ -27,6 +34,8 @@ public class Cut_Rope : MonoBehaviour {
         xPos = player.transform.position.x;
         GetComponent<TrailRenderer>().enabled = false;
         off = true;
+        rise = false;
+        timer = 0;
     }
 
     // Update is called once per frame
@@ -58,9 +67,23 @@ public class Cut_Rope : MonoBehaviour {
                 transform.position = placeToMove;
             }
         }
-
-        BaloonRise();
+        if(rise){
+            BaloonRise();
+        }
+        
 	}
+
+    void Update(){
+        timer+= Time.deltaTime;
+        
+        if(timer > timeTillAnimation && numberRopesCut < 1){
+            scissors.SetActive(true);
+        }
+
+        if(numberRopesCut > 0){
+            scissors.SetActive(false);
+        }
+    }
 
     void LateUpdate(){
         if (numberRopesCut == 2) {
@@ -87,9 +110,7 @@ public class Cut_Rope : MonoBehaviour {
             
             Destroy(GetComponent<TrailRenderer>());
             Destroy(this);
-            
-            
-            
+  
         }
     }
 
@@ -97,10 +118,10 @@ public class Cut_Rope : MonoBehaviour {
         float xOffset;
         if(cutLeft == true){
             xOffset = 7.5f;
-            dist = 3.5f;
+            dist = 8f;
         }else if(cutRight == true){
             xOffset = -7.5f;
-            dist = 3.5f;
+            dist = 8f;
         }else{
             xOffset = 0f;
         }

@@ -2,14 +2,24 @@
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.SceneManagement;
+using UnityEngine.Audio;
+
 
 public class Transitioner_Script : MonoBehaviour {
 
+	[Range(-80,1)]
+	public float masterVol = 1;
+
+	public AudioMixer AMG;
+	
 	// Use this for initialization
 	void Start () {
 		
 		
 		DontDestroyOnLoad(gameObject);
+		
+		
+		
 		
 		
 	}
@@ -20,6 +30,13 @@ public class Transitioner_Script : MonoBehaviour {
 
 		Destroy(gameObject);
 		
+	}
+
+	private void Update() {
+
+
+		AMG.SetFloat("Master", masterVol);
+
 	}
 
 
