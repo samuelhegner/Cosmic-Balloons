@@ -87,6 +87,7 @@
             </e>
           </e>
         </e>
+        <e p="Rise_Balloon.cs" t="Include" />
         <e p="Scripts" t="Include">
           <e p="Audio_Scripts" t="Include">
             <e p="Audio_Slider_Listener.cs" t="Include" />
