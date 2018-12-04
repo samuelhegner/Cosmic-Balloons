@@ -141,11 +141,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Game_Manager.cs" pinned="false" current-in-tab="true">
+      <file leaf-file-name="Game_Manager.cs" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Assets/Scripts/Game_Manager_Scripts/Game_Manager.cs">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="321">
-              <caret line="91" column="48" lean-forward="true" selection-start-line="91" selection-start-column="48" selection-end-line="91" selection-end-column="48" />
+            <state relative-caret-position="219">
+              <caret line="91" column="48" selection-start-line="91" selection-start-column="48" selection-end-line="91" selection-end-column="48" />
               <folding>
                 <marker date="1543949381534" expanded="true" signature="6:217" ph="..." />
                 <marker date="1543949381534" expanded="true" signature="332:3634" ph="{...}" />
@@ -248,18 +248,20 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Transitioner_Script.cs" pinned="false" current-in-tab="false">
+      <file leaf-file-name="Transitioner_Script.cs" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/Assets/Scripts/Game_Manager_Scripts/Transitioner_Script.cs">
           <provider selected="true" editor-type-id="text-editor">
-            <state>
+            <state relative-caret-position="119">
+              <caret line="10" column="28" lean-forward="true" selection-start-line="10" selection-start-column="28" selection-end-line="10" selection-end-column="28" />
               <folding>
-                <marker date="1542758110617" expanded="false" signature="6:113" ph="..." />
-                <marker date="1542758110617" expanded="true" signature="164:1001" ph="{...}" />
-                <marker date="1542758110617" expanded="true" signature="214:263" ph="{...}" />
-                <marker date="1542758110617" expanded="true" signature="325:356" ph="{...}" />
-                <marker date="1542758110617" expanded="true" signature="376:554" ph="{...}" />
-                <marker date="1542758110617" expanded="true" signature="574:831" ph="{...}" />
-                <marker date="1542758110617" expanded="true" signature="895:998" ph="{...}" />
+                <marker date="1543956514379" expanded="true" signature="6:138" ph="..." />
+                <marker date="1543956514379" expanded="true" signature="190:1177" ph="{...}" />
+                <marker date="1543956514379" expanded="true" signature="312:370" ph="{...}" />
+                <marker date="1543956514379" expanded="true" signature="432:463" ph="{...}" />
+                <marker date="1543956514379" expanded="true" signature="488:532" ph="{...}" />
+                <marker date="1543956514379" expanded="true" signature="552:730" ph="{...}" />
+                <marker date="1543956514379" expanded="true" signature="750:1007" ph="{...}" />
+                <marker date="1543956514379" expanded="true" signature="1071:1174" ph="{...}" />
               </folding>
             </state>
           </provider>
@@ -362,7 +364,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/Assets/AudioManager.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Audio/AudioManager.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Audio/Sound.cs" />
         <option value="$PROJECT_DIR$/Assets/Wind_Script.cs" />
@@ -413,6 +414,7 @@
         <option value="$PROJECT_DIR$/Assets/Audio_Colour_Changer.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Management_Scripts/Tutorial_Manager.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Game_Manager_Scripts/Game_Manager.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Game_Manager_Scripts/Transitioner_Script.cs" />
       </list>
     </option>
   </component>
@@ -551,12 +553,12 @@
       <workItem from="1543766649761" duration="1163000" />
       <workItem from="1543787846129" duration="1618000" />
       <workItem from="1543878516514" duration="4053000" />
-      <workItem from="1543948058321" duration="1618000" />
+      <workItem from="1543948058321" duration="2788000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="104772000" />
+    <option name="totallyTimeSpent" value="105942000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -950,25 +952,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Assets/Scripts/Game_Manager_Scripts/Transitioner_Script.cs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <folding>
-            <marker date="1542758110617" expanded="false" signature="6:113" ph="..." />
-            <marker date="1542758110617" expanded="true" signature="164:1001" ph="{...}" />
-            <marker date="1542758110617" expanded="true" signature="214:263" ph="{...}" />
-            <marker date="1542758110617" expanded="true" signature="325:356" ph="{...}" />
-            <marker date="1542758110617" expanded="true" signature="376:554" ph="{...}" />
-            <marker date="1542758110617" expanded="true" signature="574:831" ph="{...}" />
-            <marker date="1542758110617" expanded="true" signature="895:998" ph="{...}" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Assets/Scripts/Game_Manager_Scripts/Game_Manager.cs">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="321">
-          <caret line="91" column="48" lean-forward="true" selection-start-line="91" selection-start-column="48" selection-end-line="91" selection-end-column="48" />
+        <state relative-caret-position="219">
+          <caret line="91" column="48" selection-start-line="91" selection-start-column="48" selection-end-line="91" selection-end-column="48" />
           <folding>
             <marker date="1543949381534" expanded="true" signature="6:217" ph="..." />
             <marker date="1543949381534" expanded="true" signature="332:3634" ph="{...}" />
@@ -988,6 +975,23 @@
             <marker date="1543949381534" expanded="true" signature="3103:3212" ph="{...}" />
             <marker date="1543949381534" expanded="true" signature="3400:3541" ph="{...}" />
             <marker date="1543949381534" expanded="true" signature="3596:3632" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/Scripts/Game_Manager_Scripts/Transitioner_Script.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="119">
+          <caret line="10" column="28" lean-forward="true" selection-start-line="10" selection-start-column="28" selection-end-line="10" selection-end-column="28" />
+          <folding>
+            <marker date="1543956514379" expanded="true" signature="6:138" ph="..." />
+            <marker date="1543956514379" expanded="true" signature="190:1177" ph="{...}" />
+            <marker date="1543956514379" expanded="true" signature="312:370" ph="{...}" />
+            <marker date="1543956514379" expanded="true" signature="432:463" ph="{...}" />
+            <marker date="1543956514379" expanded="true" signature="488:532" ph="{...}" />
+            <marker date="1543956514379" expanded="true" signature="552:730" ph="{...}" />
+            <marker date="1543956514379" expanded="true" signature="750:1007" ph="{...}" />
+            <marker date="1543956514379" expanded="true" signature="1071:1174" ph="{...}" />
           </folding>
         </state>
       </provider>
