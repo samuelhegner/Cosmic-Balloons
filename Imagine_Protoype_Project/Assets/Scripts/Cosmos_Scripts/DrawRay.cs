@@ -69,6 +69,7 @@ public class DrawRay : MonoBehaviour {
                 endPoint = Vector3.MoveTowards(endPoint, BalloonPoint.transform.position, Time.deltaTime * lightSpeed);
                 if(endPoint == BalloonPoint.transform.position){
                     anim.SetTrigger("Start");
+                    lightSpeed = 100f;
                 }
             }
         }
