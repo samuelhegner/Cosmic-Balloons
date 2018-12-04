@@ -89,7 +89,7 @@ LightmapSettings:
     m_PVRFilteringAtrousPositionSigmaAO: 1
     m_ShowResolutionOverlay: 1
   m_LightingDataAsset: {fileID: 0}
-  m_UseShadowmask: 1
+  m_UseShadowmask: 0
 --- !u!196 &4
 NavMeshSettings:
   serializedVersion: 2
@@ -544,8 +544,8 @@ MonoBehaviour:
   Basket: {fileID: 1048341598}
   cam: {fileID: 519420028}
   movementSpeed: 0
-  MaxSpeed: 10
-  MinSpeed: 3
+  MaxSpeed: 20
+  MinSpeed: 5
   MaxDistance: 80
 --- !u!1 &35299674 stripped
 GameObject:
