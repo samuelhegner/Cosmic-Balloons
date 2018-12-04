@@ -17,6 +17,12 @@ public class Activate_Endgame : MonoBehaviour
     public Image fadeImage;
 
 	private bool _tutorialTriggered = false; 
+
+    bool _AudioTriggered = false;
+
+    bool _GetRidOfObjects = false;
+
+    public float startAudioSeconds;
     
 
 	GameObject player;
@@ -95,16 +101,37 @@ public class Activate_Endgame : MonoBehaviour
 
 		            _tutorialTriggered = true;
 
-
 		            Tutorial_Manager TM = FindObjectOfType<Tutorial_Manager>();
 		            TM.TiltPhone = false;
 		            TM.CloseEyes = true; 
 		            TM.StartPlayingTutorials();
-
 	            }
 
+                if(!_AudioTriggered){
+                    _AudioTriggered = true;
 
+                    Invoke("StartAudio", startAudioSeconds);
+                }
+
+                if(!_GetRidOfObjects){
+                    _GetRidOfObjects = true;
+
+                    Invoke("TurnOffObj", 0f);
+                }
             }
+        }
+    }
+
+    void StartAudio(){
+        // the place to start the audio
+
+    }
+
+    void TurnOffObj(){
+        GameObject[] objToTurnOff = GameObject.FindGameObjectsWithTag("Parent");
+
+        foreach(GameObject obj in objToTurnOff){
+            Destroy(obj);
         }
     }
 }
