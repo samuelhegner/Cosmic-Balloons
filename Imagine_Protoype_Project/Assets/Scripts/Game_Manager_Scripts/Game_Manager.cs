@@ -43,12 +43,8 @@ public class Game_Manager : MonoBehaviour
         DontDestroyOnLoad(gameObject);
 
         if (Application.isEditor) {
-
-            isPC = true;
             
-            Debug.Log("Is Editor");
-            
-            
+            isPC = false;
 
         } else if (Application.isMobilePlatform) {
 
