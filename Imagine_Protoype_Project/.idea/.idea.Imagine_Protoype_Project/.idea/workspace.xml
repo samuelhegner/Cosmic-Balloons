@@ -214,17 +214,44 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Audio_Colour_Changer.cs" pinned="false" current-in-tab="true">
+      <file leaf-file-name="Audio_Colour_Changer.cs" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Assets/Audio_Colour_Changer.cs">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="170">
-              <caret line="10" column="18" lean-forward="true" selection-start-line="10" selection-start-column="18" selection-end-line="10" selection-end-column="18" />
+              <caret line="10" column="18" selection-start-line="10" selection-start-column="18" selection-end-line="10" selection-end-column="18" />
               <folding>
                 <marker date="1543881265446" expanded="true" signature="6:100" ph="..." />
                 <marker date="1543881265446" expanded="true" signature="152:565" ph="{...}" />
                 <marker date="1543881265446" expanded="true" signature="323:561" ph="{...}" />
                 <marker date="1543881265446" expanded="true" signature="371:420" ph="{...}" />
                 <marker date="1543881265446" expanded="true" signature="469:521" ph="{...}" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Tutorial_Manager.cs" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/Assets/Scripts/Management_Scripts/Tutorial_Manager.cs">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="102">
+              <caret line="41" lean-forward="true" selection-start-line="41" selection-end-line="41" />
+              <folding>
+                <marker date="1543884599408" expanded="false" signature="6:78" ph="..." />
+                <marker date="1543884599408" expanded="true" signature="127:3233" ph="{...}" />
+                <marker date="1543884599408" expanded="true" signature="672:722" ph="{...}" />
+                <marker date="1543884599408" expanded="true" signature="764:815" ph="{...}" />
+                <marker date="1543884599408" expanded="true" signature="849:2661" ph="{...}" />
+                <marker date="1543884599408" expanded="true" signature="925:961" ph="{...}" />
+                <marker date="1543884599408" expanded="true" signature="1045:1381" ph="{...}" />
+                <marker date="1543884599408" expanded="true" signature="1413:1733" ph="{...}" />
+                <marker date="1543884599408" expanded="true" signature="1758:2045" ph="{...}" />
+                <marker date="1543884599408" expanded="true" signature="2070:2357" ph="{...}" />
+                <marker date="1543884599408" expanded="true" signature="2378:2653" ph="{...}" />
+                <marker date="1543884599408" expanded="true" signature="2718:3127" ph="{...}" />
+                <marker date="1543884599408" expanded="true" signature="2733:3059" ph="{...}" />
+                <marker date="1543884599408" expanded="true" signature="2784:2983" ph="{...}" />
+                <marker date="1543884599408" expanded="true" signature="3066:3119" ph="{...}" />
+                <marker date="1543884599408" expanded="true" signature="3185:3206" ph="{...}" />
               </folding>
             </state>
           </provider>
@@ -271,15 +298,6 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Cut_Rope.cs" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Assets/Scripts/Cosmos_Scripts/Cut_Rope.cs">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1785">
-              <caret line="105" column="9" selection-start-line="105" selection-start-column="9" selection-end-line="105" selection-end-column="9" />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="Activate_Endgame.cs" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Assets/Scripts/Cosmos_Scripts/Activate_Endgame.cs">
           <provider selected="true" editor-type-id="text-editor">
@@ -316,6 +334,7 @@
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Audio_Scripts/Journey_Audio_Player.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Management_Scripts/Vertical_Resolution_Scaler.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Management_Scripts/Audio_Settings_Manager.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Management_Scripts/Tutorial_Manager.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Cosmos_Scripts/Star_Collision.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Cosmos_Scripts/Activate_Endgame.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Game_Manager_Scripts/Game_Manager.cs" root0="FORCE_HIGHLIGHTING" />
@@ -375,7 +394,6 @@
         <option value="$PROJECT_DIR$/Assets/Scripts/Forest_Minigame_Scripts/Wind_Script.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Audio_Scripts/AudioManager.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Forest_Minigame_Scripts/Forest_Branch_Wobbler.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/Management_Scripts/Tutorial_Manager.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Cosmos_Scripts/Cut_Rope.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Cosmos_Scripts/Activate_Endgame.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Cosmos_Scripts/Activate_Journey.cs" />
@@ -385,6 +403,7 @@
         <option value="$PROJECT_DIR$/Assets/Scripts/Management_Scripts/Audio_Settings_Manager.cs" />
         <option value="$PROJECT_DIR$/Assets/toggleSwitch.cs" />
         <option value="$PROJECT_DIR$/Assets/Audio_Colour_Changer.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Management_Scripts/Tutorial_Manager.cs" />
       </list>
     </option>
   </component>
@@ -522,12 +541,12 @@
       <workItem from="1543602995852" duration="3707000" />
       <workItem from="1543766649761" duration="1163000" />
       <workItem from="1543787846129" duration="1618000" />
-      <workItem from="1543878516514" duration="3106000" />
+      <workItem from="1543878516514" duration="3734000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="102207000" />
+    <option name="totallyTimeSpent" value="102835000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -748,7 +767,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Assets/Scripts/Management_Scripts/Tutorial_Manager.cs" />
     <entry file="file://$PROJECT_DIR$/Assets/Scripts/Audio_Scripts/AudioManager.cs">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1905">
@@ -914,13 +932,38 @@
     <entry file="file://$PROJECT_DIR$/Assets/Audio_Colour_Changer.cs">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="170">
-          <caret line="10" column="18" lean-forward="true" selection-start-line="10" selection-start-column="18" selection-end-line="10" selection-end-column="18" />
+          <caret line="10" column="18" selection-start-line="10" selection-start-column="18" selection-end-line="10" selection-end-column="18" />
           <folding>
             <marker date="1543881265446" expanded="true" signature="6:100" ph="..." />
             <marker date="1543881265446" expanded="true" signature="152:565" ph="{...}" />
             <marker date="1543881265446" expanded="true" signature="323:561" ph="{...}" />
             <marker date="1543881265446" expanded="true" signature="371:420" ph="{...}" />
             <marker date="1543881265446" expanded="true" signature="469:521" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/Scripts/Management_Scripts/Tutorial_Manager.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="102">
+          <caret line="41" lean-forward="true" selection-start-line="41" selection-end-line="41" />
+          <folding>
+            <marker date="1543884599408" expanded="false" signature="6:78" ph="..." />
+            <marker date="1543884599408" expanded="true" signature="127:3233" ph="{...}" />
+            <marker date="1543884599408" expanded="true" signature="672:722" ph="{...}" />
+            <marker date="1543884599408" expanded="true" signature="764:815" ph="{...}" />
+            <marker date="1543884599408" expanded="true" signature="849:2661" ph="{...}" />
+            <marker date="1543884599408" expanded="true" signature="925:961" ph="{...}" />
+            <marker date="1543884599408" expanded="true" signature="1045:1381" ph="{...}" />
+            <marker date="1543884599408" expanded="true" signature="1413:1733" ph="{...}" />
+            <marker date="1543884599408" expanded="true" signature="1758:2045" ph="{...}" />
+            <marker date="1543884599408" expanded="true" signature="2070:2357" ph="{...}" />
+            <marker date="1543884599408" expanded="true" signature="2378:2653" ph="{...}" />
+            <marker date="1543884599408" expanded="true" signature="2718:3127" ph="{...}" />
+            <marker date="1543884599408" expanded="true" signature="2733:3059" ph="{...}" />
+            <marker date="1543884599408" expanded="true" signature="2784:2983" ph="{...}" />
+            <marker date="1543884599408" expanded="true" signature="3066:3119" ph="{...}" />
+            <marker date="1543884599408" expanded="true" signature="3185:3206" ph="{...}" />
           </folding>
         </state>
       </provider>

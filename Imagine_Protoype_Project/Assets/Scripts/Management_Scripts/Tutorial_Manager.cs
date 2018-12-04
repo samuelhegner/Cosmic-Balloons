@@ -39,7 +39,11 @@ public class Tutorial_Manager : MonoBehaviour {
 
     IEnumerator StartTutorials()
     {
-        
+
+        if (!Audio_Settings_Manager.CurrrentSettings.ShowTutorials) {
+            yield break;
+        }
+
         yield return new WaitForSeconds(InitialDelay);
 
 
