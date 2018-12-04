@@ -10,6 +10,7 @@ public class Audio_Settings_Manager : MonoBehaviour {
 	public Slider JourneyVolumeSlider;
 	public Slider SfxVolumeSlider;
 	public Slider MusicVolumeSlider;
+	public Toggle TutorialToggle;
 
 
 	private const string SettingsSaveFile = "Cosmic_Balloons_Settings.txt";
@@ -43,6 +44,8 @@ public class Audio_Settings_Manager : MonoBehaviour {
 		JourneyVolumeSlider.value = CurrrentSettings.JourneyVolume;
 		SfxVolumeSlider.value = CurrrentSettings.SfxVolume;
 		MusicVolumeSlider.value = CurrrentSettings.MusicVolume;
+		TutorialToggle.isOn = CurrrentSettings.ShowTutorials; 
+
 
 
 	}
@@ -80,6 +83,11 @@ Debug.Log("Read successful");
 
 	}
 
+
+
+	
+
+
 	// Update is called once per frame
 	void Update () {
 
@@ -100,6 +108,9 @@ public class Settings {
 
 	
 	public float MusicVolume = new float();
+	
+	
+	public bool ShowTutorials = new bool();
 
 
 }
