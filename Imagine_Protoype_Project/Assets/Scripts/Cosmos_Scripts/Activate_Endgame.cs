@@ -116,7 +116,7 @@ public class Activate_Endgame : MonoBehaviour
                 if(!_GetRidOfObjects){
                     _GetRidOfObjects = true;
 
-                    Invoke("TurnOffObj", 0f);
+                    Invoke("TurnOffObj", startAudioSeconds + 1f);
                 }
             }
         }
@@ -133,5 +133,11 @@ public class Activate_Endgame : MonoBehaviour
         foreach(GameObject obj in objToTurnOff){
             Destroy(obj);
         }
+
+        Camera.main.GetComponent<Follow_Player_Camera>().enabled = false;
+
+        GameObject player = GameObject.Find("Player");
+        Destroy(player);
+        Destroy(this.gameObject);
     }
 }

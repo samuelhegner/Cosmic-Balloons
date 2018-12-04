@@ -7997,7 +7997,7 @@ GameObject:
   - component: {fileID: 243079166}
   m_Layer: 0
   m_Name: Middle
-  m_TagString: Untagged
+  m_TagString: Parent
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -8028,7 +8028,7 @@ Transform:
   - {fileID: 1943763322}
   - {fileID: 1214731308}
   m_Father: {fileID: 0}
-  m_RootOrder: 12
+  m_RootOrder: 11
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1001 &253151794
 PrefabInstance:
@@ -12011,7 +12011,7 @@ GameObject:
   - component: {fileID: 444004122}
   m_Layer: 0
   m_Name: Sacred Site Objects
-  m_TagString: Untagged
+  m_TagString: Parent
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -14086,36 +14086,6 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
---- !u!1 &517733407
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 517733408}
-  m_Layer: 0
-  m_Name: Player Stop
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!4 &517733408
-Transform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 517733407}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 29.565332, y: 278.5789, z: 6.390625}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_Children: []
-  m_Father: {fileID: 0}
-  m_RootOrder: 10
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!4 &519560456 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 4455275033364042, guid: 4422e14414324e241abdfa2e3932b859,
@@ -24790,6 +24760,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   fadeTime: 5
   fadeImage: {fileID: 1717255816}
+  startAudioSeconds: 0
 --- !u!4 &870421152 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 4455275033364042, guid: 4422e14414324e241abdfa2e3932b859,
@@ -26059,7 +26030,7 @@ GameObject:
   - component: {fileID: 936775246}
   m_Layer: 0
   m_Name: Background
-  m_TagString: Untagged
+  m_TagString: Parent
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -27912,7 +27883,7 @@ GameObject:
   - component: {fileID: 1022541535}
   m_Layer: 0
   m_Name: Interactibles
-  m_TagString: Untagged
+  m_TagString: Parent
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -33214,7 +33185,7 @@ GameObject:
   - component: {fileID: 1257950558}
   m_Layer: 0
   m_Name: Parallax
-  m_TagString: Untagged
+  m_TagString: Parent
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -33247,7 +33218,7 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 13
+  m_RootOrder: 12
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!4 &1258754729 stripped
 Transform:
@@ -34290,7 +34261,7 @@ GameObject:
   - component: {fileID: 1313410258}
   m_Layer: 0
   m_Name: Back
-  m_TagString: Untagged
+  m_TagString: Parent
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -34313,7 +34284,7 @@ Transform:
   - {fileID: 2086748224}
   - {fileID: 1622405872}
   m_Father: {fileID: 0}
-  m_RootOrder: 11
+  m_RootOrder: 10
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1001 &1313544762
 PrefabInstance:
@@ -37987,8 +37958,8 @@ MonoBehaviour:
   maxCameraSize: 50
   tiltSpeed: 3.5
   angleOffSet: 0
-  minutes: 1
-  seconds: 40
+  minutes: 0
+  seconds: 10
 --- !u!61 &1429681283
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -56287,7 +56258,7 @@ PrefabInstance:
     - target: {fileID: 8719564558978064499, guid: a647fec017225684ca79f0c898f1ea68,
         type: 3}
       propertyPath: m_RootOrder
-      value: 14
+      value: 13
       objectReference: {fileID: 0}
     - target: {fileID: 8719564558978064499, guid: a647fec017225684ca79f0c898f1ea68,
         type: 3}
