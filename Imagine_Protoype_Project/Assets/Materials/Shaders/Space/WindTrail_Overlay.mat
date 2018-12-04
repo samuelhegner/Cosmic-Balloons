@@ -90,7 +90,7 @@ Material:
     - _ZWrite: 1
     m_Colors:
     - Vector2_2D3444E3: {r: -0.3, g: 0, b: 0, a: 0}
-    - Vector2_4A2EE6A4: {r: 20, g: 20, b: 0, a: 0}
+    - Vector2_4A2EE6A4: {r: 10, g: 2, b: 0, a: 0}
     - Vector2_AD4C104B: {r: 5, g: 5, b: 0, a: 0}
     - Vector2_C23F8CD: {r: 0, g: 0.6, b: 0, a: 0}
     - _Color: {r: 1, g: 1, b: 1, a: 1}
