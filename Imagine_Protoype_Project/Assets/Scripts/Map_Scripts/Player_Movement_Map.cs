@@ -300,9 +300,9 @@ public class Player_Movement_Map : MonoBehaviour
 
     void AdjustParticleSystem()
     {
-        mm.startSize = Game_Manager.Map(movementSpeed, MinSpeed, MaxSpeed, 0.5f, 2f);
+        mm.startSize = Game_Manager.Map(movementSpeed, MinSpeed, MaxSpeed, 2f, 2f);
         mm.startLifetime = Game_Manager.Map(movementSpeed, MinSpeed, MaxSpeed, 4f, 2f);
-        em.rateOverDistance = Game_Manager.Map(movementSpeed, MinSpeed, MaxSpeed, 1, 15f);
+        em.rateOverDistance = Game_Manager.Map(movementSpeed, MinSpeed, MaxSpeed, 0.75f, 2f);
     }
 
     public void ResetLocation()

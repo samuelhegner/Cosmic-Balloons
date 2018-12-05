@@ -4887,7 +4887,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   index: 0
-  speed: 0.8
+  speed: 2
   moveDir: {x: 0, y: 0, z: 0}
 --- !u!1 &8038068255323122631
 GameObject:
@@ -4958,7 +4958,7 @@ TrailRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
-  m_Time: 0.25
+  m_Time: 0.85
   m_Parameters:
     serializedVersion: 3
     widthMultiplier: 1
