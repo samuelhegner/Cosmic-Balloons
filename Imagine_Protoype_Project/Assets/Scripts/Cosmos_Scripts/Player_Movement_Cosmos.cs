@@ -83,7 +83,7 @@ public class Player_Movement_Cosmos : MonoBehaviour
                     {
                         acc += Time.fixedDeltaTime * 0.75f;
                     }
-                    rb.velocity = new Vector2(hAxis * tiltSpeed * trailMod, risingSpeed + acc);
+                    rb.velocity = new Vector2(hAxis * tiltSpeed, risingSpeed + acc);
                 }
 
                 Vector3 toVector = Vector3.up;
@@ -114,7 +114,7 @@ public class Player_Movement_Cosmos : MonoBehaviour
                         acc += Time.fixedDeltaTime * 0.75f;
                     }
 
-                    rb.velocity = new Vector2(Input.acceleration.x * tiltSpeed * trailMod, risingSpeed + acc);
+                    rb.velocity = new Vector2(Input.acceleration.x * tiltSpeed, risingSpeed + acc);
 
                 }
 
