@@ -65,7 +65,7 @@ public class Select_Site : MonoBehaviour
             
             Vector3 topScreen = cam.ScreenToWorldPoint(new Vector3(cam.pixelWidth / 2, cam.pixelHeight, 0));
 
-            float topScreenY = topScreen.y;
+            float topScreenY = topScreen.y + Game_Manager.Map(offset, minOff, maxOff, 5f, 45f);
 
 
             if(topStartY > topScreenY)

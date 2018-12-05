@@ -34797,7 +34797,7 @@ PrefabInstance:
     - target: {fileID: 114247709099209182, guid: 055e67e82db651848a4ac46bf7dd1afc,
         type: 3}
       propertyPath: timeTillAnimation
-      value: 8
+      value: 15
       objectReference: {fileID: 0}
     - target: {fileID: 114247709099209182, guid: 055e67e82db651848a4ac46bf7dd1afc,
         type: 3}

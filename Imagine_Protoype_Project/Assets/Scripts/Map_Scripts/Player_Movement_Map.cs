@@ -77,8 +77,6 @@ public class Player_Movement_Map : MonoBehaviour
     {
         AdjustTrail();
         PC = !UnityEditor.EditorApplication.isRemoteConnected;
-        print(PC);
-        print(Game_Manager.isPC);
         if (tilt == false)
         {
 
