@@ -34,7 +34,9 @@ public class Player_Movement_Map : MonoBehaviour
     public GameObject Flag;
     public GameObject Basket;
 
-    TrailRenderer trail;
+    ParticleSystem trail;
+    ParticleSystem.EmissionModule em;
+    ParticleSystem.MainModule mm;
 
     GameObject[] sites;
     GameObject activeSite;
@@ -62,7 +64,10 @@ public class Player_Movement_Map : MonoBehaviour
         twoFingers = false;
         location = transform.position;
         waitingForTouch = true;
-        trail = Basket.GetComponent<TrailRenderer>();
+        trail = GetComponent<ParticleSystem>();
+        em = trail.emission;
+        mm = trail.main;
+
         sites = GameObject.FindGameObjectsWithTag("Site");
         activeSite = new GameObject();
 
@@ -77,9 +82,7 @@ public class Player_Movement_Map : MonoBehaviour
 
     void Update()
     {
-
-        print(movementSpeed);
-        AdjustTrail();
+        AdjustParticleSystem();
        // PC = !UnityEditor.EditorApplication.isRemoteConnected;
         if (tilt == false)
         {
@@ -295,20 +298,11 @@ public class Player_Movement_Map : MonoBehaviour
 
 
 
-    void AdjustTrail()
+    void AdjustParticleSystem()
     {
-        float time;
-        time = Game_Manager.Map(movementSpeed, MinSpeed, MaxSpeed, 0, 5);
-        trail.time = time;
-        float a;
-        a = Game_Manager.Map(movementSpeed, MinSpeed, MaxSpeed, 0f, 1f);
-        Color col = new Color(1, 1, 1, a);
-        Color endCol = new Color(1, 1, 1, 0);
-
-        //maybe add colours as public variables and have them settable in editor to any colour
-
-        trail.startColor = col;
-        trail.endColor = endCol;
+        mm.startSize = Game_Manager.Map(movementSpeed, MinSpeed, MaxSpeed, 0.5f, 2f);
+        mm.startLifetime = Game_Manager.Map(movementSpeed, MinSpeed, MaxSpeed, 4f, 2f);
+        em.rateOverDistance = Game_Manager.Map(movementSpeed, MinSpeed, MaxSpeed, 1, 15f);
     }
 
     public void ResetLocation()
