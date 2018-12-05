@@ -41,6 +41,8 @@ public class Player_Movement_Map : MonoBehaviour
 
     public GameObject cam;
 
+    public float accSpeed;
+
 
     public float movementSpeed;
 
@@ -51,7 +53,7 @@ public class Player_Movement_Map : MonoBehaviour
 
     bool setLocation;
 
-    
+    public float accelerationValue;
 
     void Awake()
     {
@@ -75,6 +77,8 @@ public class Player_Movement_Map : MonoBehaviour
 
     void Update()
     {
+
+        print(movementSpeed);
         AdjustTrail();
        // PC = !UnityEditor.EditorApplication.isRemoteConnected;
         if (tilt == false)
@@ -187,6 +191,9 @@ public class Player_Movement_Map : MonoBehaviour
 
 
                 MoveToPoint(location); //Sets move towards location
+                if(new Vector2(transform.position.x, transform.position.y) == location && movementSpeed > 0){
+                    movementSpeed -= Time.deltaTime * 6f;
+                }
             }
             else
             {
@@ -239,12 +246,16 @@ public class Player_Movement_Map : MonoBehaviour
     Vector2 SetPointToMove(Vector2 screenPosition)
     {
         Vector2 pointToMove = Camera.main.ScreenToWorldPoint(screenPosition);
-        SetMoveSpeed(MinSpeed, MaxSpeed, pointToMove, transform.position);
+        movementSpeed = MinSpeed;
+        accSpeed = SetMoveSpeed(MinSpeed, MaxSpeed, pointToMove, transform.position);
         return pointToMove;
     }
 
     void MoveToPoint(Vector2 location)
     {
+        if(movementSpeed < accSpeed){
+            movementSpeed = Mathf.Lerp(movementSpeed, accSpeed, Time.deltaTime * accelerationValue);
+        }
         transform.position = Vector2.MoveTowards(transform.position, location, movementSpeed * Time.deltaTime);
     }
 
@@ -260,24 +271,26 @@ public class Player_Movement_Map : MonoBehaviour
 
     }
 
-    public void SetMoveSpeed(float min, float max, Vector2 traget, Vector2 current)
+    public float SetMoveSpeed(float min, float max, Vector2 traget, Vector2 current)
     {
         float dist = Vector2.Distance(traget, current);
+        float tragetSpeed;
         if (dist < MaxDistance)
         {
             float speedPercent = dist / MaxDistance;
-            movementSpeed = MaxSpeed * speedPercent;
+            tragetSpeed = MaxSpeed * speedPercent;
         }
         else
         {
-            movementSpeed = max;
+            tragetSpeed = max;
         }
 
-        if (movementSpeed < min)
+        if (tragetSpeed < min)
         {
-            movementSpeed = min;
+            tragetSpeed = min;
         }
 
+        return tragetSpeed;
     }
 
 
