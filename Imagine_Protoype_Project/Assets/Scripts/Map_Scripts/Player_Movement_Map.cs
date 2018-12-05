@@ -76,7 +76,7 @@ public class Player_Movement_Map : MonoBehaviour
     void Update()
     {
         AdjustTrail();
-        PC = !UnityEditor.EditorApplication.isRemoteConnected;
+       // PC = !UnityEditor.EditorApplication.isRemoteConnected;
         if (tilt == false)
         {
 
@@ -85,7 +85,7 @@ public class Player_Movement_Map : MonoBehaviour
 
                 //For PC input
 
-                if (Game_Manager.isPC && PC)
+                if (Game_Manager.isPC )
                 {
                     if (Input.GetMouseButtonUp(0))
                     {
