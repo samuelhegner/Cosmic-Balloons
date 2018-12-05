@@ -523,6 +523,7 @@ GameObject:
   - component: {fileID: 95628781436620370}
   - component: {fileID: 114619256982693584}
   - component: {fileID: 70093329600712928}
+  - component: {fileID: 8821739147228510731}
   m_Layer: 9
   m_Name: body
   m_TagString: Map_Interactable
@@ -644,6 +645,36 @@ CapsuleCollider2D:
   m_Offset: {x: -0.5746771, y: -0.4859867}
   m_Size: {x: 7.1935167, y: 4.8423405}
   m_Direction: 1
+--- !u!114 &8821739147228510731
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1333145217687902}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6668fa9c07509b641b9ed197e8d325e8, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  sounds:
+  - name: Growl
+    audioMixerGroup: {fileID: 243862759904171356, guid: f53abdbdf703fff48a03ac380608cf1c,
+      type: 2}
+    clips:
+    - {fileID: 8300000, guid: 70ed780c074713d4780d1d71fc30b427, type: 3}
+    - {fileID: 8300000, guid: 132f34eb91c9036468d37725df5de79c, type: 3}
+    volume: 1
+    pitch: 1
+    spatialBlend: 0
+    loop: 0
+    mute: 0
+    playOnAwake: 0
+    source: {fileID: 0}
+    FadingIn: 0
+    FadingOut: 0
+  master: 0
+  DontDestroyOnLoad: 0
 --- !u!1 &1371944404417060
 GameObject:
   m_ObjectHideFlags: 0
