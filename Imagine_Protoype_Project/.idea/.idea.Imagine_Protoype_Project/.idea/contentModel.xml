@@ -1,14 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ContentModelStore">
-    <e p="C:\Users\ThefitzyG\.Rider2018.1\system\resharper-host\Local\Transient\ReSharperHost\v12\SolutionCaches\_Imagine_Protoype_Project.80234429.00" t="ExcludeRecursive" />
-    <e p="C:\Users\ThefitzyG\Documents\projects\Imagine_Prototype_Beta\Imagine_Prototype_BetaBuild\Imagine_Protoype_Project" t="IncludeRecursive">
+    <e p="C:\Users\Gary\.Rider2018.2\system\extResources" t="IncludeRecursive" />
+    <e p="C:\Users\Gary\.Rider2018.2\system\resharper-host\Local\Transient\ReSharperHost\v182\SolutionCaches\_Imagine_Protoype_Project.-368663162.00" t="ExcludeRecursive" />
+    <e p="E:\Github Projects\Imagine_Prototype_BetaBuild\Imagine_Protoype_Project" t="IncludeRecursive">
       <e p="Assembly-CSharp-Editor.csproj" t="IncludeRecursive" />
       <e p="Assembly-CSharp-firstpass.csproj" t="IncludeRecursive" />
       <e p="Assembly-CSharp.csproj" t="IncludeRecursive" />
       <e p="Assets" t="Include">
         <e p="Animate_Trail.cs" t="Include" />
-        <e p="Audio_Colour_Changer.cs" t="Include" />
         <e p="Editor" t="Include">
           <e p="ArrayTools.cs" t="Include" />
           <e p="BytesAndOffset.cs" t="Include" />
@@ -90,6 +90,7 @@
         <e p="Rise_Balloon.cs" t="Include" />
         <e p="Scripts" t="Include">
           <e p="Audio_Scripts" t="Include">
+            <e p="Audio_Colour_Changer.cs" t="Include" />
             <e p="Audio_Slider_Listener.cs" t="Include" />
             <e p="AudioManager.cs" t="Include" />
             <e p="Journey_Audio_Player.cs" t="Include" />
@@ -108,6 +109,7 @@
             <e p="DisperseCloud.cs" t="Include" />
             <e p="DrawRay.cs" t="Include" />
             <e p="DrawRope.cs" t="Include" />
+            <e p="Fade_StarTrail.cs" t="Include" />
             <e p="Galaxy_Child.cs" t="Include" />
             <e p="Galaxy_Start.cs" t="Include" />
             <e p="Line_Info.cs" t="Include" />
@@ -115,6 +117,7 @@
             <e p="Player_Movement_Cosmos.cs" t="Include" />
             <e p="PulseSize.cs" t="Include" />
             <e p="Rope_Creator.cs" t="Include" />
+            <e p="Rotate_Sprite.cs" t="Include" />
             <e p="Set_Cloud_Type.cs" t="Include" />
             <e p="Set_Position.cs" t="Include" />
             <e p="Spawn_Objects.cs" t="Include" />
@@ -138,6 +141,7 @@
           <e p="General_Scripts" t="Include">
             <e p="Follow_Player_Camera.cs" t="Include" />
             <e p="Pinch_Zoom_Camera.cs" t="Include" />
+            <e p="toggleSwitch.cs" t="Include" />
           </e>
           <e p="Management_Scripts" t="Include">
             <e p="Audio_Settings_Manager.cs" t="Include" />
@@ -167,7 +171,6 @@
             <e p="Scene_Change_Menu.cs" t="Include" />
           </e>
         </e>
-        <e p="toggleSwitch.cs" t="Include" />
       </e>
       <e p="Imagine_Protoype_Project.sln" t="IncludeFlat" />
       <e p="Library" t="ExcludeRecursive" />
