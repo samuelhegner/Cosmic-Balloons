@@ -23,6 +23,8 @@ public class Activate_Endgame : MonoBehaviour
     bool _GetRidOfObjects = false;
 
     public float startAudioSeconds;
+
+     public AudioManager AM;
     
 
 	GameObject player;
@@ -124,6 +126,10 @@ public class Activate_Endgame : MonoBehaviour
 
     void StartAudio(){
         // the place to start the audio
+         
+         FindObjectOfType<Journey_Audio_Player>().PlayJourney();
+         
+         AM.Stop("Balloon_Rise_Music", true, 3f);
 
     }
 
