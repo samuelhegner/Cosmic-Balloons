@@ -4489,7 +4489,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: eed6f5a2d5430e94ea761d6759e7938d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  CurrentJourneyName: 
+  CurrentJourneyName: Journey_Space_0
+  PlayJourneyOnAwake: 0
   playing: 0
   PauseButton: {fileID: 21300000, guid: a695ad48118eb5f48bb42630315e2169, type: 3}
   PlayButton: {fileID: 21300000, guid: a324794ef59e0b745870cf8d3edce929, type: 3}

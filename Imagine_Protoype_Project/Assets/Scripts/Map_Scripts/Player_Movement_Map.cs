@@ -34,12 +34,16 @@ public class Player_Movement_Map : MonoBehaviour
     public GameObject Flag;
     public GameObject Basket;
 
-    TrailRenderer trail;
+    ParticleSystem trail;
+    ParticleSystem.EmissionModule em;
+    ParticleSystem.MainModule mm;
 
     GameObject[] sites;
     GameObject activeSite;
 
     public GameObject cam;
+
+    public float accSpeed;
 
 
     public float movementSpeed;
@@ -51,7 +55,7 @@ public class Player_Movement_Map : MonoBehaviour
 
     bool setLocation;
 
-    
+    public float accelerationValue;
 
     void Awake()
     {
@@ -60,7 +64,10 @@ public class Player_Movement_Map : MonoBehaviour
         twoFingers = false;
         location = transform.position;
         waitingForTouch = true;
-        trail = Basket.GetComponent<TrailRenderer>();
+        trail = GetComponent<ParticleSystem>();
+        em = trail.emission;
+        mm = trail.main;
+
         sites = GameObject.FindGameObjectsWithTag("Site");
         activeSite = new GameObject();
 
@@ -75,7 +82,7 @@ public class Player_Movement_Map : MonoBehaviour
 
     void Update()
     {
-        AdjustTrail();
+        AdjustParticleSystem();
        // PC = !UnityEditor.EditorApplication.isRemoteConnected;
         if (tilt == false)
         {
@@ -187,6 +194,9 @@ public class Player_Movement_Map : MonoBehaviour
 
 
                 MoveToPoint(location); //Sets move towards location
+                if(new Vector2(transform.position.x, transform.position.y) == location && movementSpeed > 0){
+                    movementSpeed -= Time.deltaTime * 6f;
+                }
             }
             else
             {
@@ -239,12 +249,16 @@ public class Player_Movement_Map : MonoBehaviour
     Vector2 SetPointToMove(Vector2 screenPosition)
     {
         Vector2 pointToMove = Camera.main.ScreenToWorldPoint(screenPosition);
-        SetMoveSpeed(MinSpeed, MaxSpeed, pointToMove, transform.position);
+        movementSpeed = MinSpeed;
+        accSpeed = SetMoveSpeed(MinSpeed, MaxSpeed, pointToMove, transform.position);
         return pointToMove;
     }
 
     void MoveToPoint(Vector2 location)
     {
+        if(movementSpeed < accSpeed){
+            movementSpeed = Mathf.Lerp(movementSpeed, accSpeed, Time.deltaTime * accelerationValue);
+        }
         transform.position = Vector2.MoveTowards(transform.position, location, movementSpeed * Time.deltaTime);
     }
 
@@ -260,42 +274,35 @@ public class Player_Movement_Map : MonoBehaviour
 
     }
 
-    public void SetMoveSpeed(float min, float max, Vector2 traget, Vector2 current)
+    public float SetMoveSpeed(float min, float max, Vector2 traget, Vector2 current)
     {
         float dist = Vector2.Distance(traget, current);
+        float tragetSpeed;
         if (dist < MaxDistance)
         {
             float speedPercent = dist / MaxDistance;
-            movementSpeed = MaxSpeed * speedPercent;
+            tragetSpeed = MaxSpeed * speedPercent;
         }
         else
         {
-            movementSpeed = max;
+            tragetSpeed = max;
         }
 
-        if (movementSpeed < min)
+        if (tragetSpeed < min)
         {
-            movementSpeed = min;
+            tragetSpeed = min;
         }
 
+        return tragetSpeed;
     }
 
 
 
-    void AdjustTrail()
+    void AdjustParticleSystem()
     {
-        float time;
-        time = Game_Manager.Map(movementSpeed, MinSpeed, MaxSpeed, 0, 5);
-        trail.time = time;
-        float a;
-        a = Game_Manager.Map(movementSpeed, MinSpeed, MaxSpeed, 0f, 1f);
-        Color col = new Color(1, 1, 1, a);
-        Color endCol = new Color(1, 1, 1, 0);
-
-        //maybe add colours as public variables and have them settable in editor to any colour
-
-        trail.startColor = col;
-        trail.endColor = endCol;
+        mm.startSize = Game_Manager.Map(movementSpeed, MinSpeed, MaxSpeed, 2f, 2f);
+        mm.startLifetime = Game_Manager.Map(movementSpeed, MinSpeed, MaxSpeed, 4f, 2f);
+        em.rateOverDistance = Game_Manager.Map(movementSpeed, MinSpeed, MaxSpeed, 0.75f, 2f);
     }
 
     public void ResetLocation()

@@ -10,6 +10,7 @@ using UnityEngine.UI;
 public class Journey_Audio_Player : MonoBehaviour {
 
      public string CurrentJourneyName;
+     public bool PlayJourneyOnAwake = false; 
 
      [HideInInspector]
 public bool playing;
@@ -35,15 +36,28 @@ public bool playing;
 
           _audioManager = GetComponent<AudioManager>();
           _animator = GetComponent<Animator>();
+
+          if (PlayJourneyOnAwake) {
+
+               PlayJourney();
+               
+          }
+
+          // soundInfo SI = _audioManager.GetSoundData(CurrentJourneyName);
+
           
-          _audioManager.Play(CurrentJourneyName, true, 2f);
-          playing = true;
-
-         // soundInfo SI = _audioManager.GetSoundData(CurrentJourneyName);
-
-          
 
 
+
+     }
+
+
+     public void PlayJourney() {
+
+          if (!playing) {
+               _audioManager.Play(CurrentJourneyName, true, 2f);
+               playing = true;
+          }
 
      }
 
