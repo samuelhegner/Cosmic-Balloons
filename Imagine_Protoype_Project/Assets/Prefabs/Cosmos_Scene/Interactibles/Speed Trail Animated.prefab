@@ -7,53 +7,19 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
-    - target: {fileID: 4391836043445328, guid: 568e6f599cc42483b83e24613422957a, type: 3}
-      propertyPath: m_LocalPosition.x
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 4391836043445328, guid: 568e6f599cc42483b83e24613422957a, type: 3}
-      propertyPath: m_LocalPosition.y
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 4391836043445328, guid: 568e6f599cc42483b83e24613422957a, type: 3}
-      propertyPath: m_LocalPosition.z
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 4391836043445328, guid: 568e6f599cc42483b83e24613422957a, type: 3}
-      propertyPath: m_LocalRotation.x
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 4391836043445328, guid: 568e6f599cc42483b83e24613422957a, type: 3}
-      propertyPath: m_LocalRotation.y
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 4391836043445328, guid: 568e6f599cc42483b83e24613422957a, type: 3}
-      propertyPath: m_LocalRotation.z
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 4391836043445328, guid: 568e6f599cc42483b83e24613422957a, type: 3}
-      propertyPath: m_LocalRotation.w
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 4391836043445328, guid: 568e6f599cc42483b83e24613422957a, type: 3}
-      propertyPath: m_RootOrder
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 4391836043445328, guid: 568e6f599cc42483b83e24613422957a, type: 3}
-      propertyPath: m_LocalEulerAnglesHint.x
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 4391836043445328, guid: 568e6f599cc42483b83e24613422957a, type: 3}
-      propertyPath: m_LocalEulerAnglesHint.y
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 4391836043445328, guid: 568e6f599cc42483b83e24613422957a, type: 3}
-      propertyPath: m_LocalEulerAnglesHint.z
-      value: 0
+    - target: {fileID: 120659929071809760, guid: 568e6f599cc42483b83e24613422957a,
+        type: 3}
+      propertyPath: m_Materials.Array.size
+      value: 2
       objectReference: {fileID: 0}
     - target: {fileID: 1625340430827088, guid: 568e6f599cc42483b83e24613422957a, type: 3}
       propertyPath: m_Name
-      value: Speed Trail
+      value: Speed Trail Animated
       objectReference: {fileID: 0}
+    - target: {fileID: 120659929071809760, guid: 568e6f599cc42483b83e24613422957a,
+        type: 3}
+      propertyPath: m_Materials.Array.data[1]
+      value: 
+      objectReference: {fileID: 2100000, guid: dc3ad9e778699984f806fbf63cf17503, type: 2}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 568e6f599cc42483b83e24613422957a, type: 3}
