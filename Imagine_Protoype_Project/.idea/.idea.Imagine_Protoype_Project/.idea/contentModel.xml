@@ -1,8 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ContentModelStore">
-    <e p="C:\Users\ThefitzyG\.Rider2018.1\system\resharper-host\Local\Transient\ReSharperHost\v12\SolutionCaches\_Imagine_Protoype_Project.80234429.00" t="ExcludeRecursive" />
-    <e p="C:\Users\ThefitzyG\Documents\projects\Imagine_Prototype_Beta\Imagine_Prototype_BetaBuild\Imagine_Protoype_Project" t="IncludeRecursive">
+    <e p="C:\Users\Gary\.Rider2018.2\system\extResources" t="IncludeRecursive" />
+    <e p="C:\Users\Gary\.Rider2018.2\system\resharper-host\Local\Transient\ReSharperHost\v182\SolutionCaches\_Imagine_Protoype_Project.-368663162.00" t="ExcludeRecursive" />
+    <e p="E:\Github Projects\Imagine_Prototype_BetaBuild\Imagine_Protoype_Project" t="IncludeRecursive">
       <e p="Assembly-CSharp-Editor.csproj" t="IncludeRecursive" />
       <e p="Assembly-CSharp-firstpass.csproj" t="IncludeRecursive" />
       <e p="Assembly-CSharp.csproj" t="IncludeRecursive" />
@@ -41,6 +42,7 @@
           <e p="TypeTools.cs" t="Include" />
           <e p="ZoomArea.cs" t="Include" />
         </e>
+        <e p="Face_Move_Dir.cs" t="Include" />
         <e p="Plugins" t="Include">
           <e p="EZ Camera Shake" t="Include">
             <e p="Demo" t="Include">
@@ -167,6 +169,7 @@
             <e p="Site_Info.cs" t="Include" />
           </e>
           <e p="Menu_Scripts" t="Include">
+            <e p="Restart_Circle_Effect.cs" t="Include" />
             <e p="Scene_Change_Menu.cs" t="Include" />
           </e>
         </e>
