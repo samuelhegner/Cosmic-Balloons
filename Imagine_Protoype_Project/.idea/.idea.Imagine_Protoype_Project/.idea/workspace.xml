@@ -182,11 +182,32 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Journey_Audio_Player.cs" pinned="false" current-in-tab="false">
+      <file leaf-file-name="Journey_Audio_Player.cs" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/Assets/Scripts/Audio_Scripts/Journey_Audio_Player.cs">
           <provider selected="true" editor-type-id="text-editor">
-            <state>
-              <caret line="12" selection-start-line="12" selection-end-line="12" />
+            <state relative-caret-position="272">
+              <caret line="69" column="26" lean-forward="true" selection-start-line="69" selection-start-column="26" selection-end-line="69" selection-end-column="26" />
+              <folding>
+                <marker date="1544294205925" expanded="false" signature="6:167" ph="..." />
+                <marker date="1544294205925" expanded="true" signature="261:3249" ph="{...}" />
+                <marker date="1544294205925" expanded="true" signature="698:1000" ph="{...}" />
+                <marker date="1544294205925" expanded="true" signature="841:901" ph="{...}" />
+                <marker date="1544294205925" expanded="true" signature="1034:1234" ph="{...}" />
+                <marker date="1544294205925" expanded="true" signature="1061:1226" ph="{...}" />
+                <marker date="1544294205925" expanded="true" signature="1275:1646" ph="{...}" />
+                <marker date="1544294205925" expanded="true" signature="1337:1624" ph="{...}" />
+                <marker date="1544294205925" expanded="true" signature="1526:1605" ph="{...}" />
+                <marker date="1544294205925" expanded="true" signature="1680:2097" ph="{...}" />
+                <marker date="1544294205925" expanded="true" signature="1706:1831" ph="{...}" />
+                <marker date="1544294205925" expanded="true" signature="2129:2217" ph="{...}" />
+                <marker date="1544294205925" expanded="true" signature="2250:2654" ph="{...}" />
+                <marker date="1544294205925" expanded="true" signature="2364:2498" ph="{...}" />
+                <marker date="1544294205925" expanded="true" signature="2688:2824" ph="{...}" />
+                <marker date="1544294205925" expanded="true" signature="2865:3244" ph="{...}" />
+                <marker date="1544294205925" expanded="true" signature="2895:3176" ph="{...}" />
+                <marker date="1544294205925" expanded="true" signature="2911:2986" ph="/* if (ES.isFocused) { ... */" />
+                <marker date="1544294205925" expanded="true" signature="3090:3163" ph="{...}" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -196,11 +217,11 @@
           <provider selected="true" editor-type-id="text-editor" />
         </entry>
       </file>
-      <file leaf-file-name="Activate_Endgame.cs" pinned="false" current-in-tab="true">
+      <file leaf-file-name="Activate_Endgame.cs" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Assets/Scripts/Cosmos_Scripts/Activate_Endgame.cs">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="414">
-              <caret line="93" column="100" lean-forward="true" selection-start-line="93" selection-start-column="100" selection-end-line="93" selection-end-column="100" />
+              <caret line="93" column="100" selection-start-line="93" selection-start-column="100" selection-end-line="93" selection-end-column="100" />
               <folding>
                 <marker date="1544292798659" expanded="false" signature="6:100" ph="..." />
                 <marker date="1544292798659" expanded="true" signature="147:4296" ph="{...}" />
@@ -315,10 +336,10 @@
         <option value="$PROJECT_DIR$/Assets/Scripts/Game_Manager_Scripts/Transitioner_Script.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Cosmos_Scripts/Rotate_Sprite.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Map_Scripts/Player_Movement_Map.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/Audio_Scripts/Journey_Audio_Player.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Menu_Scripts/Restart_Circle_Effect.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Forest_Minigame_Scripts/Wind_Script.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Cosmos_Scripts/Activate_Endgame.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Audio_Scripts/Journey_Audio_Player.cs" />
       </list>
     </option>
   </component>
@@ -331,7 +352,7 @@
   <component name="NodePackageJsonFileManager">
     <packageJsonPaths />
   </component>
-  <component name="ProjectFrameBounds" extendedState="6">
+  <component name="ProjectFrameBounds" extendedState="7">
     <option name="x" value="173" />
     <option name="y" value="67" />
     <option name="width" value="1485" />
@@ -462,12 +483,12 @@
       <workItem from="1544023609416" duration="3252000" />
       <workItem from="1544054041747" duration="1306000" />
       <workItem from="1544192322655" duration="1558000" />
-      <workItem from="1544291900890" duration="897000" />
+      <workItem from="1544291900890" duration="1589000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="113616000" />
+    <option name="totallyTimeSpent" value="114308000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -744,13 +765,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Assets/Scripts/Audio_Scripts/Journey_Audio_Player.cs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret line="12" selection-start-line="12" selection-end-line="12" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Assets/Scripts/Cosmos_Scripts/Player_Movement_Cosmos.cs">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
@@ -804,7 +818,7 @@
     <entry file="file://$PROJECT_DIR$/Assets/Scripts/Cosmos_Scripts/Activate_Endgame.cs">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="414">
-          <caret line="93" column="100" lean-forward="true" selection-start-line="93" selection-start-column="100" selection-end-line="93" selection-end-column="100" />
+          <caret line="93" column="100" selection-start-line="93" selection-start-column="100" selection-end-line="93" selection-end-column="100" />
           <folding>
             <marker date="1544292798659" expanded="false" signature="6:100" ph="..." />
             <marker date="1544292798659" expanded="true" signature="147:4296" ph="{...}" />
@@ -822,6 +836,34 @@
             <marker date="1544292798659" expanded="true" signature="3724:3907" ph="{...}" />
             <marker date="1544292798659" expanded="true" signature="3930:4294" ph="{...}" />
             <marker date="1544292798659" expanded="true" signature="4061:4098" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/Scripts/Audio_Scripts/Journey_Audio_Player.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="272">
+          <caret line="69" column="26" lean-forward="true" selection-start-line="69" selection-start-column="26" selection-end-line="69" selection-end-column="26" />
+          <folding>
+            <marker date="1544294205925" expanded="false" signature="6:167" ph="..." />
+            <marker date="1544294205925" expanded="true" signature="261:3249" ph="{...}" />
+            <marker date="1544294205925" expanded="true" signature="698:1000" ph="{...}" />
+            <marker date="1544294205925" expanded="true" signature="841:901" ph="{...}" />
+            <marker date="1544294205925" expanded="true" signature="1034:1234" ph="{...}" />
+            <marker date="1544294205925" expanded="true" signature="1061:1226" ph="{...}" />
+            <marker date="1544294205925" expanded="true" signature="1275:1646" ph="{...}" />
+            <marker date="1544294205925" expanded="true" signature="1337:1624" ph="{...}" />
+            <marker date="1544294205925" expanded="true" signature="1526:1605" ph="{...}" />
+            <marker date="1544294205925" expanded="true" signature="1680:2097" ph="{...}" />
+            <marker date="1544294205925" expanded="true" signature="1706:1831" ph="{...}" />
+            <marker date="1544294205925" expanded="true" signature="2129:2217" ph="{...}" />
+            <marker date="1544294205925" expanded="true" signature="2250:2654" ph="{...}" />
+            <marker date="1544294205925" expanded="true" signature="2364:2498" ph="{...}" />
+            <marker date="1544294205925" expanded="true" signature="2688:2824" ph="{...}" />
+            <marker date="1544294205925" expanded="true" signature="2865:3244" ph="{...}" />
+            <marker date="1544294205925" expanded="true" signature="2895:3176" ph="{...}" />
+            <marker date="1544294205925" expanded="true" signature="2911:2986" ph="/* if (ES.isFocused) { ... */" />
+            <marker date="1544294205925" expanded="true" signature="3090:3163" ph="{...}" />
           </folding>
         </state>
       </provider>

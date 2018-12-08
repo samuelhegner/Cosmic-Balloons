@@ -57,6 +57,9 @@ public bool playing;
           if (!playing) {
                _audioManager.Play(CurrentJourneyName, true, 2f);
                playing = true;
+
+               StartCoroutine(waitForEndOfJourney());
+
           }
 
      }
@@ -64,7 +67,7 @@ public bool playing;
      IEnumerator waitForEndOfJourney() {
 
 
-          while (true) {
+         // while (true) {
                while (playing) {
 
 
@@ -81,7 +84,7 @@ yield return new WaitForSeconds(0.5f);
 
 
                }
-          }
+       //   }
 
      }
 
