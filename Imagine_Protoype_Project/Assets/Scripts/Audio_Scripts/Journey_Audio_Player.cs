@@ -26,6 +26,12 @@ public bool playing;
      public Sprite PlayButton;
 
      public Image PausePlayButton;
+
+     [Space] public Sprite UpArrow;
+     public Sprite DownArrow;
+
+     public Image Arrow; 
+     
 [Space]
      public GameObject EndSceneUI;
 
@@ -140,9 +146,14 @@ yield return new WaitForSeconds(0.5f);
 
                StartCoroutine(AutoHide(4f));
 
+               //Arrow.sprite = UpArrow;
+
           } else {
 
                GetComponent<AudioManager>().Play("Close");
+
+              // Arrow.sprite = DownArrow;
+               
 
           }
 
@@ -150,6 +161,10 @@ yield return new WaitForSeconds(0.5f);
 
 
      }
+     
+     
+     
+    
 
 
      public void ReturnToMap() {

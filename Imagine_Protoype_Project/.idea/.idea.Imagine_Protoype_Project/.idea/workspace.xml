@@ -185,28 +185,28 @@
       <file leaf-file-name="Journey_Audio_Player.cs" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/Assets/Scripts/Audio_Scripts/Journey_Audio_Player.cs">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="272">
-              <caret line="69" column="26" lean-forward="true" selection-start-line="69" selection-start-column="26" selection-end-line="69" selection-end-column="26" />
+            <state relative-caret-position="850">
+              <caret line="148" column="17" selection-start-line="148" selection-start-column="17" selection-end-line="148" selection-end-column="17" />
               <folding>
-                <marker date="1544294205925" expanded="false" signature="6:167" ph="..." />
-                <marker date="1544294205925" expanded="true" signature="261:3249" ph="{...}" />
-                <marker date="1544294205925" expanded="true" signature="698:1000" ph="{...}" />
-                <marker date="1544294205925" expanded="true" signature="841:901" ph="{...}" />
-                <marker date="1544294205925" expanded="true" signature="1034:1234" ph="{...}" />
-                <marker date="1544294205925" expanded="true" signature="1061:1226" ph="{...}" />
-                <marker date="1544294205925" expanded="true" signature="1275:1646" ph="{...}" />
-                <marker date="1544294205925" expanded="true" signature="1337:1624" ph="{...}" />
-                <marker date="1544294205925" expanded="true" signature="1526:1605" ph="{...}" />
-                <marker date="1544294205925" expanded="true" signature="1680:2097" ph="{...}" />
-                <marker date="1544294205925" expanded="true" signature="1706:1831" ph="{...}" />
-                <marker date="1544294205925" expanded="true" signature="2129:2217" ph="{...}" />
-                <marker date="1544294205925" expanded="true" signature="2250:2654" ph="{...}" />
-                <marker date="1544294205925" expanded="true" signature="2364:2498" ph="{...}" />
-                <marker date="1544294205925" expanded="true" signature="2688:2824" ph="{...}" />
-                <marker date="1544294205925" expanded="true" signature="2865:3244" ph="{...}" />
-                <marker date="1544294205925" expanded="true" signature="2895:3176" ph="{...}" />
-                <marker date="1544294205925" expanded="true" signature="2911:2986" ph="/* if (ES.isFocused) { ... */" />
-                <marker date="1544294205925" expanded="true" signature="3090:3163" ph="{...}" />
+                <marker date="1544298411347" expanded="false" signature="6:167" ph="..." />
+                <marker date="1544298411347" expanded="true" signature="261:3474" ph="{...}" />
+                <marker date="1544298411347" expanded="true" signature="798:1100" ph="{...}" />
+                <marker date="1544298411347" expanded="true" signature="941:1001" ph="{...}" />
+                <marker date="1544298411347" expanded="true" signature="1134:1334" ph="{...}" />
+                <marker date="1544298411347" expanded="true" signature="1161:1326" ph="{...}" />
+                <marker date="1544298411347" expanded="true" signature="1375:1746" ph="{...}" />
+                <marker date="1544298411347" expanded="true" signature="1437:1724" ph="{...}" />
+                <marker date="1544298411347" expanded="true" signature="1626:1705" ph="{...}" />
+                <marker date="1544298411347" expanded="true" signature="1780:2197" ph="{...}" />
+                <marker date="1544298411347" expanded="true" signature="1806:1931" ph="{...}" />
+                <marker date="1544298411347" expanded="true" signature="2229:2317" ph="{...}" />
+                <marker date="1544298411347" expanded="true" signature="2350:2856" ph="{...}" />
+                <marker date="1544298411347" expanded="true" signature="2464:2640" ph="{...}" />
+                <marker date="1544298411347" expanded="true" signature="2913:3049" ph="{...}" />
+                <marker date="1544298411347" expanded="true" signature="3090:3469" ph="{...}" />
+                <marker date="1544298411347" expanded="true" signature="3120:3401" ph="{...}" />
+                <marker date="1544298411347" expanded="true" signature="3136:3211" ph="/* if (ES.isFocused) { ... */" />
+                <marker date="1544298411347" expanded="true" signature="3315:3388" ph="{...}" />
               </folding>
             </state>
           </provider>
@@ -483,12 +483,12 @@
       <workItem from="1544023609416" duration="3252000" />
       <workItem from="1544054041747" duration="1306000" />
       <workItem from="1544192322655" duration="1558000" />
-      <workItem from="1544291900890" duration="1589000" />
+      <workItem from="1544291900890" duration="2937000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="114308000" />
+    <option name="totallyTimeSpent" value="115656000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -842,28 +842,28 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/Assets/Scripts/Audio_Scripts/Journey_Audio_Player.cs">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="272">
-          <caret line="69" column="26" lean-forward="true" selection-start-line="69" selection-start-column="26" selection-end-line="69" selection-end-column="26" />
+        <state relative-caret-position="850">
+          <caret line="148" column="17" selection-start-line="148" selection-start-column="17" selection-end-line="148" selection-end-column="17" />
           <folding>
-            <marker date="1544294205925" expanded="false" signature="6:167" ph="..." />
-            <marker date="1544294205925" expanded="true" signature="261:3249" ph="{...}" />
-            <marker date="1544294205925" expanded="true" signature="698:1000" ph="{...}" />
-            <marker date="1544294205925" expanded="true" signature="841:901" ph="{...}" />
-            <marker date="1544294205925" expanded="true" signature="1034:1234" ph="{...}" />
-            <marker date="1544294205925" expanded="true" signature="1061:1226" ph="{...}" />
-            <marker date="1544294205925" expanded="true" signature="1275:1646" ph="{...}" />
-            <marker date="1544294205925" expanded="true" signature="1337:1624" ph="{...}" />
-            <marker date="1544294205925" expanded="true" signature="1526:1605" ph="{...}" />
-            <marker date="1544294205925" expanded="true" signature="1680:2097" ph="{...}" />
-            <marker date="1544294205925" expanded="true" signature="1706:1831" ph="{...}" />
-            <marker date="1544294205925" expanded="true" signature="2129:2217" ph="{...}" />
-            <marker date="1544294205925" expanded="true" signature="2250:2654" ph="{...}" />
-            <marker date="1544294205925" expanded="true" signature="2364:2498" ph="{...}" />
-            <marker date="1544294205925" expanded="true" signature="2688:2824" ph="{...}" />
-            <marker date="1544294205925" expanded="true" signature="2865:3244" ph="{...}" />
-            <marker date="1544294205925" expanded="true" signature="2895:3176" ph="{...}" />
-            <marker date="1544294205925" expanded="true" signature="2911:2986" ph="/* if (ES.isFocused) { ... */" />
-            <marker date="1544294205925" expanded="true" signature="3090:3163" ph="{...}" />
+            <marker date="1544298411347" expanded="false" signature="6:167" ph="..." />
+            <marker date="1544298411347" expanded="true" signature="261:3474" ph="{...}" />
+            <marker date="1544298411347" expanded="true" signature="798:1100" ph="{...}" />
+            <marker date="1544298411347" expanded="true" signature="941:1001" ph="{...}" />
+            <marker date="1544298411347" expanded="true" signature="1134:1334" ph="{...}" />
+            <marker date="1544298411347" expanded="true" signature="1161:1326" ph="{...}" />
+            <marker date="1544298411347" expanded="true" signature="1375:1746" ph="{...}" />
+            <marker date="1544298411347" expanded="true" signature="1437:1724" ph="{...}" />
+            <marker date="1544298411347" expanded="true" signature="1626:1705" ph="{...}" />
+            <marker date="1544298411347" expanded="true" signature="1780:2197" ph="{...}" />
+            <marker date="1544298411347" expanded="true" signature="1806:1931" ph="{...}" />
+            <marker date="1544298411347" expanded="true" signature="2229:2317" ph="{...}" />
+            <marker date="1544298411347" expanded="true" signature="2350:2856" ph="{...}" />
+            <marker date="1544298411347" expanded="true" signature="2464:2640" ph="{...}" />
+            <marker date="1544298411347" expanded="true" signature="2913:3049" ph="{...}" />
+            <marker date="1544298411347" expanded="true" signature="3090:3469" ph="{...}" />
+            <marker date="1544298411347" expanded="true" signature="3120:3401" ph="{...}" />
+            <marker date="1544298411347" expanded="true" signature="3136:3211" ph="/* if (ES.isFocused) { ... */" />
+            <marker date="1544298411347" expanded="true" signature="3315:3388" ph="{...}" />
           </folding>
         </state>
       </provider>
