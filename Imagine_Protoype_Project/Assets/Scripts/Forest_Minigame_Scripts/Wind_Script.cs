@@ -8,11 +8,11 @@ public class Wind_Script : MonoBehaviour {
 	public AudioManager AM; 
 	
 	private void OnEnable() {
-		AM.Play("Wind", true, 0.8f, 0.8f);
+		AM.Play("Wind", true, 2f, 0.6f);
 	}
 
 	private void OnDisable() {
-		AM.Stop("Wind", true, 1.4f);
+		AM.Stop("Wind", true, 4f);
 	}
 
 }

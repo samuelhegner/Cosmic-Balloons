@@ -90,6 +90,9 @@ public class Activate_Endgame : MonoBehaviour
             if(setTime == false){
                 startTime = Time.time;
                 setTime = true;
+
+                 GameObject.Find("Player").GetComponent<AudioManager>().Stop("Flame_Mid", true, 3f);
+                 
             }
 		}
 
@@ -98,6 +101,8 @@ public class Activate_Endgame : MonoBehaviour
                 float t = (Time.time - startTime) / fadeTime;
                 fadeImage.color = new Color(fadeImage.color.r, fadeImage.color.g, fadeImage.color.b, Mathf.SmoothStep(0, 1, t));
             } else {
+                 
+                 
 
 	            if (!_tutorialTriggered) {
 
