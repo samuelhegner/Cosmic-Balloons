@@ -460,15 +460,18 @@ MonoBehaviour:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 906965919367720652}
-  m_Enabled: 0
+  m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 6668fa9c07509b641b9ed197e8d325e8, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   sounds:
-  - name: 
-    audioMixerGroup: {fileID: 0}
-    clips: []
+  - name: Snort
+    audioMixerGroup: {fileID: 243862759904171356, guid: f53abdbdf703fff48a03ac380608cf1c,
+      type: 2}
+    clips:
+    - {fileID: 8300000, guid: cfd59eb85cfe9f141be79ff7893f31b7, type: 3}
+    - {fileID: 8300000, guid: 37dc154136c22bd4db23efd23494a690, type: 3}
     volume: 1
     pitch: 1
     spatialBlend: 0
@@ -570,7 +573,7 @@ GameObject:
   m_Component:
   - component: {fileID: 906965920052611314}
   m_Layer: 9
-  m_Name: Deer 1
+  m_Name: Deer
   m_TagString: Map_Interactable
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -583,7 +586,7 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 906965920052611325}
-  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 20.455236, y: -13.175847, z: -0.6437851}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:

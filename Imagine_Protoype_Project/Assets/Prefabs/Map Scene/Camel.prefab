@@ -412,15 +412,18 @@ MonoBehaviour:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1118972389877273536}
-  m_Enabled: 0
+  m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 6668fa9c07509b641b9ed197e8d325e8, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   sounds:
-  - name: 
-    audioMixerGroup: {fileID: 0}
-    clips: []
+  - name: Spit
+    audioMixerGroup: {fileID: 243862759904171356, guid: f53abdbdf703fff48a03ac380608cf1c,
+      type: 2}
+    clips:
+    - {fileID: 8300000, guid: 7544cd2107df9ea459e4b8a5bda96a20, type: 3}
+    - {fileID: 8300000, guid: 669bff7140bf82647814aebaf967cb26, type: 3}
     volume: 1
     pitch: 1
     spatialBlend: 0
