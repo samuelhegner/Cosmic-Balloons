@@ -19,18 +19,14 @@ public class Face_Move_Dir : MonoBehaviour
     void Update()
     {
         float lastX = transform.position.x - myX;
-        myX = transform.position.x;
-        print(myX +", "+ lastX);
-        
+        myX = transform.position.x;        
 
         if(0 > lastX){
             //moving left
             transform.localScale = movingLeft;
-            print("left");
         }else if(lastX > 0){
             //moving right
             transform.localScale = movingRight;
-            print("right");
         }
     }
 }
