@@ -7,7 +7,7 @@ Material:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: WindTrail_Overlay
+  m_Name: Space_SpeedTrail_Overlay
   m_Shader: {fileID: 4800000, guid: ce386e91d7bc6e24da794d35b9f13fb0, type: 3}
   m_ShaderKeywords: ETC1_EXTERNAL_ALPHA
   m_LightmapFlags: 4
