@@ -59,6 +59,9 @@ TagManager:
   - name: Map
     uniqueID: 4033062337
     locked: 0
+  - name: Flag Layer
+    uniqueID: 1073102477
+    locked: 0
   - name: MapFeatures
     uniqueID: 2980830755
     locked: 0
