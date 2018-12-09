@@ -441,7 +441,7 @@ Camera:
   far clip plane: 1000
   field of view: 60
   orthographic: 1
-  orthographic size: 30.7
+  orthographic size: 1.8
   m_Depth: -1
   m_CullingMask:
     serializedVersion: 2
@@ -465,7 +465,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 294635277}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 13.2, y: 27.8, z: -10}
+  m_LocalPosition: {x: 13.9, y: 29.9, z: -10}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
@@ -1481,11 +1481,11 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 4285161325309966, guid: 26fecdd83c4d5b74f910b5f536f644fd, type: 3}
       propertyPath: m_LocalPosition.x
-      value: 13.52
+      value: 14.21
       objectReference: {fileID: 0}
     - target: {fileID: 4285161325309966, guid: 26fecdd83c4d5b74f910b5f536f644fd, type: 3}
       propertyPath: m_LocalPosition.y
-      value: 35.06
+      value: 30.78
       objectReference: {fileID: 0}
     - target: {fileID: 4285161325309966, guid: 26fecdd83c4d5b74f910b5f536f644fd, type: 3}
       propertyPath: m_LocalPosition.z
@@ -1527,6 +1527,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: Forest_Trail_Prefab
       objectReference: {fileID: 0}
+    - target: {fileID: 96376205759797374, guid: 26fecdd83c4d5b74f910b5f536f644fd,
+        type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: bb8f5864f283f824b9e10b31e7b3c24f, type: 2}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 26fecdd83c4d5b74f910b5f536f644fd, type: 3}
 --- !u!1 &897435973

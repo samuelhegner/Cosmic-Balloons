@@ -7,8 +7,8 @@ Material:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: Forest_WindTrail
-  m_Shader: {fileID: 4800000, guid: 508817387ee39374d8881f9d58164cf5, type: 3}
+  m_Name: RopeCutter_Trail
+  m_Shader: {fileID: 4800000, guid: 7bc65fe34b69f78469fc58da4e56a255, type: 3}
   m_ShaderKeywords: 
   m_LightmapFlags: 4
   m_EnableInstancingVariants: 0
@@ -19,8 +19,8 @@ Material:
   m_SavedProperties:
     serializedVersion: 3
     m_TexEnvs:
-    - Texture2D_78A5D424:
-        m_Texture: {fileID: 2800000, guid: 25ca0238c1ba74a469fc44ded929b2c6, type: 3}
+    - Texture2D_DC61628E:
+        m_Texture: {fileID: 2800000, guid: e2f8eee899f11924593d155421c035b0, type: 3}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _BumpMap:
@@ -44,7 +44,7 @@ Material:
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _MainTex:
-        m_Texture: {fileID: 2800000, guid: e1089fd18f4e7d441a897ed587115210, type: 3}
+        m_Texture: {fileID: 0}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _MetallicGlossMap:
@@ -59,8 +59,8 @@ Material:
         m_Texture: {fileID: 0}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
-    - _SampleTexture2D_F9F76B6B_Texture:
-        m_Texture: {fileID: 2800000, guid: 20b305dda964f904e8336b88ac2650c6, type: 3}
+    - _SampleTexture2DLOD_5B9D8F1B_Texture:
+        m_Texture: {fileID: 2800000, guid: 0fd9baf84bc38334a8f923ff8078fad3, type: 3}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _SpecGlossMap:
@@ -68,7 +68,6 @@ Material:
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     m_Floats:
-    - Vector1_8C05B20E: 0.75
     - _AlphaClip: 0
     - _Blend: 0
     - _BumpScale: 1
@@ -83,7 +82,6 @@ Material:
     - _OcclusionStrength: 1
     - _Parallax: 0.02
     - _ReceiveShadows: 1
-    - _SampleGI: 0
     - _SmoothnessTextureChannel: 0
     - _SpecularHighlights: 1
     - _SrcBlend: 1
@@ -92,8 +90,7 @@ Material:
     - _WorkflowMode: 1
     - _ZWrite: 1
     m_Colors:
-    - Color_3127F60F: {r: 0.1536019, g: 0.8867924, b: 0.054378804, a: 0}
-    - Color_49E8411: {r: 0.4712976, g: 0.8396226, b: 0.50367785, a: 1}
-    - _Color: {r: 1, g: 1, b: 1, a: 1}
+    - Vector2_B7CBE606: {r: 0.5, g: 0, b: 0, a: 0}
+    - _Color: {r: 0.5, g: 0.5, b: 0.5, a: 1}
     - _EmissionColor: {r: 0, g: 0, b: 0, a: 1}
     - _SpecColor: {r: 0.2, g: 0.2, b: 0.2, a: 1}
