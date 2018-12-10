@@ -95,6 +95,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   SpritesToOrder:
   - {fileID: 3855628127259280518}
+  - {fileID: 3855628128405395688}
   SortOnUpdate: 0
 --- !u!1 &3855628128405395690
 GameObject:

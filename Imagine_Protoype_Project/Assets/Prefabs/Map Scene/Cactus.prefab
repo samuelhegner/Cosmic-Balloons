@@ -46,10 +46,10 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   SpritesToOrder:
-  - {fileID: 212545043873005682}
   - {fileID: 212605549417660496}
   - {fileID: 212123799529388648}
   - {fileID: 212798679523303542}
+  - {fileID: 212545043873005682}
   SortOnUpdate: 0
 --- !u!1 &1450322661080004
 GameObject:

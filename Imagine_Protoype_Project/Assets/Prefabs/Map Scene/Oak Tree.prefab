@@ -211,6 +211,7 @@ MonoBehaviour:
   SpritesToOrder:
   - {fileID: 212339638306638688}
   - {fileID: 212166501876365024}
+  - {fileID: 212051750157457600}
   SortOnUpdate: 0
 --- !u!1 &1605538680949374
 GameObject:

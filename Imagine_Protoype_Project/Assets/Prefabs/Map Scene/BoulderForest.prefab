@@ -93,5 +93,5 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   SpritesToOrder:
-  - {fileID: 593008359911209809, guid: 9cea14691572c664984ae829c3d0d2b1, type: 3}
+  - {fileID: 593008359911209809}
   SortOnUpdate: 0
