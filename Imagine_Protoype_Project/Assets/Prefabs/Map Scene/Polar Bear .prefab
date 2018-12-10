@@ -88,6 +88,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 4380749361768508}
+  - component: {fileID: 43538193254259309}
   m_Layer: 9
   m_Name: 'Polar Bear '
   m_TagString: Untagged
@@ -111,6 +112,35 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 180, z: 0}
+--- !u!114 &43538193254259309
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1124691848342402}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 85f43c7176c07374596cf097d824c213, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  SpritesToOrder:
+  - {fileID: 212219673063379590}
+  - {fileID: 212271081611119576}
+  - {fileID: 212533564795854590}
+  - {fileID: 212431261402352012}
+  - {fileID: 212053654821848780}
+  - {fileID: 212934532027769768}
+  - {fileID: 212259083486056816}
+  - {fileID: 212908279729028518}
+  - {fileID: 212170575424747840}
+  - {fileID: 212752288800911920}
+  - {fileID: 212722801281196762}
+  - {fileID: 212817638142993386}
+  - {fileID: 212130411684488858}
+  - {fileID: 212702914750166308}
+  - {fileID: 212310005200478090}
+  SortOnUpdate: 0
 --- !u!1 &1140745864329736
 GameObject:
   m_ObjectHideFlags: 0

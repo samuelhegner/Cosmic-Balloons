@@ -14,6 +14,7 @@ GameObject:
   - component: {fileID: 70597284586757568}
   - component: {fileID: 114153384935047320}
   - component: {fileID: 3336506569919179886}
+  - component: {fileID: 3865668533153780692}
   m_Layer: 0
   m_Name: body
   m_TagString: Map_Interactable
@@ -162,6 +163,27 @@ MonoBehaviour:
     FadingOut: 0
   master: 0
   DontDestroyOnLoad: 0
+--- !u!114 &3865668533153780692
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1054110617452722}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 85f43c7176c07374596cf097d824c213, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  SpritesToOrder:
+  - {fileID: 212995193930545150}
+  - {fileID: 212101119614623028}
+  - {fileID: 212720435098632220}
+  - {fileID: 212999149577453638}
+  - {fileID: 212681386338090144}
+  - {fileID: 212189880204496730}
+  - {fileID: 212064974874849092}
+  SortOnUpdate: 0
 --- !u!1 &1331754271568126
 GameObject:
   m_ObjectHideFlags: 0

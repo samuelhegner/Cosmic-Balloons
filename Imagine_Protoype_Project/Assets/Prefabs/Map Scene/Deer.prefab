@@ -332,6 +332,7 @@ GameObject:
   - component: {fileID: 906965919367720641}
   - component: {fileID: 906965919367720640}
   - component: {fileID: 906965919367720646}
+  - component: {fileID: 2294357105834744645}
   m_Layer: 9
   m_Name: Body
   m_TagString: Map_Interactable
@@ -483,6 +484,29 @@ MonoBehaviour:
     FadingOut: 0
   master: 0
   DontDestroyOnLoad: 0
+--- !u!114 &2294357105834744645
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 906965919367720652}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 85f43c7176c07374596cf097d824c213, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  SpritesToOrder:
+  - {fileID: 906965920085216680}
+  - {fileID: 906965920211472546}
+  - {fileID: 906965919367720643}
+  - {fileID: 906965919292479098}
+  - {fileID: 906965918549992861}
+  - {fileID: 906965919222073119}
+  - {fileID: 906965919679218899}
+  - {fileID: 906965918264389460}
+  - {fileID: 906965920124546556}
+  SortOnUpdate: 0
 --- !u!1 &906965919679218908
 GameObject:
   m_ObjectHideFlags: 0

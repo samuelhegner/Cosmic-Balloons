@@ -23,6 +23,31 @@ public class Map_Layer_manager : MonoBehaviour {
 
 		LSOY = FindObjectsOfType<layerSortOnY>();
 
+
+		foreach (layerSortOnY LS in LSOY) {
+
+		//	if (LS.SortOnUpdate) {
+
+				try {
+					//GO.GetComponentInChildren<SpriteRenderer>().sortingOrder = Mathf.RoundToInt(transform.position.y * 100f) * -1;
+
+					int idealOrder = Mathf.RoundToInt(LS.transform.position.y * 100f) * -1;
+
+					LS.ReorderSprites(idealOrder);
+
+
+				} catch {
+
+
+
+				}
+			//}
+		}
+		
+		
+		
+		
+
 	}
 	
 	// Update is called once per frame
@@ -30,18 +55,21 @@ public class Map_Layer_manager : MonoBehaviour {
 
 		foreach (layerSortOnY LS in LSOY) {
 
-			try {
-				//GO.GetComponentInChildren<SpriteRenderer>().sortingOrder = Mathf.RoundToInt(transform.position.y * 100f) * -1;
-				
-				int idealOrder = Mathf.RoundToInt(LS.transform.position.y * 100f) * -1;
-				
-				LS.ReorderSprites(idealOrder);
-				
-				
-			} catch {
+			if (LS.SortOnUpdate) {
 
-				
-				
+				try {
+					//GO.GetComponentInChildren<SpriteRenderer>().sortingOrder = Mathf.RoundToInt(transform.position.y * 100f) * -1;
+
+					int idealOrder = Mathf.RoundToInt(LS.transform.position.y * 100f) * -1;
+
+					LS.ReorderSprites(idealOrder);
+
+
+				} catch {
+
+
+
+				}
 			}
 		}
 

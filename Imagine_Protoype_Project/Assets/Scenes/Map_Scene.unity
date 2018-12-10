@@ -2830,6 +2830,7 @@ MonoBehaviour:
   - {fileID: 0}
   - {fileID: 0}
   - {fileID: 0}
+  SortOnUpdate: 0
 --- !u!1 &181608714
 GameObject:
   m_ObjectHideFlags: 0
@@ -5646,6 +5647,7 @@ MonoBehaviour:
   - {fileID: 0}
   - {fileID: 0}
   - {fileID: 0}
+  SortOnUpdate: 0
 --- !u!1 &305937286 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 1763762559488326, guid: 29cabb6a9893047e4be2517ac91a4426,
@@ -8193,6 +8195,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   SpritesToOrder: []
+  SortOnUpdate: 0
 --- !u!1001 &479156748
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -9407,6 +9410,7 @@ MonoBehaviour:
   - {fileID: 0}
   - {fileID: 0}
   - {fileID: 0}
+  SortOnUpdate: 0
 --- !u!1 &538533685
 GameObject:
   m_ObjectHideFlags: 0
@@ -11444,6 +11448,7 @@ MonoBehaviour:
   - {fileID: 611762165}
   - {fileID: 611762166}
   - {fileID: 611762167}
+  SortOnUpdate: 0
 --- !u!1 &615019614 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 1229185735486198411, guid: 29cabb6a9893047e4be2517ac91a4426,
@@ -12669,6 +12674,7 @@ MonoBehaviour:
   - {fileID: 0}
   - {fileID: 0}
   - {fileID: 0}
+  SortOnUpdate: 0
 --- !u!1001 &779669080
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -16760,6 +16766,7 @@ MonoBehaviour:
   - {fileID: 0}
   - {fileID: 0}
   - {fileID: 0}
+  SortOnUpdate: 0
 --- !u!1 &1131387719 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 1629343192377100, guid: 29cabb6a9893047e4be2517ac91a4426,
@@ -18475,6 +18482,7 @@ MonoBehaviour:
   - {fileID: 0}
   - {fileID: 0}
   - {fileID: 0}
+  SortOnUpdate: 0
 --- !u!1001 &1243983875
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -27854,6 +27862,7 @@ MonoBehaviour:
   - {fileID: 1506030411}
   - {fileID: 1506030412}
   - {fileID: 1506030413}
+  SortOnUpdate: 0
 --- !u!1 &1507712443
 GameObject:
   m_ObjectHideFlags: 0
@@ -28831,6 +28840,7 @@ MonoBehaviour:
   - {fileID: 157493181}
   - {fileID: 1974200883}
   - {fileID: 1795697046}
+  SortOnUpdate: 0
 --- !u!1001 &1557452308
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -29945,6 +29955,7 @@ MonoBehaviour:
   - {fileID: 0}
   - {fileID: 0}
   - {fileID: 0}
+  SortOnUpdate: 0
 --- !u!4 &1691044932 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 4791742079313446, guid: 69ae83496b6770a4eb25f22912908fde,
@@ -30052,6 +30063,7 @@ MonoBehaviour:
   - {fileID: 0}
   - {fileID: 0}
   - {fileID: 0}
+  SortOnUpdate: 0
 --- !u!1 &1709346181
 GameObject:
   m_ObjectHideFlags: 0
@@ -32331,20 +32343,22 @@ PrefabInstance:
       propertyPath: m_RootOrder
       value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: 1344375780731204, guid: 7b15cc05dc74a1a40b9178e2a08958a9, type: 3}
-      propertyPath: m_IsActive
+    - target: {fileID: 4686255307087172, guid: 7b15cc05dc74a1a40b9178e2a08958a9, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
       value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: 1641042025766714, guid: 7b15cc05dc74a1a40b9178e2a08958a9, type: 3}
-      propertyPath: m_IsActive
+    - target: {fileID: 4686255307087172, guid: 7b15cc05dc74a1a40b9178e2a08958a9, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
       value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: 212079975317730042, guid: 7b15cc05dc74a1a40b9178e2a08958a9,
-        type: 3}
-      propertyPath: m_Sprite
-      value: 
-      objectReference: {fileID: 21300000, guid: 736c3dad5c6186549ba4d9194ddc52bd,
-        type: 3}
+    - target: {fileID: 4686255307087172, guid: 7b15cc05dc74a1a40b9178e2a08958a9, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1178501038257632, guid: 7b15cc05dc74a1a40b9178e2a08958a9, type: 3}
+      propertyPath: m_Name
+      value: Flag
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 7b15cc05dc74a1a40b9178e2a08958a9, type: 3}
 --- !u!1 &1835259836 stripped
@@ -33475,6 +33489,7 @@ MonoBehaviour:
   - {fileID: 0}
   - {fileID: 0}
   - {fileID: 0}
+  SortOnUpdate: 0
 --- !u!1001 &1897492954
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -34532,6 +34547,7 @@ MonoBehaviour:
   - {fileID: 0}
   - {fileID: 0}
   - {fileID: 0}
+  SortOnUpdate: 0
 --- !u!1001 &1951098086
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -36332,6 +36348,7 @@ MonoBehaviour:
   - {fileID: 0}
   - {fileID: 0}
   - {fileID: 0}
+  SortOnUpdate: 0
 --- !u!1 &2066046180 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 1547554802218474, guid: 29cabb6a9893047e4be2517ac91a4426,

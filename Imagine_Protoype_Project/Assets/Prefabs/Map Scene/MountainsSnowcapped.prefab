@@ -10,6 +10,7 @@ GameObject:
   m_Component:
   - component: {fileID: 598040377496487704}
   - component: {fileID: 598040377496487705}
+  - component: {fileID: 3104034392736186650}
   m_Layer: 0
   m_Name: MountainsSnowcapped
   m_TagString: Untagged
@@ -80,6 +81,21 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!114 &3104034392736186650
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 598040377496487707}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 85f43c7176c07374596cf097d824c213, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  SpritesToOrder:
+  - {fileID: 598040377496487705}
+  SortOnUpdate: 0
 --- !u!1 &598040378608659009
 GameObject:
   m_ObjectHideFlags: 0

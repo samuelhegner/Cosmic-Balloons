@@ -6,7 +6,7 @@ public class layerSortOnY : MonoBehaviour {
 
 	public SpriteRenderer[] SpritesToOrder;
 
-
+	public bool SortOnUpdate;
 
 	public void ReorderSprites(int order) {
 
