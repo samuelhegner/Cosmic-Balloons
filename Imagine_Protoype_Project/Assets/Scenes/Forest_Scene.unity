@@ -89,7 +89,7 @@ LightmapSettings:
     m_PVRFilteringAtrousPositionSigmaAO: 1
     m_ShowResolutionOverlay: 1
   m_LightingDataAsset: {fileID: 0}
-  m_UseShadowmask: 0
+  m_UseShadowmask: 1
 --- !u!196 &4
 NavMeshSettings:
   serializedVersion: 2
@@ -6566,52 +6566,52 @@ PrefabInstance:
     - target: {fileID: 114960073661424896, guid: 0ef57ffeb437abc409689f487511203e,
         type: 3}
       propertyPath: m_havePropertiesChanged
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 114960073661424896, guid: 0ef57ffeb437abc409689f487511203e,
         type: 3}
       propertyPath: m_isInputParsingRequired
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 2866725426398092507, guid: 0ef57ffeb437abc409689f487511203e,
         type: 3}
       propertyPath: m_havePropertiesChanged
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 2866725426398092507, guid: 0ef57ffeb437abc409689f487511203e,
         type: 3}
       propertyPath: m_isInputParsingRequired
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 114176614389460668, guid: 0ef57ffeb437abc409689f487511203e,
         type: 3}
       propertyPath: m_havePropertiesChanged
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 114176614389460668, guid: 0ef57ffeb437abc409689f487511203e,
         type: 3}
       propertyPath: m_isInputParsingRequired
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 114797302897645196, guid: 0ef57ffeb437abc409689f487511203e,
         type: 3}
       propertyPath: m_havePropertiesChanged
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 114797302897645196, guid: 0ef57ffeb437abc409689f487511203e,
         type: 3}
       propertyPath: m_isInputParsingRequired
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 114346701873206522, guid: 0ef57ffeb437abc409689f487511203e,
         type: 3}
       propertyPath: m_havePropertiesChanged
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 114346701873206522, guid: 0ef57ffeb437abc409689f487511203e,
         type: 3}
       propertyPath: m_isInputParsingRequired
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 8367378991969358153, guid: 0ef57ffeb437abc409689f487511203e,
         type: 3}
@@ -6657,6 +6657,36 @@ PrefabInstance:
         type: 3}
       propertyPath: PlayJourneyOnAwake
       value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 7973227333535657687, guid: 0ef57ffeb437abc409689f487511203e,
+        type: 3}
+      propertyPath: Primary.r
+      value: 0.1462264
+      objectReference: {fileID: 0}
+    - target: {fileID: 7973227333535657687, guid: 0ef57ffeb437abc409689f487511203e,
+        type: 3}
+      propertyPath: Primary.g
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 7973227333535657687, guid: 0ef57ffeb437abc409689f487511203e,
+        type: 3}
+      propertyPath: Primary.b
+      value: 0.5854273
+      objectReference: {fileID: 0}
+    - target: {fileID: 7973227333535657687, guid: 0ef57ffeb437abc409689f487511203e,
+        type: 3}
+      propertyPath: Secondary.r
+      value: 0.28627446
+      objectReference: {fileID: 0}
+    - target: {fileID: 7973227333535657687, guid: 0ef57ffeb437abc409689f487511203e,
+        type: 3}
+      propertyPath: Secondary.g
+      value: 0.93333334
+      objectReference: {fileID: 0}
+    - target: {fileID: 7973227333535657687, guid: 0ef57ffeb437abc409689f487511203e,
+        type: 3}
+      propertyPath: Secondary.b
+      value: 0.71895117
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 0ef57ffeb437abc409689f487511203e, type: 3}
