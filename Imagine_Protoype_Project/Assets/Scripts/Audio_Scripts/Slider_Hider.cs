@@ -12,6 +12,9 @@ public class Slider_Hider : MonoBehaviour {
 		if (Game_Manager.isPC) {
 
 			Slider.SetActive(true);
+		} else {
+		Slider.SetActive(false);
+		
 		}
 
 

@@ -170,7 +170,7 @@
         <entry file="file://$PROJECT_DIR$/Assets/Scripts/Forest_Minigame_Scripts/Wind_Script.cs">
           <provider selected="true" editor-type-id="text-editor">
             <state>
-              <caret line="10" column="28" selection-start-line="10" selection-start-column="28" selection-end-line="10" selection-end-column="28" />
+              <caret line="10" column="22" selection-start-line="10" selection-start-column="22" selection-end-line="10" selection-end-column="22" />
               <folding>
                 <marker date="1544311938691" expanded="false" signature="6:78" ph="..." />
                 <marker date="1544311938691" expanded="true" signature="121:281" ph="{...}" />
@@ -214,8 +214,8 @@
       <file leaf-file-name="Map_Layer_manager.cs" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Assets/Scripts/Map_Scripts/Map_Layer_manager.cs">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1105">
-              <caret line="67" column="13" selection-start-line="67" selection-start-column="13" selection-end-line="67" selection-end-column="13" />
+            <state>
+              <caret line="67" column="3" selection-start-line="67" selection-start-column="3" selection-end-line="67" selection-end-column="3" />
               <folding>
                 <marker date="1544401382190" expanded="false" signature="6:78" ph="..." />
                 <marker date="1544401382190" expanded="true" signature="127:1893" ph="{...}" />
@@ -240,11 +240,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="layerSortOnY.cs" pinned="false" current-in-tab="true">
+      <file leaf-file-name="layerSortOnY.cs" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Assets/Scripts/Map_Scripts/layerSortOnY.cs">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="136">
-              <caret line="10" column="40" selection-start-line="10" selection-start-column="40" selection-end-line="10" selection-end-column="40" />
+            <state>
+              <caret line="10" column="37" selection-start-line="10" selection-start-column="37" selection-end-line="10" selection-end-column="37" />
               <folding>
                 <marker date="1544401293882" expanded="false" signature="6:78" ph="..." />
                 <marker date="1544401293882" expanded="true" signature="122:468" ph="{...}" />
@@ -252,6 +252,22 @@
                 <marker date="1544401293882" expanded="true" signature="287:343" ph="{...}" />
                 <marker date="1544401293882" expanded="true" signature="397:404" ph="{...}" />
                 <marker date="1544401293882" expanded="true" signature="459:466" ph="{...}" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Slider_Hider.cs" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/Assets/Scripts/Audio_Scripts/Slider_Hider.cs">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="204">
+              <caret line="14" column="10" lean-forward="true" selection-start-line="14" selection-start-column="10" selection-end-line="14" selection-end-column="10" />
+              <folding>
+                <marker date="1544563378713" expanded="false" signature="6:78" ph="..." />
+                <marker date="1544563378713" expanded="true" signature="122:372" ph="{...}" />
+                <marker date="1544563378713" expanded="true" signature="201:308" ph="{...}" />
+                <marker date="1544563378713" expanded="true" signature="229:262" ph="{...}" />
+                <marker date="1544563378713" expanded="true" signature="363:370" ph="{...}" />
               </folding>
             </state>
           </provider>
@@ -330,12 +346,12 @@
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Forest_Minigame_Scripts/Forest_Touch_Manager.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Cosmos_Scripts/Weight.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Cosmos_Scripts/CreateTrail.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Audio_Scripts/Slider_Hider.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Cosmos_Scripts/Cut_Rope.cs" root0="FORCE_HIGHLIGHTING" />
   </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/Assets/Scripts/Forest_Minigame_Scripts/Wind_Tree_Controller.cs" />
         <option value="$PROJECT_DIR$/Assets/Journey_Audio_Player.cs" />
         <option value="$PROJECT_DIR$/Assets/Vertical_Resolution_Scaler.cs" />
         <option value="$PROJECT_DIR$/Assets/Map_Load_Manager.cs" />
@@ -386,6 +402,7 @@
         <option value="$PROJECT_DIR$/Assets/Scripts/Audio_Scripts/Journey_Audio_Player.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Map_Scripts/layerSortOnY.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Map_Scripts/Map_Layer_manager.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Audio_Scripts/Slider_Hider.cs" />
       </list>
     </option>
   </component>
@@ -399,8 +416,8 @@
     <packageJsonPaths />
   </component>
   <component name="ProjectFrameBounds" extendedState="7">
-    <option name="x" value="171" />
-    <option name="y" value="66" />
+    <option name="x" value="170" />
+    <option name="y" value="65" />
     <option name="width" value="1485" />
     <option name="height" value="825" />
   </component>
@@ -410,8 +427,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scratches" />
-      <pane id="SolutionExplorer" />
       <pane id="UnityExplorer">
         <subPane>
           <expand>
@@ -435,6 +450,8 @@
         </subPane>
         <option name="show-hidden-items" value="false" />
       </pane>
+      <pane id="Scratches" />
+      <pane id="SolutionExplorer" />
       <pane id="FileSystemExplorer" />
     </panes>
   </component>
@@ -531,11 +548,12 @@
       <workItem from="1544192322655" duration="1558000" />
       <workItem from="1544291900890" duration="3536000" />
       <workItem from="1544401189019" duration="1519000" />
+      <workItem from="1544563363331" duration="17000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="117774000" />
+    <option name="totallyTimeSpent" value="117791000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -547,23 +565,24 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1691" height="917" extended-state="7" />
+    <frame x="-8" y="-8" width="1691" height="917" extended-state="6" />
+    <editor active="true" />
     <layout>
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="right" id="Errors In Solution" order="3" />
       <window_info anchor="bottom" id="Event Log" order="13" side_tool="true" />
       <window_info anchor="bottom" id="Unit Tests" order="11" />
       <window_info anchor="bottom" id="Database Changes" order="10" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.32974428" />
       <window_info anchor="bottom" id="Version Control" order="14" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.32974428" />
       <window_info anchor="bottom" id="Terminal" order="12" />
       <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.12477612" />
-      <window_info anchor="bottom" id="Unity" order="9" />
       <window_info anchor="bottom" id="Docker" order="8" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Unity" order="9" />
       <window_info anchor="right" id="Database" order="5" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info id="Favorites" order="2" side_tool="true" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="NuGet" order="7" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -580,25 +599,25 @@
       <window_info anchor="bottom" id="Docker" order="8" show_stripe_button="false" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="Unity" order="9" />
-      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.122492835" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info anchor="right" id="Commander" order="0" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Database Changes" order="10" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Version Control" order="14" />
       <window_info anchor="bottom" id="Run" order="2" />
-      <window_info anchor="bottom" id="Find" order="1" />
       <window_info anchor="bottom" id="Unit Tests" order="11" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info anchor="bottom" id="Find" order="1" />
       <window_info anchor="right" id="Errors In Solution" order="3" />
-      <window_info anchor="right" id="Database" order="5" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Terminal" order="12" />
       <window_info anchor="bottom" id="Event Log" order="13" side_tool="true" />
-      <window_info anchor="bottom" id="Version Control" order="14" />
-      <window_info id="Favorites" order="2" side_tool="true" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="right" id="Database" order="5" />
       <window_info anchor="right" id="Unit Tests Coverage" order="4" />
-      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info id="Favorites" order="2" side_tool="true" />
     </layout-to-restore>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -620,7 +639,6 @@
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/Assets/Map_Raycast_Animation_Trigger.cs" />
     <entry file="file://$PROJECT_DIR$/Assets/Flag_Ground_Checker.cs" />
     <entry file="file://$PROJECT_DIR$/Assets/Audio_Slider_Listener.cs" />
     <entry file="file://$PROJECT_DIR$/Assets/Audio/Audio_Scripts/Audio_Slider_Listener.cs" />
@@ -842,7 +860,7 @@
     <entry file="file://$PROJECT_DIR$/Assets/Scripts/Forest_Minigame_Scripts/Wind_Script.cs">
       <provider selected="true" editor-type-id="text-editor">
         <state>
-          <caret line="10" column="28" selection-start-line="10" selection-start-column="28" selection-end-line="10" selection-end-column="28" />
+          <caret line="10" column="22" selection-start-line="10" selection-start-column="22" selection-end-line="10" selection-end-column="22" />
           <folding>
             <marker date="1544311938691" expanded="false" signature="6:78" ph="..." />
             <marker date="1544311938691" expanded="true" signature="121:281" ph="{...}" />
@@ -907,8 +925,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/Assets/Scripts/Map_Scripts/Map_Layer_manager.cs">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1105">
-          <caret line="67" column="13" selection-start-line="67" selection-start-column="13" selection-end-line="67" selection-end-column="13" />
+        <state>
+          <caret line="67" column="3" selection-start-line="67" selection-start-column="3" selection-end-line="67" selection-end-column="3" />
           <folding>
             <marker date="1544401382190" expanded="false" signature="6:78" ph="..." />
             <marker date="1544401382190" expanded="true" signature="127:1893" ph="{...}" />
@@ -934,8 +952,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/Assets/Scripts/Map_Scripts/layerSortOnY.cs">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="136">
-          <caret line="10" column="40" selection-start-line="10" selection-start-column="40" selection-end-line="10" selection-end-column="40" />
+        <state>
+          <caret line="10" column="37" selection-start-line="10" selection-start-column="37" selection-end-line="10" selection-end-column="37" />
           <folding>
             <marker date="1544401293882" expanded="false" signature="6:78" ph="..." />
             <marker date="1544401293882" expanded="true" signature="122:468" ph="{...}" />
@@ -943,6 +961,20 @@
             <marker date="1544401293882" expanded="true" signature="287:343" ph="{...}" />
             <marker date="1544401293882" expanded="true" signature="397:404" ph="{...}" />
             <marker date="1544401293882" expanded="true" signature="459:466" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/Scripts/Audio_Scripts/Slider_Hider.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="204">
+          <caret line="14" column="10" lean-forward="true" selection-start-line="14" selection-start-column="10" selection-end-line="14" selection-end-column="10" />
+          <folding>
+            <marker date="1544563378713" expanded="false" signature="6:78" ph="..." />
+            <marker date="1544563378713" expanded="true" signature="122:372" ph="{...}" />
+            <marker date="1544563378713" expanded="true" signature="201:308" ph="{...}" />
+            <marker date="1544563378713" expanded="true" signature="229:262" ph="{...}" />
+            <marker date="1544563378713" expanded="true" signature="363:370" ph="{...}" />
           </folding>
         </state>
       </provider>
