@@ -93,13 +93,13 @@ public class Tutorial_Manager : MonoBehaviour {
 
         if (CloseEyes) {
 
-            TutorialCloseEyes.SetActive(true);
+            /*TutorialCloseEyes.SetActive(true);
 
             float delay = GetAimationLength(TutorialCloseEyes);
 
             yield return new WaitForSeconds(delay);
 
-            TutorialCloseEyes.SetActive(false);
+            TutorialCloseEyes.SetActive(false);*/
 
             yield return new WaitForSeconds(DelayBetween);
 

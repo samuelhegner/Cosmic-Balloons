@@ -1,6 +1,7 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.SceneManagement;
 using UnityEngine.UI;
 
 public class Activate_Endgame : MonoBehaviour
@@ -131,8 +132,8 @@ public class Activate_Endgame : MonoBehaviour
 
     void StartAudio(){
         // the place to start the audio
-         
-         FindObjectOfType<Journey_Audio_Player>().PlayJourney();
+        Game_Manager.Instance.LoadScene("Map_Scene");
+         //FindObjectOfType<Journey_Audio_Player>().PlayJourney();
          
          AM.Stop("Balloon_Rise_Music", true, 3f);
 
