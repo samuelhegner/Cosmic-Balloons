@@ -23,8 +23,9 @@ The Monument Journeys all start at a specific spiritual monument. The player is 
 
 ### UI
 The World space UI used to represent the monuments and kingdoms cause much grief throughout the project.
-<img src="Screenshots/7AbEys.jpg" width=250 align=right>
 The Unity version the project started on contained a bug that hindered world space UI from being rendered in builds. This required us to upgrade the project to a beta version of Unity which caused issues of its own. However, this taught me valuable lessons in debugging issues and testing a project frequently in both editor and build.
+
+<img src="Screenshots/7AbEys.jpg" width=250 align=right>
 
 ### Optimisation
 As “Cosmic Balloons”was intended to be a phone app, a lot of importance was placed on optimising the project for use on as many versions of Android as possible. Primarily, optimisation focused on Memory management and optimization. This meant compressing and optimising audio files, art assets and improving loading in of new scenes.
