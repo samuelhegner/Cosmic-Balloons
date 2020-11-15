@@ -22,9 +22,7 @@ The Monument Journeys all start at a specific spiritual monument. The player is 
 
 ### UI
 The World space UI used to represent the monuments and kingdoms cause much grief throughout the project.
-
-<img src="Screenshots/YkSDz5.jpg" width=200 align=right>
-
+<img src="Screenshots/7AbEys.jpg" width=200 align=right>
 The Unity version the project started on contained a bug that hindered world space UI from being rendered in builds. This required us to upgrade the project to a beta version of Unity which caused issues of its own. However, this taught me valuable lessons in debugging issues and testing a project frequently in both editor and build.
 
 ### Optimisation
