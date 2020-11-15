@@ -1,6 +1,7 @@
+# Cosmic Balloons
+
 <img src="Screenshots/SRwDbg.jpg" width=200 align=right>
 
-# Cosmic Balloons
 ## Project Description
 Cosmic Balloons is a game intended to ease people into a relaxed, receptive state. Explore 19 locations across 6 'Biomes' and 13 'Monuments' (Prototype contains only 1 of each). Fly your balloon around the world and float into the cosmos. Control the wind in the 'Forest Biome' and dance among the stars on your way to the Cosmos.  (Game intended for Android)
 
