@@ -2,7 +2,7 @@
 ## Project Description
 Cosmic Balloons is a game intended to ease people into a relaxed, receptive state. Explore 19 locations across 6 'Biomes' and 13 'Monuments' (Prototype contains only 1 of each). Fly your balloon around the world and float into the cosmos. Control the wind in the 'Forest Biome' and dance among the stars on your way to the Cosmos.  (Game intended for Android)
 
-The project was developed for an external client. The goal of the project was to allow children to enter a relaxed, receptive state to help them digest an audio meditation journey. Particular focus was put on making the game accessible to children on the autistic spectrum. This meant that artistic and design decisions were made to ensure the ease of use for all users.
+The project was developed for an external client. The goal of the project was to create an app, that allowed children to enter a relaxed, receptive state to help them digest an audio meditation journey. Particular focus was put on making the game accessible to children on the autistic spectrum. This meant that artistic and design decisions were made to ensure the ease of use for all users.
 
 ## My Work
 My role on “Cosmic Balloons” was gameplay programmer and tech lead. This meant that I was in charge of both gameplay on the games map, the monument journeys into space and any additional project tech like source control.
