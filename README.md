@@ -1,5 +1,5 @@
 # Cosmic Balloons
-<img src="Screenshots/SRwDbg.jpg" width=400 align=right>
+<img src="Screenshots/SRwDbg.jpg" width=200 align=right>
 
 ## Project Description
 Cosmic Balloons is a game intended to ease people into a relaxed, receptive state. Explore 19 locations across 6 'Biomes' and 13 'Monuments' (Prototype contains only 1 of each). Fly your balloon around the world and float into the cosmos. Control the wind in the 'Forest Biome' and dance among the stars on your way to the Cosmos.  (Game intended for Android)
@@ -17,7 +17,7 @@ I implemented the player movement on the world map and the logic to implement al
 #### Monument Journeys
 The Monument Journeys all start at a specific spiritual monument. The player is then allowed to cut loose their hot air balloon and journey upwards into space. This required implementation of interactables in the sky that the player could fly through, balloon movement and “Cut the Rope” style ropes to release the balloon.
 
-<img src="Screenshots/YkSDz5.jpg" width=400 align=right>
+<img src="Screenshots/YkSDz5.jpg" width=200 align=right>
 
 ### UI
 The World space UI used to represent the monuments and kingdoms cause much grief throughout the project. The Unity version the project started on contained a bug that hindered world space UI from being rendered in builds. This required us to upgrade the project to a beta version of Unity which caused issues of its own. However, this taught me valuable lessons in debugging issues and testing a project frequently in both editor and build.
